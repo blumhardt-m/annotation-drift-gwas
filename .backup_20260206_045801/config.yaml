@@ -1,0 +1,159 @@
+# config.yaml
+# Annotation Drift in GWAS Locus-to-Gene Mapping
+# Protocol version: 1.0
+# Frozen prior to full analysis run
+project:
+  name: "annotation_drift_gwas_l2g"
+  genome_build: "GRCh38"
+  protocol_version: "1.0"
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  results_dir: "results"
+  tables_dir: "results/tables"
+  figures_dir: "results/figures"
+  manuscript_dir: "results/manuscript"
+  prereg_dir: "prereg"
+  docs_dir: "docs"
+  src_dir: "src"
+
+inputs:
+  gwas_loci:
+    source: "NHGRI-EBI GWAS Catalog"
+    snapshot: "REPLACE_WITH_RELEASE_ID"
+    format: "snp_list"
+    raw_file: "data/raw/gwas_catalog.tsv"
+    eligible_file: "data/processed/gwas_eligible.tsv"
+    sha256: "REPLACE_WITH_SHA256"
+    columns:
+      chr: "chr"
+      pos: "pos"
+      locus_id: "locus_id"
+    inclusion:
+      ancestry: "European"
+      p_threshold: 5.0e-8
+      autosomal_only: true
+      locus_definition: "sentinel_snp_only"
+    qc:
+      allowed_chromosomes: ["1","2","3","4","5","6","7","8","9","10",
+                             "11","12","13","14","15","16","17","18",
+                             "19","20","21","22"]
+      drop_missing: true
+      drop_duplicates_by: ["locus_id"]
+      merge_loci: false
+
+annotations:
+  gencode:
+    - tag: "v29"
+      build: "GRCh38.p12"
+      gtf: "data/raw/gencode.v29.annotation.gtf.gz"
+      sha256: "REPLACE_WITH_SHA256"
+    - tag: "v45"
+      build: "GRCh38.p14"
+      gtf: "data/raw/gencode.v45.annotation.gtf.gz"
+      sha256: "REPLACE_WITH_SHA256"
+  gene_def:
+    id_field: "gene_id"
+    biotypes: ["protein_coding"]
+  transcript_def:
+    mode: "all_transcripts"
+    tss_rule: "strand_aware"
+
+parse:
+  tss_table:
+    out_template: "data/processed/tss_tables/tss_{tag}.tsv"
+    allow_multiple_tss_per_gene: true
+    collapse_rule: "nearest_transcript"
+
+map:
+  mapping_rule:
+    type: "nearest_tss"
+    locus_representation: "point"
+  windows_kb: [10, 25, 50, 100, 250, 500]
+  window_shape: "symmetric"
+  allow_unmapped: true
+  multi_map:
+    enabled: false
+  tie_break:
+    rule: "lexicographic_gene_id"
+  outputs:
+    per_version_template: "data/processed/mappings/l2g_{tag}_W{W}kb.tsv"
+    comparison_template: "data/processed/mappings/l2g_compare_W{W}kb.tsv"
+
+analysis:
+  primary_instability:
+    symbol: "I"
+    definition: "assigned_gene_id_differs"
+    denominator: "mapped_in_both"
+  window_stability:
+    metric: "max_minus_min"
+  uncertainty:
+    ci_method: "wilson"
+    bootstrap:
+      enabled: true
+      method: "block"
+      block_unit: "chromosome"
+      n_reps: 1000
+      seed: 42
+  outputs:
+    tables:
+      - "results/tables/instability_by_window.tsv"
+      - "results/tables/instability_overall.tsv"
+      - "results/tables/instability_by_chromosome.tsv"
+      - "results/tables/instability_by_distance.tsv"
+      - "results/tables/instability_by_margin.tsv"
+      - "results/tables/bootstrap.txt"
+      - "results/tables/sensitivity.tsv"
+      - "results/tables/difference_classification.tsv"
+      - "results/tables/difference_classification_summary.txt"
+    figures:
+      - "results/figures/I_vs_W.png"
+      - "results/figures/delta_distance_hist.png"
+
+enrichment:
+  enabled: true
+  gene_universe: "union_protein_coding_v29_v45"
+  pathway_db:
+    name: "Reactome"
+    version: "REPLACE_WITH_VERSION_DATE"
+    file: "data/raw/reactome.gmt"
+    sha256: "REPLACE_WITH_SHA256"
+  method:
+    type: "ORA"
+    test: "fisher"
+    multiple_testing: "BH"
+    fdr_alpha: 0.05
+  pathway_size:
+    min: 15
+    max: 500
+  comparison:
+    metric: "jaccard"
+    weighting: "unweighted"
+    significance_basis: "fdr"
+  outputs:
+    tables:
+      - "results/tables/enrichment_jaccard_by_window.tsv"
+
+sensitivity:
+  window_grid:
+    enabled: true
+    kill_threshold_range: 0.20
+  biotype_expansion:
+    enabled: true
+    biotypes: ["protein_coding","lncRNA","pseudogene"]
+    label: "exploratory"
+  mapping_rule_alt:
+    enabled: true
+    rule: "overlap_first"
+    label: "exploratory"
+
+repro:
+  environment:
+    python_version: "REPLACE_WITH_VERSION"
+    requirements_file: "requirements.txt"
+    requirements_sha256: "REPLACE_WITH_SHA256"
+  determinism:
+    global_seed: 42
+  manifest_out: "results/MANIFEST.sha256"
+  locked_config: "prereg/frozen_params.yaml"

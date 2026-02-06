@@ -1,0 +1,23 @@
+{
+  "step_id": "test_harness",
+  "timestamp": "2026-02-06T23:49:54Z",
+  "project_root": "/home/michaelblumhardt/Documents/Research/08_GENOMICS/annotation_drift_gwas",
+  "command": "echo harness works",
+  "exit_code": 0,
+  "duration_seconds": 0,
+  "env_activated": "none",
+  "allow_install": 0,
+  "git": {
+    "branch": "detached",
+    "sha": "unknown",
+    "sha_short": "unknown",
+    "dirty": true
+  },
+  "logs": {
+    "stdout": "/home/michaelblumhardt/Documents/Research/08_GENOMICS/annotation_drift_gwas/logs/test_harness_20260206T234954Z.out",
+    "stderr": "/home/michaelblumhardt/Documents/Research/08_GENOMICS/annotation_drift_gwas/logs/test_harness_20260206T234954Z.err",
+    "combined": "/home/michaelblumhardt/Documents/Research/08_GENOMICS/annotation_drift_gwas/logs/test_harness_20260206T234954Z.combined"
+  },
+  "host": "pop-os",
+  "user": "michaelblumhardt"
+}

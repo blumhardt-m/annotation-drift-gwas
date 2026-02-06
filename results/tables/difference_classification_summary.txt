@@ -1,0 +1,11 @@
+Difference Classification Summary
+==================================================
+
+Total differences: 29,920
+
+NEARBY_GENES: 23,142 (77.3%)
+TRUE_DIFFERENT: 6,778 (22.7%)
+
+Naming drift: 0 (0.0%)
+Nearby genes: 23,142 (77.3%)
+True different: 6,778 (22.7%)

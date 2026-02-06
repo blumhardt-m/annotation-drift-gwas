@@ -1,0 +1,18 @@
+# Data (too large)
+data/raw/*.tsv
+data/raw/*.gtf.gz
+data/processed/**/*.tsv
+!data/**/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Results (regenerable)
+results/figures/*.png
+results/figures/*.pdf
+
+# OS
+.DS_Store
+*~

@@ -1,0 +1,9 @@
+Instability Rate Bootstrap Analysis
+====================================
+N variants: 721,406
+Point estimate: 0.0415 (4.15%)
+95% CI: [0.0410, 0.0420]
+        [4.10%, 4.20%]
+
+Stop rule check:
+  CI upper bound < 5%: EFFECT IS TRIVIAL
