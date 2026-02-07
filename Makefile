@@ -1,7 +1,7 @@
 # Makefile — Annotation Drift in GWAS Locus-to-Gene Mapping
 # Every pipeline target calls `check` first to enforce frozen config fields.
 
-.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness clean help
+.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures clean help
 
 PYTHON  ?= python3
 CONFIG  ?= config.yaml
@@ -150,6 +150,17 @@ robustness:
 		--tss-v45 $(TSS_V45) \
 		--gmt $(GMT) \
 		--output $(ROBUST_OUT)
+
+figures:
+	$(MAKE) check
+	@echo "=== Generating figures ==="
+	$(PYTHON) src/14_figures.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--sensitivity $(SENSITIVITY) \
+		--outdir results/figures
 
 concentration:
 	$(MAKE) check
