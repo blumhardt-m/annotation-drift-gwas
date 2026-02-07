@@ -298,7 +298,9 @@ def write_manifest(outdir,
                    sym_names, sym_pv29, sym_pv45, sym_fdr29, sym_fdr45,
                    eid_universe_size, sym_universe_size,
                    eid_pathways_count, sym_pathways_count,
-                   loci_count):
+                   loci_count,
+                   sym_v29_genes, sym_v45_genes, sym_universe, sym_pathways,
+                   eid_v29_genes, eid_v45_genes, eid_universe, eid_pathways):
     """Write FIGURE_MANIFEST.txt with ORA verification and environment snapshot."""
     lines = []
 
@@ -400,6 +402,61 @@ def write_manifest(outdir,
     emit("-" * 70)
     emit(f"DRIFT DECOMPOSITION (Figure 3, N = {loci_count:,} loci)")
     emit("-" * 70)
+
+    # ── Foreground gene set sizes ──
+    emit("")
+    emit("-" * 70)
+    emit("FOREGROUND GENE SET SIZES")
+    emit("-" * 70)
+
+    def gene_set_summary(label, v29, v45):
+        inter = v29 & v45
+        union = v29 | v45
+        emit(f"  {label}:")
+        emit(f"    v29 mapped:   {len(v29)}")
+        emit(f"    v45 mapped:   {len(v45)}")
+        emit(f"    Intersection: {len(inter)}")
+        emit(f"    Union:        {len(union)}")
+        emit(f"    Jaccard:      {len(inter)/len(union):.6f}" if len(union) > 0 else "    Jaccard:      N/A")
+
+    gene_set_summary("Symbol-based", sym_v29_genes, sym_v45_genes)
+    emit("")
+    gene_set_summary("Ensembl-ID-based", eid_v29_genes, eid_v45_genes)
+
+    # ── Median pathway overlap ──
+    emit("")
+    emit("-" * 70)
+    emit("MEDIAN PATHWAY OVERLAP WITH FOREGROUND")
+    emit("-" * 70)
+
+    def pathway_overlap_stats(label, v29_genes, v45_genes, universe, pathways):
+        v29_in = v29_genes & universe
+        v45_in = v45_genes & universe
+        overlaps_v29 = []
+        overlaps_v45 = []
+        for pw_genes in pathways.values():
+            pw_in = pw_genes & universe
+            if len(pw_in) == 0:
+                continue
+            overlaps_v29.append(len(v29_in & pw_in))
+            overlaps_v45.append(len(v45_in & pw_in))
+        overlaps_v29.sort()
+        overlaps_v45.sort()
+        n = len(overlaps_v29)
+        if n == 0:
+            emit(f"  {label}: no pathways")
+            return
+        mean_v29 = sum(overlaps_v29) / n
+        mean_v45 = sum(overlaps_v45) / n
+        med_v29 = overlaps_v29[n // 2] if n % 2 == 1 else (overlaps_v29[n // 2 - 1] + overlaps_v29[n // 2]) / 2
+        med_v45 = overlaps_v45[n // 2] if n % 2 == 1 else (overlaps_v45[n // 2 - 1] + overlaps_v45[n // 2]) / 2
+        emit(f"  {label} (across {n} pathways):")
+        emit(f"    v29: mean={mean_v29:.1f}, median={med_v29:.1f}")
+        emit(f"    v45: mean={mean_v45:.1f}, median={med_v45:.1f}")
+
+    pathway_overlap_stats("Symbol-based", sym_v29_genes, sym_v45_genes, sym_universe, sym_pathways)
+    emit("")
+    pathway_overlap_stats("Ensembl-ID-based", eid_v29_genes, eid_v45_genes, eid_universe, eid_pathways)
 
     # ── Environment ──
     emit("")
@@ -789,6 +846,10 @@ def main():
         eid_pathways_count=len(eid_pathways),
         sym_pathways_count=len(sym_pathways),
         loci_count=len(loci),
+        sym_v29_genes=sym_v29, sym_v45_genes=sym_v45,
+        sym_universe=sym_universe, sym_pathways=sym_pathways,
+        eid_v29_genes=eid_v29, eid_v45_genes=eid_v45,
+        eid_universe=eid_universe, eid_pathways=eid_pathways,
     )
 
     # Generate figures
