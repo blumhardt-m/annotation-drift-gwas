@@ -1,0 +1,87 @@
+======================================================================
+ENSEMBL-ID-BASED ENRICHMENT ANALYSIS
+======================================================================
+
+Loading TSS tables and building symbol → Ensembl mapping...
+  Symbol→Ensembl mappings: 20258
+  Ensembl universe:        19315
+
+Converting GMT to Ensembl IDs...
+  GMT symbols mapped:      127095
+  GMT symbols unmapped:    11999 (1089 unique)
+  Pathways after filter:   1369
+
+Loading comparison (Ensembl IDs)...
+  v29 unique Ensembl IDs:  17256
+  v45 unique Ensembl IDs:  17296
+  Total loci:              721406
+
+======================================================================
+6. LOCUS-LEVEL DRIFT DECOMPOSITION
+======================================================================
+
+  Total loci mapped in both:                       721,406
+  Ensembl ID differs (true mapping drift):          29,920 (4.15%)
+  Symbol differs:                                   51,221 (7.10%)
+  Symbol differs BUT same Ensembl ID:               21,642
+  True mapping drift (different Ensembl ID):        29,920
+
+  Of the 51,221 loci with symbol differences:
+    Symbol-only (same gene, renamed):               21,642 (42.3%)
+    True mapping drift (different gene):            29,579 (57.7%)
+
+  Examples of symbol-only differences (same Ensembl ID):
+    ENSG00000140950: TLDC1 → MEAK7  (locus rs247826)
+    ENSG00000152242: C18orf25 → ARK2N  (locus rs55874505)
+    ENSG00000181751: C5orf30 → MACIR  (locus rs28061)
+    ENSG00000273154: AL121845.3 → ENSG00000273154  (locus rs6062304)
+    ENSG00000115866: DARS → DARS1  (locus rs74266318)
+    ENSG00000282278: AC058822.1 → ENSG00000282278  (locus rs56921221)
+    ENSG00000140688: C16orf58 → RUSF1  (locus rs11866003)
+    ENSG00000152242: C18orf25 → ARK2N  (locus rs12962951)
+    ENSG00000141622: RNF165 → ARK2C  (locus rs3842397)
+    ENSG00000155749: ALS2CR12 → FLACC1  (locus rs2110690)
+    ... and 21632 more
+
+======================================================================
+ENSEMBL-ID-BASED ORA
+======================================================================
+
+Running ORA (v29 Ensembl IDs)...
+Running ORA (v45 Ensembl IDs)...
+
+FDR       EID Jaccard  Sym Jaccard    Delta
+------------------------------------------
+0.01           0.4688       0.6347  -0.1660
+0.05           0.6133       0.6927  -0.0794
+0.10           0.5963       0.7170  -0.1207
+0.20           0.5792       0.8123  -0.2331
+
+Spearman rho (-log10 p):
+  Ensembl-ID-based: 0.922857
+  Symbol-based:     0.778094
+  Delta:            +0.144763
+
+Detailed at FDR < 0.05:
+  v29 sig: 74, v45 sig: 47, intersect: 46, union: 75
+  Jaccard: 0.6133
+
+======================================================================
+SUMMARY
+======================================================================
+  Locus-level:
+    Instability (Ensembl ID): 29,920/721,406 = 4.15%
+    Symbol-only renames:      21,642 loci (not true drift)
+
+  Pathway-level (FDR < 0.05):
+    Symbol-based Jaccard:     0.6927
+    Ensembl-ID-based Jaccard: 0.6133
+    Delta:                    -0.0794
+
+  Spearman rho:
+    Symbol-based:             0.7781
+    Ensembl-ID-based:         0.9229
+
+  CONCLUSION: Ensembl-ID Jaccard = 0.6133 < 0.90
+    Annotation drift has genuine pathway-level impact even with
+    stable identifiers. The effect is not a symbol-namespace artifact.

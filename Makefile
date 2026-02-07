@@ -1,7 +1,7 @@
 # Makefile — Annotation Drift in GWAS Locus-to-Gene Mapping
 # Every pipeline target calls `check` first to enforce frozen config fields.
 
-.PHONY: all check freeze download parse map analyze enrich sensitivity clean help
+.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness clean help
 
 PYTHON  ?= python3
 CONFIG  ?= config.yaml
@@ -28,6 +28,13 @@ BOOTSTRAP_OUT:= results/tables/bootstrap.txt
 SENSITIVITY  := results/tables/sensitivity.tsv
 CLASSIFY_OUT := results/tables/difference_classification.tsv
 CLASSIFY_SUM := results/tables/difference_classification_summary.txt
+ENRICH_OUT   := results/tables/enrichment_jaccard_by_window.tsv
+GMT          := data/raw/reactome.gmt
+DIAG_OUT     := results/tables/enrichment_diagnostics.txt
+HARM_OUT     := results/tables/enrichment_harmonized.txt
+ENSID_OUT    := results/tables/enrichment_ensembl_id.txt
+ROBUST_OUT   := results/tables/jaccard_robustness.txt
+PREREG_MD    := prereg/prereg.md
 RESULTS_DIR  := results/tables
 
 # ── Pipeline ─────────────────────────────────────────────────────────────
@@ -90,6 +97,59 @@ classify:
 		--tss-v45 $(TSS_V45) \
 		--output $(CLASSIFY_OUT) \
 		--summary $(CLASSIFY_SUM)
+
+enrich:
+	$(MAKE) check
+	@echo "=== Pathway enrichment ==="
+	$(PYTHON) src/09_enrichment.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--fdr-alpha 0.05 \
+		--min-size 15 --max-size 500 \
+		--output $(ENRICH_OUT)
+
+diagnostics:
+	$(MAKE) check
+	@echo "=== Enrichment diagnostics ==="
+	$(PYTHON) src/10_enrichment_diagnostics.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--prereg $(PREREG_MD) \
+		--output $(DIAG_OUT)
+
+harmonize:
+	$(MAKE) check
+	@echo "=== Symbol harmonization ==="
+	$(PYTHON) src/11_symbol_harmonizer.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--output $(HARM_OUT)
+
+enrich_ensid:
+	$(MAKE) check
+	@echo "=== Ensembl-ID enrichment ==="
+	$(PYTHON) src/12_ensembl_id_enrichment.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--output $(ENSID_OUT)
+
+robustness:
+	$(MAKE) check
+	@echo "=== Jaccard robustness ==="
+	$(PYTHON) src/13_jaccard_robustness.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--output $(ROBUST_OUT)
 
 concentration:
 	$(MAKE) check

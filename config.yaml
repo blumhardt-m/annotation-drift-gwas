@@ -117,9 +117,9 @@ enrichment:
   gene_universe: "union_protein_coding_v29_v45"
   pathway_db:
     name: "Reactome"
-    version: "PENDING_DOWNLOAD"
+    version: "95"
     file: "data/raw/reactome.gmt"
-    sha256: "PENDING_DOWNLOAD"
+    sha256: "a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb"
   method:
     type: "ORA"
     test: "fisher"

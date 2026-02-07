@@ -1,0 +1,80 @@
+======================================================================
+SYMBOL HARMONIZATION — ENRICHMENT CORRECTION
+======================================================================
+
+1. ALIAS LOOKUP TABLE (50 entries)
+----------------------------------------------------------------------
+  MARCH1       ↔ MARCHF1
+  MARCH10      ↔ MARCHF10
+  MARCH11      ↔ MARCHF11
+  MARCH2       ↔ MARCHF2
+  MARCH3       ↔ MARCHF3
+  MARCH4       ↔ MARCHF4
+  MARCH5       ↔ MARCHF5
+  MARCH6       ↔ MARCHF6
+  MARCH7       ↔ MARCHF7
+  MARCH8       ↔ MARCHF8
+  MARCH9       ↔ MARCHF9
+  SEPT1        ↔ SEPTIN1
+  SEPT10       ↔ SEPTIN10
+  SEPT11       ↔ SEPTIN11
+  SEPT12       ↔ SEPTIN12
+  SEPT13       ↔ SEPTIN13
+  SEPT14       ↔ SEPTIN14
+  SEPT2        ↔ SEPTIN2
+  SEPT3        ↔ SEPTIN3
+  SEPT4        ↔ SEPTIN4
+  SEPT5        ↔ SEPTIN5
+  SEPT6        ↔ SEPTIN6
+  SEPT7        ↔ SEPTIN7
+  SEPT8        ↔ SEPTIN8
+  SEPT9        ↔ SEPTIN9
+
+Loading data...
+  Universe: 20258 genes
+
+2. HARMONIZATION REPORT
+----------------------------------------------------------------------
+  Total symbol substitutions: 0
+  Unique substitution types:  0
+  Pathways (raw):             1428
+  Pathways (harmonized):      1428
+
+  Substitution details:
+
+3. ORA COMPARISON: RAW vs HARMONIZED
+----------------------------------------------------------------------
+
+Running raw ORA...
+Running harmonized ORA...
+
+FDR       Raw Jaccard  Harm Jaccard    Delta  Direction
+-----------------------------------------------------
+0.01           0.6347        0.6347  +0.0000          =
+0.05           0.6927        0.6927  +0.0000          =
+0.10           0.7170        0.7170  +0.0000          =
+0.20           0.8123        0.8123  +0.0000          =
+
+Spearman rho (-log10 p):
+  Raw:        0.778094
+  Harmonized: 0.778094
+  Delta:      +0.000000
+
+4. DETAILED FDR < 0.05 COMPARISON
+----------------------------------------------------------------------
+  Raw:  v29=276, v45=330, inter=248, union=358
+  Harm: v29=276, v45=330, inter=248, union=358
+
+======================================================================
+SUMMARY
+======================================================================
+  Pathway-set Jaccard (FDR<0.05):
+    Before harmonization: 0.6927
+    After harmonization:  0.6927
+    Delta:                +0.0000
+  Spearman rho: 0.7781 → 0.7781 (+0.0000)
+  Symbol substitutions:   0 across 0 rename patterns
+
+  CONCLUSION: After fixing MARCH/SEPT aliases, pathway Jaccard = 0.6927.
+  → Corrected Jaccard = 0.6927 < 0.90: annotation drift has
+    genuine pathway-level impact beyond the alias artifact.

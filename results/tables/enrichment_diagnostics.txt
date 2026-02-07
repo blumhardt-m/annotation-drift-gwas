@@ -1,0 +1,139 @@
+======================================================================
+ENRICHMENT DIAGNOSTICS
+======================================================================
+
+Loading data...
+  Pathways (size-filtered): 1428
+  GMT total unique symbols: 11939
+  TSS v29 symbols: 19005
+  TSS v45 symbols: 19103
+  Universe (union): 20258
+
+----------------------------------------------------------------------
+3. UNIVERSE VERIFICATION
+----------------------------------------------------------------------
+  Universe passed to v29 ORA: 20258 genes (union v29+v45)
+  Universe passed to v45 ORA: 20258 genes (union v29+v45)
+  CONFIRMED: identical universe used for both ORA calls.
+
+----------------------------------------------------------------------
+1. FDR THRESHOLD SWEEP
+----------------------------------------------------------------------
+
+Running ORA for v29...
+Running ORA for v45...
+
+FDR threshold     Sig v29  Sig v45  Intersect    Union    Jaccard
+--------------------------------------------------------------
+0.01                  127      146        106      167     0.6347
+0.05                  276      330        248      358     0.6927
+0.10                  485      516        418      583     0.7170
+0.20                  812      868        753      927     0.8123
+
+Spearman rank correlation of -log10(p) across all tested pathways:
+  Spearman rho = 0.778094  (n = 1424 pathways)
+
+----------------------------------------------------------------------
+2. GENE SYMBOL AUDIT
+----------------------------------------------------------------------
+  GMT symbols not in v29 TSS: 1264
+  GMT symbols not in v45 TSS: 1092
+  GMT symbols not in universe: 1089
+  GMT symbols IN universe:     10850 / 11939
+
+  MARCH/MARCHF and SEPT/SEPTIN alias check:
+  No MARCH/MARCHF or SEPT/SEPTIN alias mismatches detected.
+
+  Genes in v29 TSS but not v45: 1155
+  Genes in v45 TSS but not v29: 1253
+
+  Version-specific MARCH/SEPT renames detected:
+    v29-only: MARCH1
+    v29-only: MARCH10
+    v29-only: MARCH11
+    v29-only: MARCH2
+    v29-only: MARCH3
+    v29-only: MARCH4
+    v29-only: MARCH5
+    v29-only: MARCH6
+    v29-only: MARCH7
+    v29-only: MARCH8
+    v29-only: MARCH9
+    v29-only: SEPT1
+    v29-only: SEPT10
+    v29-only: SEPT11
+    v29-only: SEPT12
+    v29-only: SEPT14
+    v29-only: SEPT2
+    v29-only: SEPT3
+    v29-only: SEPT4
+    v29-only: SEPT5
+    v29-only: SEPT7
+    v29-only: SEPT8
+    v29-only: SEPT9
+    v45-only: MARCHF1
+    v45-only: MARCHF10
+    v45-only: MARCHF11
+    v45-only: MARCHF2
+    v45-only: MARCHF3
+    v45-only: MARCHF4
+    v45-only: MARCHF5
+    v45-only: MARCHF6
+    v45-only: MARCHF7
+    v45-only: MARCHF8
+    v45-only: MARCHF9
+    v45-only: SEPTIN1
+    v45-only: SEPTIN10
+    v45-only: SEPTIN11
+    v45-only: SEPTIN12
+    v45-only: SEPTIN14
+    v45-only: SEPTIN2
+    v45-only: SEPTIN3
+    v45-only: SEPTIN4
+    v45-only: SEPTIN5
+    v45-only: SEPTIN7
+    v45-only: SEPTIN8
+    v45-only: SEPTIN9
+
+----------------------------------------------------------------------
+4. GENE-SET JACCARDS
+----------------------------------------------------------------------
+  (a) Mapped gene-symbol sets:
+      v29 unique symbols: 17248
+      v45 unique symbols: 17289
+      Intersection:       16227
+      Union:              18310
+      Jaccard:            0.886237
+
+  (b) Locus-gene pair sets:
+      v29 pairs: 291292
+      v45 pairs: 291292
+      Intersection:  273052
+      Union:         309532
+      Jaccard:       0.882145
+
+----------------------------------------------------------------------
+5. PREREG JACCARD DEFINITION CHECK
+----------------------------------------------------------------------
+  Lines in prereg/prereg.md mentioning 'Jaccard':
+    L32: - **Pathway impact:** We predict Jaccard overlap of significant pathways < 0.90
+    L35: Annotation version choice has negligible effect: I < 5% AND pathway Jaccard > 0.90
+    L79: - Cross-version comparison: unweighted Jaccard over significant pathways
+    L97: | Negative result | I < 5% at all W AND Jaccard > 0.90 | Publish as negative / validation result |
+    L136: | Enrichment Jaccard by W | Pathway overlap summary across window sizes |
+
+  INTERPRETATION:
+    Section 2.5 defines: 'unweighted Jaccard over significant pathways'
+    Section 3 stop rule: 'Jaccard > 0.90' refers to PATHWAY-SET Jaccard
+    → The Jaccard in the stop rule is PATHWAY-SET, not gene-set.
+    → 09_enrichment.py correctly computes pathway-set Jaccard.
+
+======================================================================
+DIAGNOSTIC SUMMARY
+======================================================================
+  Pathway-set Jaccard (FDR<0.05):  0.6927
+  Gene-symbol-set Jaccard:         0.886237
+  Locus-gene-pair Jaccard:         0.882145
+  Spearman rho (-log10 p):         0.778094
+  GMT coverage in universe:        10850/11939
+  Universe identical for both:     YES

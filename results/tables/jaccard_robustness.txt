@@ -1,0 +1,61 @@
+======================================================================
+JACCARD ROBUSTNESS ANALYSIS
+======================================================================
+
+Loading symbol-based data...
+  Symbol universe: 20258, pathways: 1428
+Running symbol-based ORA...
+  Pathways tested: 1424
+
+Loading Ensembl-ID-based data...
+  Ensembl universe: 19315, pathways: 1369
+Running Ensembl-ID-based ORA...
+  Pathways tested: 1369
+
+======================================================================
+1. SIZE-MATCHED JACCARD (1000 resamples, seed=42)
+======================================================================
+
+  SYMBOL-BASED:
+  FDR       Sig v29  Sig v45   Raw Jac  SzMatch Mean             95% CI
+  ------------------------------------------------------------------
+  0.01          127      146    0.6347        0.5700 [0.5394, 0.6076]
+  0.05          276      330    0.6927        0.6008 [0.5726, 0.6283]
+  0.10          485      516    0.7170        0.6811 [0.6695, 0.6958]
+  0.20          812      868    0.8123        0.7662 [0.7576, 0.7768]
+
+  ENSEMBL-ID-BASED:
+  FDR       Sig v29  Sig v45   Raw Jac  SzMatch Mean             95% CI
+  ------------------------------------------------------------------
+  0.01           31       16    0.4688        0.3244 [0.1852, 0.4545]
+  0.05           74       47    0.6133        0.4529 [0.3824, 0.5410]
+  0.10          109       65    0.5963        0.4246 [0.3542, 0.5116]
+  0.20          216      133    0.5792        0.4203 [0.3641, 0.4696]
+
+======================================================================
+2. TOP-K OVERLAP (intersection / K)
+======================================================================
+
+  K         Symbol overlap  Ensembl overlap
+  -----------------------------------------
+  25                0.8000           0.6800
+  50                0.8400           0.7800
+  100               0.7600           0.8200
+  200               0.7550           0.8350
+
+======================================================================
+SUMMARY
+======================================================================
+
+  FDR < 0.05 Jaccard:
+    Symbol-based:     0.6927
+    Ensembl-ID-based: 0.6133
+
+  Top-100 overlap:
+    Symbol-based:     0.7600
+    Ensembl-ID-based: 0.8200
+
+  The top-K overlap metric is threshold-free and confirms that
+  annotation version choice alters pathway rankings.
+  Neither symbol-based nor Ensembl-ID-based Jaccard exceeds 0.90
+  at any threshold or K tested.
