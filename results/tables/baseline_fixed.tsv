@@ -1,0 +1,7 @@
+metric	value
+jaccard_fdr005	1.000000
+spearman_rho	1.000000
+top_k_overlap_K10	1.000000
+top_k_overlap_K20	1.000000
+top_k_overlap_K50	1.000000
+top_k_overlap_K100	1.000000

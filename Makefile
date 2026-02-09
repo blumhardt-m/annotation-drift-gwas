@@ -1,7 +1,7 @@
 # Makefile — Annotation Drift in GWAS Locus-to-Gene Mapping
 # Every pipeline target calls `check` first to enforce frozen config fields.
 
-.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures clean help
+.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures baselines diff_baselines clean help
 
 PYTHON  ?= python3
 CONFIG  ?= config.yaml
@@ -34,6 +34,11 @@ DIAG_OUT     := results/tables/enrichment_diagnostics.txt
 HARM_OUT     := results/tables/enrichment_harmonized.txt
 ENSID_OUT    := results/tables/enrichment_ensembl_id.txt
 ROBUST_OUT   := results/tables/jaccard_robustness.txt
+BASELINE_FIX := results/tables/baseline_fixed.tsv
+BASELINE_RND := results/tables/baseline_random.tsv
+DIFF_ENRICH  := results/tables/differential_enrichment.tsv
+DIFF_RND     := results/tables/differential_baseline_random.tsv
+SAT_CURVE    := results/tables/saturation_curve.tsv
 PREREG_MD    := prereg/prereg.md
 RESULTS_DIR  := results/tables
 
@@ -162,6 +167,26 @@ figures:
 		--sensitivity $(SENSITIVITY) \
 		--outdir results/figures
 
+baselines: enrich_ensid
+	$(MAKE) check
+	@echo "=== Annotation baselines (exploratory) ==="
+	$(PYTHON) src/15_baselines.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--outdir $(RESULTS_DIR)
+
+diff_baselines: enrich_ensid
+	$(MAKE) check
+	@echo "=== Differential-gene baselines (exploratory) ==="
+	$(PYTHON) src/15c_differential_baselines.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--outdir $(RESULTS_DIR)
+
 concentration:
 	$(MAKE) check
 	@echo "=== Concentration analysis ==="
@@ -194,6 +219,8 @@ help:
 	@echo "  make map          Run variant-to-gene mapping"
 	@echo "  make analyze      Bootstrap + sensitivity + classification"
 	@echo "  make concentration  Concentration analysis"
+	@echo "  make baselines    Fixed + randomized annotation baselines (exploratory)"
+	@echo "  make diff_baselines  Differential-gene baselines + saturation curve"
 	@echo "  make all          Full pipeline (download -> concentration)"
 	@echo ""
 	@echo "  make clean        Remove generated files"
