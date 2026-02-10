@@ -1,7 +1,7 @@
 # Makefile — Annotation Drift in GWAS Locus-to-Gene Mapping
 # Every pipeline target calls `check` first to enforce frozen config fields.
 
-.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures baselines diff_baselines fliprate clean help
+.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures baselines diff_baselines fliprate fig_calibration clean help
 
 PYTHON  ?= python3
 CONFIG  ?= config.yaml
@@ -199,6 +199,20 @@ fliprate: enrich_ensid
 		--gmt $(GMT) \
 		--outdir $(RESULTS_DIR)
 
+fig_calibration:
+	$(MAKE) check
+	@echo "=== Calibration figure (exploratory) ==="
+	$(PYTHON) src/17_fig_calibration.py \
+		--baseline-fixed $(BASELINE_FIX) \
+		--baseline-random $(BASELINE_RND) \
+		--diff-enrichment $(DIFF_ENRICH) \
+		--diff-random $(DIFF_RND) \
+		--saturation $(SAT_CURVE) \
+		--category-summary $(CAT_SUMMARY) \
+		--flip-rate $(FLIP_RATE) \
+		--enrichment-ensid $(ENSID_OUT) \
+		--outdir results/figures
+
 concentration:
 	$(MAKE) check
 	@echo "=== Concentration analysis ==="
@@ -234,6 +248,7 @@ help:
 	@echo "  make baselines    Fixed + randomized annotation baselines (exploratory)"
 	@echo "  make diff_baselines  Differential-gene baselines + saturation curve"
 	@echo "  make fliprate     Pathway category flip rate analysis"
+	@echo "  make fig_calibration  Calibration figure (baselines + saturation + flip rate)"
 	@echo "  make all          Full pipeline (download -> concentration)"
 	@echo ""
 	@echo "  make clean        Remove generated files"
