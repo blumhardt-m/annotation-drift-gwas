@@ -1,7 +1,7 @@
 # Makefile — Annotation Drift in GWAS Locus-to-Gene Mapping
 # Every pipeline target calls `check` first to enforce frozen config fields.
 
-.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures baselines diff_baselines clean help
+.PHONY: all check freeze download parse map analyze enrich sensitivity diagnostics harmonize enrich_ensid robustness figures baselines diff_baselines fliprate clean help
 
 PYTHON  ?= python3
 CONFIG  ?= config.yaml
@@ -39,6 +39,8 @@ BASELINE_RND := results/tables/baseline_random.tsv
 DIFF_ENRICH  := results/tables/differential_enrichment.tsv
 DIFF_RND     := results/tables/differential_baseline_random.tsv
 SAT_CURVE    := results/tables/saturation_curve.tsv
+FLIP_RATE    := results/tables/flip_rate.tsv
+CAT_SUMMARY  := results/tables/category_summary.tsv
 PREREG_MD    := prereg/prereg.md
 RESULTS_DIR  := results/tables
 
@@ -187,6 +189,16 @@ diff_baselines: enrich_ensid
 		--gmt $(GMT) \
 		--outdir $(RESULTS_DIR)
 
+fliprate: enrich_ensid
+	$(MAKE) check
+	@echo "=== Pathway category flip rate (exploratory) ==="
+	$(PYTHON) src/16_flip_rate.py \
+		--comparison $(COMPARISON) \
+		--tss-v29 $(TSS_V29) \
+		--tss-v45 $(TSS_V45) \
+		--gmt $(GMT) \
+		--outdir $(RESULTS_DIR)
+
 concentration:
 	$(MAKE) check
 	@echo "=== Concentration analysis ==="
@@ -221,6 +233,7 @@ help:
 	@echo "  make concentration  Concentration analysis"
 	@echo "  make baselines    Fixed + randomized annotation baselines (exploratory)"
 	@echo "  make diff_baselines  Differential-gene baselines + saturation curve"
+	@echo "  make fliprate     Pathway category flip rate analysis"
 	@echo "  make all          Full pipeline (download -> concentration)"
 	@echo ""
 	@echo "  make clean        Remove generated files"
