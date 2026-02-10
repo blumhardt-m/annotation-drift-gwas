@@ -1,0 +1,9 @@
+metric	value
+n_categories_union	17
+n_categories_v29	17
+n_categories_v45	14
+n_flips	3
+flip_rate	0.176471
+n_shared_categories	14
+spearman_rho_shared	0.929974
+category_source	hierarchy

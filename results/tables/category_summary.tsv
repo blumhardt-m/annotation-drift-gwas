@@ -1,0 +1,18 @@
+category	n_v29	n_v45	status
+Cell-Cell communication	1	0	v29_only
+Cellular responses to stimuli	2	1	both
+Circadian clock	1	0	v29_only
+Developmental Biology	2	2	both
+Disease	8	4	both
+Drug ADME	1	1	both
+Extracellular matrix organization	5	4	both
+Gene expression (Transcription)	2	0	v29_only
+Hemostasis	3	3	both
+Immune System	6	3	both
+Metabolism	8	5	both
+Metabolism of proteins	5	4	both
+Neuronal System	3	2	both
+Programmed Cell Death	2	1	both
+Signal Transduction	22	15	both
+Transport of small molecules	1	1	both
+Vesicle-mediated transport	2	1	both
