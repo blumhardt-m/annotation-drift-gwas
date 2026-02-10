@@ -161,3 +161,35 @@ ENVIRONMENT
   urllib3 @ file:///home/task_176539908095521/conda-bld/urllib3_1765399198587/work
   wheel==0.45.1
   zstandard @ file:///home/task_175818846949212/conda-bld/zstandard_1758189073015/work
+
+----------------------------------------------------------------------
+FIGURE 5: CALIBRATION (fig5_calibration.pdf)
+----------------------------------------------------------------------
+Generated: 2026-02-09T17:56:44.182057
+Git commit: fad7d89
+Script: src/17_fig_calibration.py --baseline-fixed results/tables/baseline_fixed.tsv --baseline-random results/tables/baseline_random.tsv --diff-enrichment results/tables/differential_enrichment.tsv --diff-random results/tables/differential_baseline_random.tsv --saturation results/tables/saturation_curve.tsv --category-summary results/tables/category_summary.tsv --flip-rate results/tables/flip_rate.tsv --enrichment-ensid results/tables/enrichment_ensembl_id.txt --outdir results/figures
+
+Input file SHA-256:
+  baseline_fixed.tsv: 2bd20f8a6dc7edded8b0f98ffe1fcee4112ed972d3244d50564307690821d73f
+  baseline_random.tsv: 88e33351e320bb5d3379a6c8d38adac954b32a94f15c411c436b6ebe71c5108d
+  differential_enrichment.tsv: bd4ed15760814c9657efac2fe792df7a051f45a160da70e3b6c24c628a13bda9
+  differential_baseline_random.tsv: db0d5c0f52a07ffd147c76bc61e0d5c4fe4c4ec7c38925d1c5c902df153d4c01
+  saturation_curve.tsv: 365d4257f656f561418b755ecd55f278e2fe62c39353ca32063505833bcb6e5c
+  category_summary.tsv: 2f0f305c7a435068493dbd798b9027a6ebe2b4b96ed305dea8e54509208109a9
+  flip_rate.tsv: cf2077217eb3ef6a9ad80f80acab30956fc8b96c68f920587cd00d2d79c0fb12
+  enrichment_ensembl_id.txt: 63a70dc46ab1756584caf994c7243961b4f213d09befb9cd999b0190449e2c5f
+
+Panel A — Spearman rho across regimes:
+  Fixed (v45 vs v45):   1.000000
+  Real (v29 vs v45):    0.922857
+  Differential:         0.274527
+  Matched Random:       0.150320 [0.009995, 0.313753]
+
+Panel B — Saturation diagnostic:
+  Random gene sets produce Jaccard ~ 0 at all foreground sizes.
+  Full-foreground Jaccard ~ 0.62 is a saturation artifact (89% coverage).
+
+Panel C — Category flip rate:
+  17 categories, flip rate = 0.1765
+  v29-only: Cell-Cell communication, Circadian clock, Gene expression (Transcription)
+  Shared category rank correlation: 0.9300
