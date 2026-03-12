@@ -1,0 +1,15 @@
+metric	study2_v37_v45	primary_v29_v45
+instability_rate	0.014598	0.041500
+ci_low	0.014320	0.041000
+ci_high	0.014874	0.041900
+spearman_rho	0.972637	0.922857
+jaccard_fdr005	0.7442	0.6133
+sig_older_version	42	74
+sig_v45	33	47
+shared_significant	32	46
+n_loci_mapped	721591	721406
+n_ensembl_differs	10534	29926
+n_pathways_tested	1369	1369
+universe_size	19202	19315
+identifier_only_pct	1.72	N/A
+true_mapping_pct	98.28	N/A

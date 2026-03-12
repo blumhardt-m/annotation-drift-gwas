@@ -204,7 +204,7 @@ story.append(Paragraph(
     "using a preregistered protocol, we find that 4.15% of GWAS loci are assigned to a different gene. "
     "Despite this modest locus-level drift, pathway p-value rankings are well preserved "
     "(Spearman &#961; = 0.923), while binary significance classifications diverge substantially "
-    "(Jaccard = 0.61 at FDR &lt; 0.05). Calibration baselines confirm that the instability is "
+    "for marginal pathways near the reporting threshold (Jaccard = 0.61 at FDR &lt; 0.05). Calibration baselines confirm that the instability is "
     "non-algorithmic and structured rather than random. At the category level, 17.6% of functional "
     "categories are lost, all with thin representation (1\u20132 pathways). The pattern is consistent "
     "with threshold amplification: enrichment analysis applies a discrete decision rule at a "
@@ -214,7 +214,8 @@ story.append(Paragraph(
 ))
 
 story.append(Paragraph(
-    "<b>Availability:</b> Code and preregistration are available at [repository URL].",
+    "<b>Availability:</b> Code and preregistration are available at "
+    "[repository URL \u2014 no remote configured; insert before submission].",
     styles['AbstractBody']
 ))
 
@@ -354,8 +355,9 @@ story.append(body(
     "Overrepresentation analysis (ORA) was performed using Fisher\u2019s exact test for each "
     "Reactome pathway. For a given annotation version, the foreground gene set consisted of all "
     "unique genes mapped from GWAS loci; the background universe consisted of all protein-coding "
-    "genes present in that version\u2019s GENCODE annotation. Multiple testing was corrected using "
-    "the Benjamini\u2013Hochberg procedure at FDR &lt; 0.05."
+    "genes present in that version\u2019s GENCODE annotation (GENCODE v29: 19,019 autosomal "
+    "protein-coding genes; GENCODE v45: 19,114; difference = 95, 0.50%). Multiple testing was "
+    "corrected using the Benjamini\u2013Hochberg procedure at FDR &lt; 0.05."
 ))
 story.append(body(
     "Enrichment was performed in Ensembl-ID space: gene sets and pathway memberships were matched "
@@ -404,7 +406,9 @@ story.append(body(
     "All analyses were implemented in Python 3 and executed via a Makefile-based pipeline with "
     "configuration validation enforcing frozen parameter values at each stage. The complete "
     "pipeline, including preregistration document, frozen parameter specification, and all "
-    "analysis scripts, is available at [repository URL]. Figure provenance metadata (git commit "
+    "analysis scripts, is available at "
+    "[repository URL \u2014 no remote configured; insert before submission]. "
+    "Figure provenance metadata (git commit "
     "hash, script invocation, input file checksums) is recorded in a manifest file."
 ))
 
@@ -431,10 +435,10 @@ story.append(body(
     "\u2014 consistent with gene model splits, merges, or re-accessioning rather than changes in "
     "the genomic region assigned to a locus. The remaining 57.7% represented true mapping changes "
     "in which both the Ensembl ID and the gene symbol differed, corresponding to 2.39% of all "
-    "mapped loci."
+    "mapped loci (Fig. 3)."
 ))
 
-story.append(subsection("3.2 Pathway rank structure is preserved but significance classifications diverge"))
+story.append(subsection("3.2 Pathway rank structure is preserved but significance classifications diverge at the level of marginal pathways"))
 story.append(body(
     "To assess whether locus-level drift propagates to downstream enrichment results, we performed "
     "overrepresentation analysis (ORA) on the gene sets derived from each annotation version using "
@@ -453,10 +457,31 @@ story.append(body(
     "with a uniform shift of pathway <i>p</i>-values relative to the FDR boundary."
 ))
 story.append(body(
+    "The background gene universe contained 19,019 protein-coding genes under GENCODE v29 and "
+    "19,114 under v45 (difference = 95, 0.50%). Because the same set of 1,369 Reactome pathways "
+    "was tested under both annotation versions, the Benjamini\u2013Hochberg correction operated "
+    "on an identical hypothesis set; this modest annotation-size difference therefore affects "
+    "enrichment probabilities marginally but does not alter the multiple-testing penalty, "
+    "ruling out a denominator-driven explanation for the observed asymmetry."
+))
+story.append(body(
+    "Furthermore, a larger background universe reduces the expected pathway\u2013foreground overlap "
+    "and thereby nominally increases hypergeometric enrichment significance, so if the 95-gene "
+    "background difference were the dominant effect it would predict more significant pathways "
+    "under v45 than under v29 \u2014 the opposite of the observed asymmetry (28 v29-only, "
+    "1 v45-only) \u2014 further ruling out a background-size explanation."
+))
+story.append(body(
     "This pattern \u2014 high rank concordance coupled with low classification concordance \u2014 "
     "is consistent with threshold amplification: enrichment analysis applies a discrete decision "
     "rule at a continuous statistical boundary, converting small changes in pathway statistics into "
     "larger differences in significance classification."
+))
+story.append(body(
+    "A sensitivity analysis using gene symbols in place of Ensembl stable IDs produced "
+    "concordant results: Jaccard = 0.693 with 248 shared of 358 significant-pathway calls "
+    "(v29: 276, v45: 330), confirming that the pattern is not specific to the choice of "
+    "gene identifier (Fig. 4)."
 ))
 
 # Table 1
@@ -473,7 +498,7 @@ table_data = [
     [Paragraph("Significant pathways (v45)", styles['TableCell']),
      Paragraph("47", styles['TableCell'])],
     [Paragraph("Shared significant", styles['TableCell']),
-     Paragraph("45", styles['TableCell'])],
+     Paragraph("46", styles['TableCell'])],
     [Paragraph("v29-only", styles['TableCell']),
      Paragraph("28", styles['TableCell'])],
     [Paragraph("v45-only", styles['TableCell']),
@@ -559,6 +584,54 @@ story.append(body(
     "annotation versions, whereas single-pathway findings were sensitive to threshold perturbation."
 ))
 
+story.append(subsection(
+    "3.5 The effect attenuates with annotation distance but persists under the more recent comparison"
+))
+story.append(body(
+    "To determine whether the observed instability is specific to the five-year v29\u2013v45 interval, "
+    "we repeated the analysis comparing GENCODE v37 (2021) and v45 (2023), spanning approximately "
+    "two years of annotation evolution on the same genome build. Across 721,591 mapped loci, "
+    "1.46% (95% CI: 1.43%\u20131.49%) were assigned to a different gene \u2014 a rate 2.8-fold "
+    "lower than the primary comparison, consistent with shorter elapsed time producing less "
+    "cumulative annotation revision."
+))
+story.append(body(
+    "Despite the lower locus-level instability, the downstream pattern was qualitatively preserved. "
+    "Pathway <i>p</i>-value rankings were highly correlated (Spearman &#961; = 0.973), and "
+    "binary significance classifications remained imperfect (Jaccard = 0.744 at FDR &lt; 0.05). "
+    "Of 42 significant pathways under v37, 32 were also significant under v45 (10 v37-only, "
+    "1 v45-only). This mirrors the directional asymmetry observed in the primary comparison, "
+    "with the older annotation supporting more marginal pathway calls."
+))
+story.append(body(
+    "These results indicate that the phenomenon is not an artifact of the unusually wide v29\u2013v45 "
+    "gap. Rather, the magnitude scales approximately with annotation distance while the qualitative "
+    "structure \u2014 stable rank ordering, imperfect binary classification, directional asymmetry "
+    "\u2014 persists even for closer annotation versions."
+))
+
+story.append(subsection(
+    "3.6 The qualitative pattern replicates under Gene Ontology Biological Process"
+))
+story.append(body(
+    "To assess whether the effect depends on the choice of pathway database, we repeated the "
+    "enrichment analysis using Gene Ontology Biological Process (GO:BP) terms (2,727 terms, "
+    "19,315-gene background) in place of Reactome. Under the primary v29\u2013v45 comparison, "
+    "pathway <i>p</i>-value rankings were well preserved (Spearman &#961; = 0.917), closely "
+    "matching the Reactome result (&#961; = 0.923). Binary significance classifications were "
+    "similarly discordant: 60 terms were significant under v29 and 53 under v45, yielding a "
+    "Jaccard overlap of 0.712 at FDR &lt; 0.05 (compared to 0.61 for Reactome; 47 shared of "
+    "66 in the union). The directional asymmetry was again present, with more terms significant "
+    "under the older annotation."
+))
+story.append(body(
+    "The GO replication confirms that the qualitative pattern \u2014 high rank concordance "
+    "coupled with imperfect threshold-level concordance \u2014 is not a property of Reactome "
+    "pathway definitions. Both databases exhibit the same structural signature, supporting the "
+    "interpretation that the effect arises from the statistical structure of thresholded inference "
+    "rather than from database-specific features."
+))
+
 # ── 4. DISCUSSION ───────────────────────────────────────────────────
 story.append(PageBreak())
 story.append(section("4. Discussion"))
@@ -606,10 +679,12 @@ story.append(subsection("Annotation drift operates through threshold amplificati
 story.append(body(
     "Across annotation versions, pathway <i>p</i>-value ranks were strongly correlated "
     "(&#961; = 0.923), indicating that the relative evidence for pathways remained largely "
-    "unchanged. Yet the set labeled \u201csignificant\u201d changed substantially (Jaccard = 0.61). "
+    "unchanged. Yet the set labeled \u201csignificant\u201d changed substantially among pathways "
+    "near the reporting threshold (Jaccard = 0.61). "
     "The key mechanism is threshold amplification: enrichment analysis converts a continuous "
     "statistic into a discrete claim via an FDR cutoff. Small quantitative perturbations in "
-    "pathway statistics therefore produce disproportionately large changes in binary conclusions."
+    "pathway statistics therefore produce disproportionately large changes in binary conclusions "
+    "for pathways whose evidence sits close to the decision boundary."
 ))
 story.append(body(
     "This behavior does not reflect instability in enrichment methods themselves. The "
@@ -697,6 +772,21 @@ story.append(body(
     "with the empirically stable aspect of the analysis."
 ))
 
+story.append(subsection("Robustness across annotation intervals and pathway databases"))
+story.append(body(
+    "Two robustness analyses support the generality of the main finding. First, the v37\u2013v45 "
+    "comparison shows that the phenomenon is not specific to the v29\u2013v45 interval: a "
+    "shorter annotation gap of approximately two years produces attenuated but qualitatively "
+    "identical instability (1.46% locus-level drift, Jaccard = 0.744). The magnitude scales "
+    "with annotation distance, as would be expected if instability accumulates with the "
+    "cumulative extent of annotation revision. Second, the GO Biological Process replication "
+    "shows that the pattern holds under a different pathway database (&#961; = 0.917, "
+    "Jaccard = 0.712), with the same directional asymmetry and the same structural contrast "
+    "between rank preservation and classification discordance. Together these results indicate "
+    "that threshold amplification of annotation drift is a general property of thresholded "
+    "enrichment analysis, not an artifact of a particular version pair or pathway resource."
+))
+
 story.append(subsection("Limitations"))
 story.append(body(
     "Several limitations constrain the scope of the conclusions. First, the analysis used a "
@@ -704,14 +794,17 @@ story.append(body(
     "data, eQTL evidence, or statistical fine-mapping may exhibit different sensitivity to "
     "annotation revision, although the underlying mechanism \u2014 dependence of thresholded "
     "inference on an externally defined and periodically revised hypothesis space \u2014 does not "
-    "depend on a particular mapping approach."
+    "depend on a particular mapping approach. Nearest-TSS mapping was chosen intentionally "
+    "because it isolates the effect of coordinate annotation revisions; integrating eQTL or "
+    "chromatin-interaction evidence would introduce additional evolving resources whose own "
+    "version changes could confound attribution of drift specifically to gene annotation."
 ))
 story.append(body(
-    "Second, the results depend on Reactome pathway definitions; alternative pathway resources "
-    "such as Gene Ontology or KEGG may alter the identity of specific discordant pathways. "
-    "However, because the mechanism arises from changes in gene membership within a tested "
-    "hypothesis set, any pathway database whose gene sets are defined relative to an evolving "
-    "annotation is expected to exhibit analogous sensitivity, even if the magnitude differs."
+    "Second, the primary analysis used Reactome pathway definitions; the identity of specific "
+    "discordant pathways will differ across databases. The Gene Ontology Biological Process "
+    "replication (Section 3.6) demonstrates that the qualitative pattern holds under an "
+    "independent database, although identical numerical magnitudes are not expected and not "
+    "required for the mechanistic interpretation."
 ))
 story.append(body(
     "Third, the study compares two annotation versions separated by five years of curation; "
@@ -721,7 +814,11 @@ story.append(body(
 story.append(body(
     "Finally, the analysis evaluates overrepresentation analysis and does not directly assess "
     "gene-set methods based on ranked summary statistics (e.g., GSEA), which may respond "
-    "differently to annotation changes because they do not rely on a discrete gene list."
+    "differently to annotation changes because they do not rely on a discrete gene list. "
+    "Overrepresentation analysis was selected because it exposes the thresholded decision "
+    "boundary that produces the amplification effect; ranked enrichment approaches such as "
+    "MAGMA or GSEA aggregate continuous statistics differently but still depend on "
+    "annotation-defined gene sets whose composition evolves over time."
 ))
 story.append(body(
     "The results therefore do not imply that all enrichment analyses are equally "
@@ -737,6 +834,12 @@ story.append(body(
     "is largely preserved in ranked pathway evidence and in category-level interpretation, while "
     "individual pathway claims near the significance boundary are not stable across annotation "
     "versions."
+))
+story.append(body(
+    "The results therefore highlight a general property of thresholded statistical inference "
+    "under evolving hypothesis spaces: small upstream changes in gene assignment propagate "
+    "through enrichment pipelines to produce larger differences in thresholded discoveries "
+    "while leaving the global evidence structure largely intact."
 ))
 story.append(body(
     "The practical consequence is straightforward. Annotation version should be treated as an "

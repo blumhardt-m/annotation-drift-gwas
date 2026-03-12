@@ -1,0 +1,105 @@
+Manuscript Update Log
+=====================
+Date: 2026-03-11
+
+MANUSCRIPT SOURCE EDITED
+  File: manuscript/build_manuscript.py
+  Output: manuscript/annotation_drift_manuscript.pdf (rebuilt, 31 KB)
+
+REPOSITORY URL
+  Status: NOT resolved — no git remote is configured.
+  Action: Both [repository URL] placeholders updated to read:
+    "[repository URL — no remote configured; insert before submission]"
+  Locations: Abstract Availability line, Methods 2.9 Implementation.
+
+STUDY 1 GO REPLICATION (results/study1_GO_replication/go_replication_summary.tsv)
+  Status: ADDED to manuscript.
+  Data: Spearman rho=0.917, Jaccard=0.712 at FDR<0.05,
+        60 sig v29 / 53 sig v45 / 47 shared, 2727 GO:BP terms, 98.54% mapping success.
+  Interpretation: Cleanly supports the same qualitative pattern (high rank concordance,
+        imperfect binary classification, directional asymmetry). Included.
+  Added:
+    - Results subsection 3.6: "The qualitative pattern replicates under Gene Ontology
+      Biological Process" (2 paragraphs)
+    - Discussion: Robustness subsection references GO Jaccard=0.712, rho=0.917.
+    - Limitations: Second limitation paragraph updated to note GO replication in Section 3.6
+      rather than speculating about alternative databases.
+
+STUDY 2 v37 vs v45 (results/study2_v37_v45/study2_summary.tsv)
+  Status: ADDED to manuscript.
+  Data: instability=1.46% [1.43%,1.49%], Spearman rho=0.9726, Jaccard=0.7442,
+        42 sig v37 / 33 sig v45 / 32 shared, 721591 loci mapped.
+  Added:
+    - Results subsection 3.5: "The effect attenuates with annotation distance but persists
+      under the more recent comparison" (3 paragraphs)
+    - Discussion: New subsection "Robustness across annotation intervals and pathway
+      databases" before Limitations (1 paragraph covering both Study 2 and GO replication).
+
+FIGURE REFERENCES AND NUMBERING
+  Status: No change required. No new figures were added. Existing figure references
+    (Fig. 1A, Fig. 2, Fig. 5A, Fig. 5B, Fig. 5C) remain intact and correct.
+    No figure images are embedded in the build script (references are textual only).
+
+REBUILT MANUSCRIPT PDF
+  Status: Yes. Rebuilt by running: python3 manuscript/build_manuscript.py
+  Output: manuscript/annotation_drift_manuscript.pdf (31 KB)
+
+CONSISTENCY PASS
+  - Primary results (4.15%, rho=0.923, Jaccard=0.61, 74/47/45 pathways) unchanged.
+  - Study 2 and GO numbers taken directly from summary TSV files; not interpolated.
+  - No table counts changed.
+  - Section numbering updated: new 3.5 and 3.6 inserted; Discussion subsections
+    do not carry numbers in the current style (unchanged).
+  - No unresolved placeholders remain beyond the repository URL noted above.
+  - No obvious wording errors introduced.
+
+SUBMISSION READINESS ASSESSMENT
+  Remaining blocker: repository URL must be added before submission.
+  Everything else appears consistent and submission-ready.
+
+---
+
+Verification Pass — 2026-03-12
+===============================
+  Action: Verified all edits in manuscript/build_manuscript.py are present and correct.
+  PDF rebuilt: python3 manuscript/build_manuscript.py → manuscript/annotation_drift_manuscript.pdf (31 KB)
+  Confirmed present:
+    - Section 3.5 (v37 vs v45): instability 1.46%, rho=0.973, Jaccard=0.744, 42/33/32 pathways
+    - Section 3.6 (GO replication): rho=0.917, Jaccard=0.712, 60/53/47 GO:BP terms
+    - Discussion "Robustness across annotation intervals and pathway databases" subsection
+    - Limitations paragraph 2 cross-references Section 3.6 correctly
+    - Repository URL placeholder at lines 218 and 409 (Abstract and Methods 2.9)
+  No further edits required. Status: SUBMISSION-READY pending repository URL insertion.
+
+---
+
+Surgical Fixes — 2026-03-12
+============================
+File edited: manuscript/build_manuscript.py
+
+FIX 1 — Table 1 Shared significant count
+  Line 485: "45" → "46"
+  Source of truth: FIGURE_MANIFEST.txt (Ensembl-ID ORA intersection = 46, union = 75)
+
+FIX 2 — Repository URL
+  No git remote configured (git remote -v returned empty).
+  Placeholder text unchanged — no URL available to insert.
+  Placeholders at lines 218 and 409 remain:
+    "[repository URL — no remote configured; insert before submission]"
+
+FIX 3 — Figure numbering gap (Fig. 3 and Fig. 4 had no main-text citations)
+  Fig. 3 (fig3_drift_decomposition.pdf):
+    Line 437: Added "(Fig. 3)" to end of identifier-decomposition sentence in Section 3.1
+  Fig. 4 (fig4_concordance_summary.pdf, symbol-based ORA):
+    Lines 464–469: Added new body paragraph in Section 3.2 citing symbol-based
+    sensitivity result (Jaccard=0.693, 248/358 shared, v29:276, v45:330) with (Fig. 4)
+  Figure citations now consecutive: Fig. 1A, Fig. 2, Fig. 3, Fig. 4, Fig. 5A/B/C
+
+PDF rebuilt: python3 manuscript/build_manuscript.py → 31 KB
+
+VALIDATION
+  - Table 1 "Shared significant" = 46 ✓
+  - Fig. 1, 2, 3, 4, 5 all cited in main text ✓
+  - No new placeholder text introduced ✓
+  - Repository URL placeholder unchanged (no remote available) ✓
+  Remaining blocker: repository URL before submission (unchanged).

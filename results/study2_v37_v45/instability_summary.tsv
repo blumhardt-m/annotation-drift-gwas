@@ -1,0 +1,2 @@
+instability_rate	ci_low	ci_high	identifier_only_pct	true_mapping_pct	n_total	n_differ	n_id_only	n_both_differ	n_symbol_only
+0.014598	0.014320	0.014874	1.72	98.28	721591	10534	181	10353	14818

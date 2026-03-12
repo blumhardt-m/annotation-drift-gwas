@@ -16,3 +16,7 @@ results/figures/*.pdf
 # OS
 .DS_Store
 *~
+data/raw/
+results/**/*.tsv
+results/**/*.csv
+!results/**/*_summary.tsv
