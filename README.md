@@ -1,51 +1,36 @@
-# Annotation Drift in GWAS Locus-to-Gene Mapping
+# Annotation Drift in GWAS Pathway Interpretation
 
-**Status:** Pilot complete, proceeding to full analysis  
-**Started:** 2026-01-24  
-**Target:** Bioinformatics or NAR Genomics & Bioinformatics
+Reproducible analysis pipeline and manuscript for the study:
 
-## One-Line Summary
+**Annotation version as a hidden degree of freedom in GWAS pathway interpretation: threshold amplification of modest locus-level drift**
 
-Quantifying how often GWAS locus→gene assignments change between GENCODE versions, and whether this propagates to pathway enrichment differences.
+## Summary
 
-## The Question
+Genome annotation resources such as GENCODE are updated regularly, but the choice of annotation version is rarely reported in GWAS pathway analyses.
 
-> If the same GWAS loci are processed through two annotation versions under identical mapping rules, how often does the assigned gene change?
+This project quantifies how annotation evolution propagates through the standard GWAS interpretation pipeline:
 
-## Key Design
+GWAS loci → locus-to-gene mapping → pathway enrichment.
 
-**GRCh38-on-GRCh38** (v29 vs v45) to isolate annotation drift from liftover artifacts.
+Using a controlled GRCh38-on-GRCh38 comparison between **GENCODE v29 (2018)** and **GENCODE v45 (2023)**, we measure how annotation drift affects downstream biological interpretation.
 
-## Pilot Results (Synthetic)
+## Key Results
 
-| Metric | Value |
-|--------|-------|
-| Instability rate | 8.34% |
-| 95% CI | [6.63%, 10.05%] |
-| Window stability | 0.4% range |
+Dataset  
+721,406 GWAS loci from the NHGRI-EBI GWAS Catalog.
 
-**Verdict:** Non-trivial effect. Proceed.
+Primary findings:
 
-## Quick Start
+| Metric | Result |
+|------|------|
+| Locus-to-gene instability | **4.15%** |
+| Spearman correlation of pathway p-values | **ρ = 0.923** |
+| Jaccard overlap of significant pathways | **0.61** |
+| Significant pathways | v29: 74 • v45: 47 |
+| Shared significant pathways | **46** |
 
-```bash
-# 1. Setup environment
-python3 -m venv .venv && source .venv/bin/activate
-pip install numpy pyyaml
+Interpretation:
 
-# 2. Download data (~500 MB)
-./src/01_download_data.sh
+Annotation updates perturb locus-to-gene assignments modestly but can produce larger differences in **thresholded pathway discoveries** due to **threshold amplification**, while the global evidence structure remains stable.
 
-# 3. Parse to TSS tables
-make parse
-
-# 4. Run analysis
-make map analyze
-```
-
-## Stop Rules
-
-| Condition | Action |
-|-----------|--------|
-| I < 5% AND Jaccard > 0.90 | Publish as negative |
-| I range > 20% across windows | Reframe or kill |
+## Repository Structure
