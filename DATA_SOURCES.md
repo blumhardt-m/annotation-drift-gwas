@@ -1,48 +1,31 @@
-# Data Sources Registry
+# Data Sources — Annotation Drift in GWAS Locus-to-Gene Mapping
 
-Protocol: L2G_INSTABILITY_AUDIT_PROTOCOL_v1.3
-Last updated: 2026-03-11
+Protocol version: 1.0 (annotation-drift study of record).
+Authored fresh 2026-07-08 from the study's own frozen truth (`prereg/frozen_params.yaml`
+mirrored from `config.yaml`) — **not** carried from any prior document. Every input below
+is pinned by the SHA-256 recorded in `frozen_params.yaml`; that file is authoritative.
 
----
+## Inputs of record (content-addressed)
 
-## Required — Already In Hand
+| Source | Path | SHA-256 | Notes |
+|--------|------|---------|-------|
+| GWAS Catalog associations | `data/raw/gwas_catalog.tsv` | `bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b` | NHGRI-EBI GWAS Catalog. European ancestry, p < 5e-8, autosomal, sentinel-SNP loci. Release ID recovered as `v1.0.2-associations_e115_r2026-01-19_full` (see DECISIONS). |
+| GENCODE v29 GTF | `data/raw/gencode.v29.annotation.gtf.gz` | `e77a9568d8783f432a03f5e49d8f52d89e8b0e795382cfcb1d93bbd279b0c2b9` | GRCh38.p12. Older annotation version. |
+| GENCODE v45 GTF | `data/raw/gencode.v45.annotation.gtf.gz` | `56a166e4a43c934a1910c0d09dec786ac048862fc65130731d41f3c7f451ae68` | GRCh38.p14. Newer annotation version. |
+| Reactome GMT v95 | `data/raw/reactome.gmt` | `a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb` | Primary pathway arbiter for ORA (min 15 / max 500, BH FDR < 0.05). |
 
-| Source Name | Purpose | Expected Path | Status | Verification Note |
-|-------------|---------|---------------|--------|-------------------|
-| GENCODE v37 GTF | Annotation version for predecessor study reference | data/raw/gencode.v37.annotation.gtf.gz | present | Used in annotation drift manuscript; SHA-256 not yet recorded for audit |
-| GENCODE v45 GTF | Annotation version for perturbation runs | data/raw/gencode.v45.annotation.gtf.gz | present | Present on disk; SHA-256 not yet recorded |
-| Reactome pathways GMT | Primary pathway arbiter for downstream impact evaluation | data/raw/ReactomePathways.gmt | present | File present; version string must be extracted and recorded |
-| Reactome pathways TXT | Reactome pathway-gene membership (alternative format) | data/raw/ReactomePathways.txt | present | Present on disk |
-| Reactome pathway relations | Hierarchical pathway structure | data/raw/ReactomePathwaysRelation.txt | present | Present on disk |
-| GWAS Catalog associations | Trait locus input for all pipeline runs | data/raw/gwas_catalog.tsv | present | Version and download date must be confirmed |
-| GWAS Catalog full download | Extended associations for trait filtering | data/raw/gwas-catalog-download-associations-alt-full.tsv | present | File present; download date not recorded |
-| Eligible GWAS traits list | Preprocessed eligible trait set | data/processed/gwas_eligible.tsv | present | Output of src/03_parse_gwas.py; regenerable |
+## Derived artifact of record
+- `data/processed/mappings/comparison.tsv` — frozen locus-to-gene comparison table
+  (v29 vs v45, nearest-TSS), the sole required input to the Study 3 count statistic.
+  Provenance: produced by the frozen mapping pipeline (`src/04_map_variants.py`) from the
+  inputs above; locked in `LOCKED_PROTOCOL_FILES.md` §1a.
 
----
-
-## Required — External / Public
-
-| Source Name | Purpose | Expected Path | Status | Verification Note |
-|-------------|---------|---------------|--------|-------------------|
-| GENCODE v38 GTF | Primary annotation version for baseline pipeline | data/raw/gencode.v38.annotation.gtf.gz | TODO_VERIFY | Must be downloaded and checksummed before first run; see https://www.gencodegenes.org/human/release_38.html |
-| L2G scores — autoimmune trait | Locus-to-gene priority scores for autoimmune trait (RA or IBD) | data/raw/l2g_autoimmune_TODO_VERIFY.tsv | TODO_VERIFY | Source: Open Targets Genetics; trait ID TBD pending DEC-003 trait selection |
-| L2G scores — psychiatric trait | Locus-to-gene priority scores for psychiatric trait (SCZ or MDD) | data/raw/l2g_psychiatric_TODO_VERIFY.tsv | TODO_VERIFY | Source: Open Targets Genetics; trait ID TBD |
-| L2G scores — metabolic trait | Locus-to-gene priority scores for metabolic trait (BMI or T2D) | data/raw/l2g_metabolic_TODO_VERIFY.tsv | TODO_VERIFY | Source: Open Targets Genetics; trait ID TBD |
-| GWAS summary stats — autoimmune trait | Full summary statistics for locus definition | data/raw/gwas_sumstats_autoimmune_TODO_VERIFY.tsv | TODO_VERIFY | Source depends on trait selection; must use GRCh38 coordinates |
-| GWAS summary stats — psychiatric trait | Full summary statistics for locus definition | data/raw/gwas_sumstats_psychiatric_TODO_VERIFY.tsv | TODO_VERIFY | Source depends on trait selection |
-| GWAS summary stats — metabolic trait | Full summary statistics for locus definition | data/raw/gwas_sumstats_metabolic_TODO_VERIFY.tsv | TODO_VERIFY | Source depends on trait selection |
-| 1000 Genomes Phase 3 EUR LD panel | LD reference panel; must be constant across all runs | data/raw/ld_reference/1kg_phase3_eur_TODO_VERIFY/ | TODO_VERIFY | Version must be fixed before first run per DEC-005; plink .bed/.bim/.fam format expected |
-| GTEx eQTL (latest) | Evidence source for eQTL-only and eQTL+ABC perturbation configs | data/raw/gtex_eqtl_TODO_VERIFY.tsv | TODO_VERIFY | Version and tissue scope must be confirmed; GTEx v8 or v10 |
-| ABC scores | Evidence source for eQTL+ABC perturbation config | data/raw/abc_scores_TODO_VERIFY.tsv | TODO_VERIFY | Fulco et al. or Nasser et al. dataset; cell type scope TBD |
-| MSigDB C2 GMT | Sensitivity pathway database | data/raw/msigdb_c2_TODO_VERIFY.gmt | TODO_VERIFY | Version must match between baseline and all sensitivity runs; download from MSigDB portal |
-
----
-
-## Optional — Sensitivity Only
-
-| Source Name | Purpose | Expected Path | Status | Verification Note |
-|-------------|---------|---------------|--------|-------------------|
-| MSigDB Hallmarks GMT | Additional sensitivity check (not primary) | data/raw/msigdb_hallmarks_TODO_VERIFY.gmt | optional | Not required for Phase A or B; only if sensitivity analysis is extended |
-| Chromatin interaction data (HiC/PLAC-seq) | Full evidence stack perturbation config | data/raw/hic_TODO_VERIFY/ | optional | Required only for full-evidence-stack configuration; cell type and resolution TBD |
-| Variant effect predictions (VEP or CADD) | Full evidence stack perturbation config | data/raw/vep_scores_TODO_VERIFY.tsv | optional | Required only for full-evidence-stack config |
-| Regulatory annotation tracks (ENCODE) | Full evidence stack perturbation config | data/raw/encode_regulatory_TODO_VERIFY/ | optional | Required only for full-evidence-stack config |
+## Provenance notes
+- The annotation pair of record is **GENCODE v29 vs v45** (both on GRCh38). Any document
+  citing a v37/v44 pair reflects a superseded pre-freeze framing and is not this study.
+- The GWAS Catalog release ID (`v1.0.2-associations_e115_r2026-01-19_full`) was recovered
+  and verified byte-identical to the pinned SHA-256; **formally pinning it into
+  `frozen_params.yaml` `inputs.gwas_loci.snapshot` (currently `REPLACE_WITH_RELEASE_ID`)
+  and adding it to `validate_config.py:FROZEN_FIELDS` is a pending human re-freeze**
+  (see `validate_config_FROZEN_FIELDS_patch.md` and DECISIONS).
+- Raw input bytes are re-downloadable; the SHA-256 pins above are the archival record.

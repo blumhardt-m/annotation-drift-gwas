@@ -49,6 +49,7 @@ FROZEN_FIELDS: list[tuple[str, str]] = [
     ("annotations.gencode",                     "GENCODE annotation definitions"),
     ("inputs.gwas_loci.raw_file",               "GWAS input file"),
     ("inputs.gwas_loci.sha256",                 "GWAS input SHA-256"),
+    ("inputs.gwas_loci.snapshot",               "GWAS Catalog release ID"),
 ]
 
 
@@ -124,18 +125,21 @@ def main() -> None:
               file=sys.stderr)
         sys.exit(2)
 
-    # Integrity check: warn if the locked file itself was modified
+    # Integrity check: HARD-FAIL if the locked file itself was modified post-freeze.
+    # (Patched 2026-07-08: harmonized with pre_auth_check.sh — a modified lock is a
+    # governance violation, not a warning. Same severity by either entry point.)
     lock_hash_file = locked_path.with_suffix(".sha256")
     if lock_hash_file.exists():
         expected = lock_hash_file.read_text().strip().split()[0]
         actual = file_sha256(locked_path)
         if actual != expected:
             print(
-                f"WARNING: locked snapshot has been modified since freezing.\n"
-                f"  expected SHA-256: {expected}\n"
-                f"  actual SHA-256:   {actual}\n",
+                f"ERROR: {locked_path} bytes do not match {lock_hash_file.name} "
+                f"(recorded {expected}, actual {actual}). Locked file modified "
+                f"post-freeze. This is a governance violation, not a warning.",
                 file=sys.stderr,
             )
+            sys.exit(1)
 
     violations = validate(live_path, locked_path)
 

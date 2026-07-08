@@ -1,33 +1,27 @@
-# Run Log
+# Run Log — Annotation Drift in GWAS Locus-to-Gene Mapping
 
-Protocol: L2G_INSTABILITY_AUDIT_PROTOCOL_v1.3
-This log is append-only. Do not edit or delete existing entries.
+Append-only. One record per pipeline run; agents append, never rewrite history.
+Authored fresh 2026-07-08 (annotation-drift study of record, protocol v1.0).
 
----
-
-## Entry Template
-
-Copy and fill for each run. Append below existing entries.
+## Entry template
 
 ```
 ---
-
 Date:             YYYY-MM-DD
-Operator:         [name]
-Script executed:  [path/to/script.py or make target]
-Inputs:
-  - [file path]: [brief description]
-  - [file path]: [brief description]
-Outputs:
-  - [file path]: [brief description]
-Protocol deviations:
-  - [NONE, or description of deviation and justification]
-Notes:
-  - [any additional context, anomalies, runtime observations]
+Operator:         [name / agent]
+Branch:           [git branch]
+Stage / target:   [script or make target]
+Inputs:           [paths + SHA-256 where hash-locked]
+Outputs:          [paths]
+pre_auth_check:   [PASS / FAIL — must PASS before any stage run]
+Study 3 prereg:   [SHA of prereg/study3_prereg_v1.0.md, when applicable]
+Protocol devs:    [NONE, or description]
+Notes:            [anomalies, runtime observations]
 ```
 
 ---
 
 ## Runs
 
-*(No runs recorded yet. First entry to be added upon first pipeline execution.)*
+*(No runs recorded yet. First entry to be added on first authorized pipeline execution,
+after `pre_auth_check.sh` exits 0.)*
