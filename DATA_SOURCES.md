@@ -17,15 +17,21 @@ is pinned by the SHA-256 recorded in `frozen_params.yaml`; that file is authorit
 ## Derived artifact of record
 - `data/processed/mappings/comparison.tsv` — frozen locus-to-gene comparison table
   (v29 vs v45, nearest-TSS), the sole required input to the Study 3 count statistic.
-  Provenance: produced by the frozen mapping pipeline (`src/04_map_variants.py`) from the
-  inputs above; locked in `LOCKED_PROTOCOL_FILES.md` §1a.
+  **SHA-256 `8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1`** (input of
+  record; also pinned at `frozen_params.yaml:inputs.mapping_artifact` and in
+  `manifests/comparison_tsv_regenerated_20260708.sha256`).
+  Provenance: regenerated 2026-07-08 by the frozen mapping pipeline (`src/02→03→04`,
+  `--window-kb 500`) from the pinned raw inputs above; reproduces the parent ORA result
+  within 3 sig figs (Spearman ρ 0.923, Jaccard 0.613; sig sets 74/47/46). Structure:
+  721,406 rows, 291,292 unique rsIDs, 29,920 differ (4.15%). Gitignored (derived);
+  content-addressed by the SHA above. Locked in `LOCKED_PROTOCOL_FILES.md` §1a.
 
 ## Provenance notes
 - The annotation pair of record is **GENCODE v29 vs v45** (both on GRCh38). Any document
   citing a v37/v44 pair reflects a superseded pre-freeze framing and is not this study.
 - The GWAS Catalog release ID (`v1.0.2-associations_e115_r2026-01-19_full`) was recovered
-  and verified byte-identical to the pinned SHA-256; **formally pinning it into
-  `frozen_params.yaml` `inputs.gwas_loci.snapshot` (currently `REPLACE_WITH_RELEASE_ID`)
-  and adding it to `validate_config.py:FROZEN_FIELDS` is a pending human re-freeze**
-  (see `validate_config_FROZEN_FIELDS_patch.md` and DECISIONS).
+  and verified byte-identical to the pinned SHA-256, and is now **pinned into
+  `inputs.gwas_loci.snapshot`** in both `config.yaml` and `frozen_params.yaml` (2026-07-08,
+  DEC-004). The field is in `validate_config.py:FROZEN_FIELDS`, so enforcement is now
+  active; `frozen_params.sha256` was regenerated to match.
 - Raw input bytes are re-downloadable; the SHA-256 pins above are the archival record.

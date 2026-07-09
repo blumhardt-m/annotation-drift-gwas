@@ -1,0 +1,10 @@
+# Regenerated derived input — additive provenance record (§7 prerequisite #2).
+# data/processed/mappings/comparison.tsv is gitignored (derived), so it carries no
+# committed SHA. Regenerated 2026-07-08 by running the frozen mapping pipeline as-is
+# (src/02_parse_gencode.py, src/03_parse_gwas.py, src/04_map_variants.py --window-kb 500)
+# on the hash-verified raw inputs (GWAS Catalog bfaffa3a…, GENCODE v29 e77a9568…,
+# v45 56a166e4…). Reproduces the parent ORA result within 3 sig figs
+# (Spearman rho 0.922857 ≈ 0.923; Jaccard 0.6133 ≈ 0.613; sig v29/v45 = 74/47),
+# so the verification gate PASSED. Structure: 721,406 rows, 291,292 unique rsIDs,
+# 29,920 differ (4.15%).
+8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1  data/processed/mappings/comparison.tsv

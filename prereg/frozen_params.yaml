@@ -21,7 +21,7 @@ paths:
 inputs:
   gwas_loci:
     source: "NHGRI-EBI GWAS Catalog"
-    snapshot: "REPLACE_WITH_RELEASE_ID"
+    snapshot: "v1.0.2-associations_e115_r2026-01-19_full"
     format: "snp_list"
     raw_file: "data/raw/gwas_catalog.tsv"
     eligible_file: "data/processed/gwas_eligible.tsv"
@@ -42,6 +42,14 @@ inputs:
       drop_missing: true
       drop_duplicates_by: ["locus_id"]
       merge_loci: false
+  mapping_artifact:
+    file: "data/processed/mappings/comparison.tsv"
+    sha256: "8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1"
+    note: >-
+      Derived locus-to-gene table of record for Study 3. Regenerated 2026-07-08 via the
+      frozen mapping pipeline (02/03/04) from the pinned raw inputs; reproduces the parent
+      ORA result (Spearman rho 0.923, Jaccard 0.613). Recorded for provenance; not a
+      FROZEN_FIELD (the file is gitignored and content-addressed by this SHA).
 
 annotations:
   gencode:
