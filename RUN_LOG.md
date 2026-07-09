@@ -38,7 +38,7 @@ Outputs:          data/processed/tss_tables/tss_v29.tsv, tss_v45.tsv ;
                   721,406 rows, 291,292 unique rsIDs, 29,920 differ = 4.15%) ;
                   scratch/study3_viability/** (EXPLORATORY viability probe, quarantined)
 pre_auth_check:   n/a for the freeze itself; regeneration ran as authorized §7 prerequisite work (not a confirmatory Study 3 run). The Study 3 build (stages 19–21) remains gated on a feature branch per TASK.md.
-Study 3 prereg:   29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17 (prereg/study3_prereg_v1.0.md, FROZEN v1.0; SHA corrected per DEC-005 — supersedes the earlier freeze)
+Study 3 prereg:   b8211b77cfc6d5cc50b0839a9a7496c82481933eb55f63ea26d18671b3024e47 (prereg/study3_prereg_v1.0.md, FROZEN v1.0)
 Protocol devs:    NONE. Pipeline code run unmodified. Snapshot pinned + comparison.tsv SHA recorded per DEC-004 (governance amendment restoring metadata; no analytical input changed).
 Notes:            Verification gate PASSED — regenerated comparison.tsv reproduces the parent
                   ORA result within 3 sig figs (ρ=0.922857≈0.923, Jaccard=0.6133≈0.613,
