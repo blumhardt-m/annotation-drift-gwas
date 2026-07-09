@@ -84,3 +84,27 @@ Toolchain frozen at R 4.5.3 / fgsea 1.36.2, `fgseaMultilevel` eps=0 (§3.3).
 Pending (NOT done here): OSF registration of the frozen prereg (external human step);
 §7 #4 (MEMORY.md regeneration) and #5 (parent-study provenance note) — neither blocks the
 freeze. Δ = 0.5 ratified (§4.1), already in the frozen text.
+
+---
+
+## DEC-005 — Study 3 prereg §4.2 buffering figure corrected pre-registration (2026-07-08)
+
+Study 3 prereg §4.2 buffering figure corrected pre-registration. An earlier draft cited a
+non-deduplicated row-count mean of 41.8 loci/gene (721,406 rows ÷ ~17,300 head genes); the
+frozen statistic is rsID-deduplicated (§3.2), with mean ≈ 16.9 / median ≈ 9 across the
+nonzero head. The 41.8 figure did not describe the implemented statistic and was removed
+from the frozen text; recorded here for development provenance. Supersedes the b8211b77
+freeze, which was never registered or pushed.
+
+New frozen prereg SHA-256: `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17`
+(`prereg/study3_prereg.sha256`). The RUN_LOG entry was updated to this SHA. DEC-004 is left
+as originally written (append-only history recording the b8211b77 freeze as it stood at the
+time); this DEC-005 entry carries the supersession and the new SHA.
+Scope: text/provenance correction only — no frozen scientific parameter changed;
+`validate_config` still passes and the config↔frozen_params mirror is intact.
+Cross-document check: grepped all committed docs for "41.8"/"41.8 loci"; the only occurrence
+was the §4.2 parenthetical now removed. DATA_SOURCES.md and all other tracked docs contained
+no "41.8" reference (none to remove). The literal string "41.8" appears nowhere in the frozen
+prereg or any working-tree doc except this provenance record; "b8211b77" survives in DEC-004
+(the freeze it recorded), in this supersession record, and in the immutable git history of
+commit 23f6b7e.
