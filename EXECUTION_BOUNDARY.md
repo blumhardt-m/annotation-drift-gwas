@@ -35,4 +35,15 @@ The only authorized entry point for running any pipeline stage is `pre_auth_chec
 
 ## Registration hold
 
-External OSF registration has not been verified from repository evidence. References to the locally frozen preregistration do not establish an immutable external registration and do not authorize confirmatory Study 3 execution. Confirmatory execution is prohibited until the investigator verifies the registration entity, effective timestamp, exact attached artifact, and byte identity.
+External OSF registration has not been verified from repository evidence. References to the locally frozen preregistration do not establish an immutable external registration and do not authorize confirmatory Study 3 execution.
+
+Confirmatory Study 3 execution is prohibited until the investigator manually verifies, outside Git:
+
+* the OSF entity referenced;
+* whether that entity is an immutable registration rather than a mutable project or component;
+* its effective registration timestamp;
+* the exact artifact attached to the registration;
+* whether the attached artifact is `b8211b77…`, `29fe3ff1…`, another artifact, or no matching artifact;
+* the byte identity, using SHA-256, of the downloaded attached artifact.
+
+Registration of `b8211b77…` would cover the scientifically equivalent but textually superseded predecessor preregistration artifact, not the controlling local file (`29fe3ff1…`). It therefore would not establish external registration of the exact controlling artifact.
