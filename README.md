@@ -4,6 +4,10 @@ Reproducible analysis pipeline and manuscript for the study:
 
 **Annotation version as a hidden degree of freedom in GWAS pathway interpretation: threshold amplification of modest locus-level drift**
 
+## Status
+
+Active project. Manuscript resubmission is pending completion of the confirmatory scientific disposition and submission documentation.
+
 ## Summary
 
 Genome annotation resources such as GENCODE are updated regularly, but the choice of annotation version is rarely reported in GWAS pathway analyses.

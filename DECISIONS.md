@@ -144,3 +144,32 @@ unverified, prohibited. Only the investigator may lift the hold, and only on a c
 disposition.
 
 Scope: documentation/execution-contract only; no frozen scientific parameter changed.
+
+---
+
+## DEC-007 — July 8 chronology: provenance framing of record (2026-07-16)
+
+Records the defensible provenance framing for the relationship between the exploratory
+GSEA work and the confirmatory design, each statement tied to committed evidence:
+
+- The threshold-amplification mechanism underlying H1 existed in commit `37272b2`
+  (2026-03-12) — months before the probe. (Parent manuscript / README interpretation.)
+- The 2026-07-08 exploratory viability probe observed significant-pathway counts
+  v29 = 47, v45 = 63. (DEC-004; RUN_LOG 2026-07-08; commit `23f6b7e` message; prereg §1.
+  The probe artifacts themselves are git-ignored under `scratch/` and were never committed;
+  they are preserved in a private archive with a hash manifest.)
+- The primary confirmatory statistics `C_ORA`, `C_GSEA`, and their directional comparison
+  `C_ORA > C_GSEA` were **not** computed. (prereg §1/§4.1; no `src/21_*` stage exists; no
+  computed value in `results/` or `manifests/`.)
+
+Git cannot establish the intra-day order of the final prereg wording and the probe run on
+2026-07-08, but the scientific mechanism motivating the directional prediction clearly
+predates the probe. **Therefore:** the final protocol was frozen after or contemporaneously
+with exploratory GSEA work, but the directional hypothesis was grounded in a version-
+controlled mechanism documented months earlier and was **not fitted to the uncomputed
+primary endpoint**. The final artifact is not represented as wholly outcome-blind or fully
+pre-probe.
+
+OSF registration status remains UNVERIFIED and is out of scope for Git-based verification
+(see DEC-006 / EXECUTION_BOUNDARY.md "Registration hold (Gate 0)"). Scope: provenance record
+only; no scientific parameter changed.
