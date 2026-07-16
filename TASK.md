@@ -6,7 +6,7 @@ Active session authorization. Rewritten per session by the human. An agent runs 
 `study3-build-001`
 
 ## Objective
-Implement the registered Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (frozen; SHA in `prereg/study3_prereg.sha256`).
+Implement the locally frozen Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (locally frozen; SHA in `prereg/study3_prereg.sha256`; external OSF registration pending verification).
 
 ## Branch
 `study3-ranked-enrichment` (create from `main` if absent; never commit to `main`).
@@ -27,6 +27,8 @@ Implement the registered Study 3 ranked-enrichment contrast (count-based) strict
 
 ## Preconditions
 `pre_auth_check.sh` must exit 0 before any stage runs. If it fails, stop and escalate; do not weaken the check.
+
+Gate 0 (registration hold): confirmatory execution is prohibited until the investigator verifies the external OSF registration, its timestamp, and its artifact hash against the controlling local prereg (`29fe3ff1…`). `pre_auth_check.sh` passing does not clear this hold — it checks local lock integrity, not external registration. See `EXECUTION_BOUNDARY.md` "Registration hold (Gate 0)".
 
 ## Definition of done
 Stages 19–21 implemented and run to the prereg; all §6 diagnostics emitted; H1 evaluated per §5 (or correctly halted at a trigger); results under `results/study3_ranked_enrichment/`; `RUN_LOG.md` appended with the run record and the Study 3 prereg SHA.

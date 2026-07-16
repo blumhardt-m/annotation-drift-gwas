@@ -108,3 +108,39 @@ no "41.8" reference (none to remove). The literal string "41.8" appears nowhere 
 prereg or any working-tree doc except this provenance record; "b8211b77" survives in DEC-004
 (the freeze it recorded), in this supersession record, and in the immutable git history of
 commit 23f6b7e.
+
+---
+
+## DEC-006 — Execution-contract wording corrected: local freeze ≠ external registration; Gate 0 hold added (2026-07-16)
+
+Decision (human-authorized locked-file modification): corrected the execution-contract
+files to stop describing the Study 3 prereg as a "registered preregistration" and to make
+the registration hold explicit. `AGENTS.md`, `EXECUTION_BOUNDARY.md`, and `TASK.md` now
+read **"locally frozen preregistration; external OSF registration pending verification."**
+`AGENTS.md` and `EXECUTION_BOUNDARY.md` are governance-runtime files listed in
+`LOCKED_PROTOCOL_FILES.md`; editing them is a human act, recorded here per the governance
+rule. No hash-locked file changed (`pre_auth_check.sh` presence-checks these docs but does
+not content-hash them; `prereg/frozen_params.yaml` and its `.sha256` are untouched, so lock
+integrity is intact).
+
+Added to `EXECUTION_BOUNDARY.md` a new section **"Registration hold (Gate 0)"**:
+> References in earlier project records to a "registered preregistration" do not establish
+> that an immutable OSF registration exists. Confirmatory Study 3 execution is prohibited
+> until the exact external registration, timestamp, and attached artifact hash have been
+> verified by the investigator.
+
+This hold stands regardless of Gate 0's eventual outcome: a local freeze is not an external
+registration, and `pre_auth_check.sh` passing (local lock integrity) does not clear it.
+
+Gate 0 verification (manual, investigator-only) must determine, for the OSF entity `fv4sg`:
+whether it is an immutable *registration* (not a mutable project); its effective timestamp;
+which prereg artifact it contains — superseded `b8211b77…` or controlling `29fe3ff1…`;
+whether the registered bytes exactly match the local artifact; and whether registration
+preceded any confirmatory execution. Dispositions: absent → prohibited; contains
+`b8211b77…` → registration of a *superseded* protocol, must not be represented as
+registration of the controlling protocol, prohibited; contains `29fe3ff1…` → potentially
+clean, subject to timestamp + byte verification; artifact unretrievable/unmatched →
+unverified, prohibited. Only the investigator may lift the hold, and only on a clean
+disposition.
+
+Scope: documentation/execution-contract only; no frozen scientific parameter changed.

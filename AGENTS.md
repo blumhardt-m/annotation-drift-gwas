@@ -24,4 +24,6 @@ Agent contract for the `annotation-drift-gwas` repository. Applies to Claude Cod
 
 ## Study 3 session summary (current)
 
-The task is to implement the registered Study 3 ranked-enrichment contrast (stages 19–21) strictly per `prereg/study3_prereg_v1.0.md`. The prereg is the scientific contract; this file and `EXECUTION_BOUNDARY.md` are the execution contract. Build to the prereg, additively, on `study3-ranked-enrichment`, importing frozen machinery, escalating on any ambiguity or trigger.
+The task is to implement the locally frozen Study 3 ranked-enrichment contrast (stages 19–21; external OSF registration pending verification) strictly per `prereg/study3_prereg_v1.0.md`. The prereg is the scientific contract; this file and `EXECUTION_BOUNDARY.md` are the execution contract. Build to the prereg, additively, on `study3-ranked-enrichment`, importing frozen machinery, escalating on any ambiguity or trigger.
+
+**Registration hold.** Confirmatory Study 3 execution is on hold: external OSF registration is UNVERIFIED. A local freeze is not an external registration; references in earlier records to a "registered preregistration" do not establish that an immutable OSF registration exists. Do not run stages 19–21 until the investigator verifies the exact external registration, timestamp, and artifact hash — see `EXECUTION_BOUNDARY.md` "Registration hold (Gate 0)".
