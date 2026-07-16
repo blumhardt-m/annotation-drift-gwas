@@ -8,7 +8,7 @@ An agent is prohibited from making, and must escalate rather than perform, any c
 
 - Any file in `LOCKED_PROTOCOL_FILES.md`.
 - Any value governed by `validate_config.py:FROZEN_FIELDS` (mapping rule, window grid, window shape, tie-break, instability denominator, gene universe, pathway DB SHA, bootstrap seed, GENCODE definitions, GWAS raw-file path, GWAS SHA-256, and — once added — GWAS snapshot release ID).
-- Any Study 3 frozen parameter defined in the registered prereg §3: the count-statistic definition (count of distinct genome-wide-significant loci per gene, rsID-deduplicated within gene, trait-agnostic), the shared union universe, minSize 15 / maxSize 500, FDR < 0.05, fgsea seed 42, the boundary band Δ, the chromosome-block bootstrap (seed 42, 1000 reps), the primary endpoint (C_ORA > C_GSEA), the demotion of A to descriptive, the degenerate-case rule and its 10-pathway threshold, or the kill criterion.
+- Any Study 3 frozen parameter defined in the locally frozen prereg §3 (external OSF registration pending verification): the count-statistic definition (count of distinct genome-wide-significant loci per gene, rsID-deduplicated within gene, trait-agnostic), the shared union universe, minSize 15 / maxSize 500, FDR < 0.05, fgsea seed 42, the boundary band Δ, the chromosome-block bootstrap (seed 42, 1000 reps), the primary endpoint (C_ORA > C_GSEA), the demotion of A to descriptive, the degenerate-case rule and its 10-pathway threshold, or the kill criterion.
 - Data inputs: no re-download, no substitution, no regeneration of any hash-locked input with a different byte content. Restoring a file whose hash matches a locked SHA is permitted (it is provenance restoration, not input change); producing a file whose hash differs is forbidden.
 
 ## Implementation changes — PERMITTED
@@ -32,3 +32,7 @@ Restoring the GWAS Catalog file from backup/Trash into `data/raw/` is permitted 
 ## Authorized execution entry point
 
 The only authorized entry point for running any pipeline stage is `pre_auth_check.sh` (which itself calls `validate_config.py`). Invoking `validate_config.py` directly is permitted for inspection but is never a substitute for the full gate: the gate performs checks the guard structurally cannot (repo identity, baseline ancestry, placeholder scan, data-presence-by-hash, inventory cross-check). Guard and gate are harmonized in severity (a modified lock file is fatal by either path), but only the gate is complete. An agent is prohibited from running a stage without a passing `pre_auth_check.sh` in the same session.
+
+## Registration hold
+
+External OSF registration has not been verified from repository evidence. References to the locally frozen preregistration do not establish an immutable external registration and do not authorize confirmatory Study 3 execution. Confirmatory execution is prohibited until the investigator verifies the registration entity, effective timestamp, exact attached artifact, and byte identity.

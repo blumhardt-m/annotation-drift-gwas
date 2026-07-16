@@ -6,7 +6,7 @@ Active session authorization. Rewritten per session by the human. An agent runs 
 `study3-build-001`
 
 ## Objective
-Implement the registered Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (frozen; SHA in `prereg/study3_prereg.sha256`).
+Implement the locally frozen Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (locally frozen; SHA in `prereg/study3_prereg.sha256`; external OSF registration pending verification).
 
 ## Branch
 `study3-ranked-enrichment` (create from `main` if absent; never commit to `main`).
