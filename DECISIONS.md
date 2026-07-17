@@ -173,3 +173,154 @@ pre-probe.
 OSF registration status remains UNVERIFIED and is out of scope for Git-based verification
 (see DEC-006 / EXECUTION_BOUNDARY.md "Registration hold (Gate 0)"). Scope: provenance record
 only; no scientific parameter changed.
+
+---
+
+## DEC-008 — Owner review and prospective ratification of Study 3 protocol lineage (2026-07-17)
+
+I reviewed commits `23f6b7e`, `11bb5ea`, `4342e2e`, `25c1834`, and `eae1e21`, including their
+complete diffs and both frozen Study 3 preregistration artifacts.
+
+The original freeze in `23f6b7e` and the descriptive re-freeze in `11bb5ea` were performed
+during an agent-assisted session even though protocol freeze was reserved to the human owner.
+That operating procedure did not comply with the project's reserved-action rule. Git authorship
+under my identity does not cure that procedural defect, and this decision does not represent the
+original freeze procedure as governance-compliant.
+
+I independently reviewed and prospectively ratify the scientific content of the controlling
+Study 3 protocol, SHA-256 `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17`,
+as the protocol governing future implementation and execution. The change from
+`b8211b77cfc6d5cc50b0839a9a7496c82481933eb55f63ea26d18671b3024e47` to
+`29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17` removed an erroneous
+descriptive note in §4.2 and did not change any frozen scientific endpoint, parameter,
+estimator, threshold, uncertainty procedure, or disposition rule.
+
+The exact controlling artifact was downloaded from and byte-matched to the immutable embargoed
+OSF registration snapshot. The registration was initiated on July 8, 2026 and approved on
+July 9, 2026 before implementation or execution of Study 3 stages 19–21. No C_ORA, C_GSEA, or
+primary directional comparison was computed before registration.
+
+Commits `23f6b7e`, `11bb5ea`, and `4342e2e` are retained as the protocol and checksum lineage.
+Commits `25c1834` and `eae1e21` are retained as audit history. Any language in those commits
+stating that OSF registration remained pending is superseded by the verified Gate 0 disposition
+recorded here and must not be treated as current execution authority.
+
+This decision authorizes prospective retention and use of the reviewed protocol. It does not
+retroactively cure the reserved-action violation.
+
+This decision records successful verification of the registration artifact and sequencing
+requirement, but it does not by itself lift the standing Study 3 execution hold or authorize
+implementation of stages 19–21.
+
+---
+
+## DEC-009 — Protocol amendment and owner interpretation of the §3.4 ORA consistency check (2026-07-17)
+
+No full-precision parent Spearman value is preserved. The registered §3.4 consistency check
+states that regenerated ρ must match the parent expectation "ρ ≈ 0.923" within floating-point
+tolerance. The highest-fidelity preserved parent value is ρ = 0.922857, serialized to six decimal
+places. The rounded expectation 0.923 differs from 0.922857 by 1.43 × 10⁻⁴ and therefore cannot
+serve as a floating-point reference value. As written, the registered check is not operationally
+executable.
+
+A search across the review branch, commit `37272b2`, tag `v1.0_submission`, and the committed
+`results/`, `manifests/`, `RUN_LOG.md`, and `DECISIONS.md` records found no preserved artifact
+containing either a higher-precision Spearman reference or the primary significant-pathway
+identifier sets. The identified per-pathway file, `enrichment_jaccard_by_window.tsv`, belongs to
+a different symbol-based diagnostic analysis and is not an authoritative membership record for
+the primary parent ORA result.
+
+The previously proposed exact-membership criterion therefore cannot be evaluated against a
+preserved parent artifact and is withdrawn for that reason. This is an evidentiary limitation,
+not a discretionary relaxation after observation of the Study 3 endpoint.
+
+The highest-fidelity preserved aggregate references are:
+
+- Spearman ρ = 0.922857, serialized to six decimal places;
+- v29 significant-pathway count = 74;
+- v45 significant-pathway count = 47;
+- shared significant pathways = 46;
+- union = 75;
+- Jaccard = 46/75.
+
+The pre-execution consistency check passes only if:
+
+1. the regenerated significant-pathway counts are exactly 74 under v29 and 47 under v45, with 46
+   shared pathways and 75 in the union;
+2. Jaccard is therefore exactly 46/75;
+3. the regenerated Spearman value, serialized using the parent implementation's six-decimal
+   format, is exactly `0.922857`; and
+4. the frozen input hashes, pathway filtering, pathway alignment, and deterministic
+   implementation match the authoritative parent configuration.
+
+Exact historical pathway-set membership is not imposed as an independent criterion because the
+full parent significant-pathway identifier sets were not preserved as an authoritative artifact.
+
+Any failure to satisfy these conditions, or any discrepancy in frozen input hashes, pathway
+filtering, pathway alignment, or deterministic implementation, halts execution before the
+Study 3 contrast.
+
+This entry is a documented pre-execution protocol amendment to an unexecutable registered
+consistency check. It changes neither the Study 3 endpoint, directional hypothesis, estimator,
+significance threshold, uncertainty procedure, nor disposition rule. The amendment was made
+before implementation or execution of stages 19–21 and before computation of `C_ORA`, `C_GSEA`,
+or their directional comparison.
+
+---
+
+## DEC-010 — Parent-study data provenance and disclosure disposition (2026-07-17)
+
+The original parent-study configuration preserved the GWAS Catalog source-file SHA-256 but left
+the human-readable release identifier as `REPLACE_WITH_RELEASE_ID`.
+
+On July 7, 2026, the only surviving copy of the exact source file was recovered from a system
+Trash directory associated with prior deleted workspaces. The recovered file matched the
+previously recorded SHA-256 `bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b`
+exactly, establishing byte identity with the parent analytical input.
+
+The release label `v1.0.2-associations_e115_r2026-01-19_full` was reconstructed from the
+recovered file's directory name; it was not independently established from GWAS Catalog metadata.
+The file was restored to the canonical project workspace and reverified. The derived mapping
+artifact was regenerated as `comparison.tsv`, SHA-256
+`8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1`, and reproduced the parent ORA
+result: ρ = 0.922857, Jaccard = 0.6133, and significant-set counts 74/47 with 46 shared.
+
+The parent-study provenance record therefore contains four distinct deficiencies identified
+during the July 2026 review:
+
+1. the human-readable GWAS Catalog release identifier remained a placeholder;
+2. after three workspace deletions, the only surviving copy of the pinned source file was
+   recovered from system Trash;
+3. no contemporaneous parent execution records predating July 8, 2026 were preserved in
+   `RUN_LOG.md`; and
+4. no committed artifact preserved the primary significant-pathway identifier sets.
+
+The source-file and regenerated mapping-artifact hashes establish input-byte identity, and the
+parent ORA result is reproducible at the preserved aggregate level: 74 significant pathways under
+v29, 47 under v45, 46 shared pathways, union 75, Jaccard 46/75 = 0.6133, and Spearman ρ =
+0.922857. However, historical pathway-level membership cannot be independently verified against a
+preserved parent output. These are data-custody, execution-provenance, and
+reproducibility-granularity limitations; no input-byte discrepancy or aggregate scientific-result
+discrepancy was found.
+
+I authorize inclusion of a concise data-provenance clarification in the Data Availability or
+Reproducibility section of the resubmitted manuscript. This decision does not alter any
+scientific claim.
+
+> **Data provenance clarification.** The parent analysis preserved cryptographic hashes for its
+> GWAS Catalog input and regenerated mapping artifact, but several provenance elements were
+> incomplete. The human-readable release identifier remained a placeholder; after three workspace
+> deletions, the only surviving copy of the pinned source file was recovered from system Trash; no
+> contemporaneous parent execution records predating July 8, 2026 were preserved in `RUN_LOG.md`;
+> and the primary significant-pathway membership table was not retained. The recovered source file
+> matched the previously recorded SHA-256 exactly, and regeneration of the locus-to-gene mapping
+> artifact reproduced the preserved aggregate ORA results: 74 significant pathways under v29, 47
+> under v45, 46 shared pathways, union 75, Jaccard 46/75 = 0.6133, and Spearman ρ = 0.922857.
+> Input-byte identity and aggregate-result reproduction are therefore verified, but pathway-level
+> membership cannot be independently checked against an archived parent output. These limitations
+> concern data custody, execution provenance, and reproducibility granularity; no input-byte
+> discrepancy or aggregate scientific-result discrepancy was found.
+
+The authorized provenance clarification will be inserted during preparation of the next
+submission version, after the Study 3 scientific disposition is frozen and before the manuscript
+is submitted. This decision does not authorize an immediate edit to the locked manuscript source.
