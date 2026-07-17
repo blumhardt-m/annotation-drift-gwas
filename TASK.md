@@ -6,10 +6,10 @@ Active session authorization. Rewritten per session by the human. An agent runs 
 `study3-build-001`
 
 ## Objective
-Implement the locally frozen Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (locally frozen; SHA in `prereg/study3_prereg.sha256`; external OSF registration pending verification).
+Implement the registered Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (SHA in `prereg/study3_prereg.sha256`; controlling artifact `29fe3ff1…` verified against the immutable embargoed OSF registration snapshot, approved 2026-07-09 — DEC-008/DEC-011).
 
 ## Branch
-`study3-ranked-enrichment` (create from `main` if absent; never commit to `main`).
+`study3-ranked-enrichment` (create from `review/study3-freeze-and-gate0-20260716`, not `main` — the reviewed protocol, checksum lineage, Gate 0 record, and DEC-004 through DEC-011 are not present on `main`; never commit to `main`).
 
 ## Allowed files (create/edit)
 - `src/19_gene_counts.py` — build per-gene, per-version count vectors over the shared union universe from `comparison.tsv` (prereg §3.2).
@@ -28,7 +28,7 @@ Implement the locally frozen Study 3 ranked-enrichment contrast (count-based) st
 ## Preconditions
 `pre_auth_check.sh` must exit 0 before any stage runs. If it fails, stop and escalate; do not weaken the check.
 
-Gate 0 (registration hold): confirmatory execution is prohibited until the investigator verifies the external OSF registration, its timestamp, and its artifact hash against the controlling local prereg (`29fe3ff1…`). `pre_auth_check.sh` passing does not clear this hold — it checks local lock integrity, not external registration. See `EXECUTION_BOUNDARY.md` "Registration hold (Gate 0)".
+Gate 0 (registration verification): CLEARED 2026-07-17 (DEC-011). The external OSF registration of the controlling prereg (`29fe3ff1…`) was verified — initiated 2026-07-08, approved 2026-07-09, before any confirmatory execution. `pre_auth_check.sh` must still exit 0 (local lock integrity), and the amended §3.4 ORA consistency preflight (DEC-009) must pass against the frozen parent inputs before the contrast; either failure halts execution. See `EXECUTION_BOUNDARY.md` "Registration verification (Gate 0 — cleared)".
 
 ## Definition of done
 Stages 19–21 implemented and run to the prereg; all §6 diagnostics emitted; H1 evaluated per §5 (or correctly halted at a trigger); results under `results/study3_ranked_enrichment/`; `RUN_LOG.md` appended with the run record and the Study 3 prereg SHA.

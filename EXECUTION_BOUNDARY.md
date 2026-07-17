@@ -8,7 +8,7 @@ An agent is prohibited from making, and must escalate rather than perform, any c
 
 - Any file in `LOCKED_PROTOCOL_FILES.md`.
 - Any value governed by `validate_config.py:FROZEN_FIELDS` (mapping rule, window grid, window shape, tie-break, instability denominator, gene universe, pathway DB SHA, bootstrap seed, GENCODE definitions, GWAS raw-file path, GWAS SHA-256, and — once added — GWAS snapshot release ID).
-- Any Study 3 frozen parameter defined in the locally frozen prereg §3 (external OSF registration pending verification): the count-statistic definition (count of distinct genome-wide-significant loci per gene, rsID-deduplicated within gene, trait-agnostic), the shared union universe, minSize 15 / maxSize 500, FDR < 0.05, fgsea seed 42, the boundary band Δ, the chromosome-block bootstrap (seed 42, 1000 reps), the primary endpoint (C_ORA > C_GSEA), the demotion of A to descriptive, the degenerate-case rule and its 10-pathway threshold, or the kill criterion.
+- Any Study 3 frozen parameter defined in the registered prereg §3 (OSF-registered; controlling artifact `29fe3ff1…` verified and approved 2026-07-09 — DEC-008/DEC-011): the count-statistic definition (count of distinct genome-wide-significant loci per gene, rsID-deduplicated within gene, trait-agnostic), the shared union universe, minSize 15 / maxSize 500, FDR < 0.05, fgsea seed 42, the boundary band Δ, the chromosome-block bootstrap (seed 42, 1000 reps), the primary endpoint (C_ORA > C_GSEA), the demotion of A to descriptive, the degenerate-case rule and its 10-pathway threshold, or the kill criterion.
 - Data inputs: no re-download, no substitution, no regeneration of any hash-locked input with a different byte content. Restoring a file whose hash matches a locked SHA is permitted (it is provenance restoration, not input change); producing a file whose hash differs is forbidden.
 
 ## Implementation changes — PERMITTED
@@ -33,25 +33,12 @@ Restoring the GWAS Catalog file from backup/Trash into `data/raw/` is permitted 
 
 The only authorized entry point for running any pipeline stage is `pre_auth_check.sh` (which itself calls `validate_config.py`). Invoking `validate_config.py` directly is permitted for inspection but is never a substitute for the full gate: the gate performs checks the guard structurally cannot (repo identity, baseline ancestry, placeholder scan, data-presence-by-hash, inventory cross-check). Guard and gate are harmonized in severity (a modified lock file is fatal by either path), but only the gate is complete. An agent is prohibited from running a stage without a passing `pre_auth_check.sh` in the same session.
 
-## Registration hold (Gate 0) — confirmatory execution prohibited until OSF verified
+## Registration verification (Gate 0 — cleared 2026-07-17)
 
-References in earlier project records to a "registered preregistration" do not establish that an immutable OSF registration exists. Confirmatory Study 3 execution is prohibited until the exact external registration, timestamp, and attached artifact hash have been verified by the investigator.
+Gate 0 has been verified and the temporary registration-verification hold is released (DEC-011). The controlling Study 3 preregistration (`prereg/study3_prereg_v1.0.md`, SHA-256 `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17`, recorded in `prereg/study3_prereg.sha256`) was downloaded from and byte-matched to the immutable embargoed OSF registration snapshot. Registration was initiated 2026-07-08 and approved 2026-07-09 — before any implementation or execution of Study 3 stages 19–21, and before computation of `C_ORA`, `C_GSEA`, or their directional comparison (DEC-008).
 
-This hold stands regardless of Gate 0's eventual outcome. The Study 3 preregistration is a **local freeze** (`prereg/study3_prereg_v1.0.md`, SHA in `prereg/study3_prereg.sha256`); a local freeze is not an external registration, and the two must be kept distinct in every record. `pre_auth_check.sh` passing is necessary but **not** sufficient: it verifies local lock integrity, not external registration.
+The local-freeze-versus-external-registration distinction remains a standing principle: a local freeze is never, by itself, an external registration, and `pre_auth_check.sh` passing verifies local lock integrity only, not registration. What changed on 2026-07-17 is solely that the external registration has now been verified for this controlling artifact; the distinction is retained for all future records.
 
-Gate 0 verification is a manual, investigator-only step. It must determine:
+Registered Study 3 branch: `study3-ranked-enrichment`, to be created from `review/study3-freeze-and-gate0-20260716` (not from `main`), because the reviewed protocol, its checksum lineage, the Gate 0 record, and decisions DEC-004 through DEC-011 exist only on the review branch.
 
-- whether the OSF entity referenced by the investigator (`fv4sg`) is an immutable *registration* rather than an ordinary (mutable) project;
-- its effective registration timestamp;
-- which prereg artifact it contains — the superseded `b8211b77…` or the controlling `29fe3ff1…`;
-- whether the registered bytes exactly match the local artifact;
-- whether registration preceded any confirmatory execution.
-
-Dispositions:
-
-- **No immutable registration** → registration is absent; confirmatory execution stays prohibited.
-- **Registration contains `b8211b77…`** → a registration exists but covers a *superseded* protocol; it must NOT be represented as registration of the controlling protocol (`29fe3ff1…`), and confirmatory execution stays prohibited.
-- **Registration contains `29fe3ff1…`** → potentially clean, subject to timestamp and byte verification before the hold is lifted.
-- **Artifact cannot be retrieved or byte-matched** → registration identity remains unverified; confirmatory execution stays prohibited.
-
-Only the investigator may lift this hold, and only after a clean disposition. No agent may infer registration status from Git, a README statement, a draft-registration notification, or an uploaded file alone.
+Confirmatory execution proceeds under the registered sequencing in prereg §8, subject to the amended §3.4 ORA consistency preflight (DEC-009): the preflight is run against the frozen parent inputs and halts execution mechanically if any DEC-009 condition fails (v29/v45/shared/union counts 74/47/46/75, Jaccard 46/75, Spearman ρ serialized to `0.922857`, and matching input hashes, pathway filtering, alignment, and deterministic implementation). The additive-only execution boundary and every prohibition in this document remain fully in force: no modification of frozen inputs, frozen parameters, `comparison.tsv`, prior results, or the manuscript during Study 3 execution.
