@@ -46,3 +46,33 @@ Notes:            Verification gate PASSED — regenerated comparison.tsv reprod
                   found the count-based GSEA arm non-degenerate (sig v29=47, v45=63; §4.1 sub-case i).
                   R 4.5.3 / fgsea 1.36.2, fgseaMultilevel eps=0. Env recorded in
                   scratch/study3_viability/ENV.md.
+
+---
+
+## 2026-07-17 — Study 3 governance branch remote-publication verification
+
+Remote-publication status was manually verified after commits
+`19d16beebaabfe344b671a78059b452730628056`
+and
+`938d7e9bea4c3f9c5937ea08d7b1066ce30b4907`.
+
+At verification:
+
+- local branch `review/study3-freeze-and-gate0-20260716` had no configured upstream;
+- the local governance and housekeeping commits were not present on the remote;
+- remote branch inventory contained only `main` at
+  `4da4768e130c1a90534a2f57735d5aa3ddfd3902`;
+- remote tag inventory contained only the pre-existing
+  `v1.0_submission` tag at
+  `37272b2ccf2974aba56a26d68c84f26af4eb362f`;
+- the prior remote hotfix branch was absent; and
+- no pull request existed for
+  `review/study3-freeze-and-gate0-20260716`.
+
+Disposition: the Study 3 review branch remained local and unpublished. No
+branch or tag was pushed, and no pull request was created or updated for the
+review branch.
+
+This entry records remote-publication status only. It does not lift the
+standing Study 3 execution hold or authorize implementation or execution of
+stages 19–21.
