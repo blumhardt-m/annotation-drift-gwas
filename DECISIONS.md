@@ -324,3 +324,48 @@ scientific claim.
 The authorized provenance clarification will be inserted during preparation of the next
 submission version, after the Study 3 scientific disposition is frozen and before the manuscript
 is submitted. This decision does not authorize an immediate edit to the locked manuscript source.
+
+---
+
+## DEC-011 — Release of the temporary Study 3 registration hold (2026-07-17)
+
+I reviewed the controlling Study 3 preregistration, the Gate 0 verification recorded in DEC-008,
+the §3.4 protocol amendment recorded in DEC-009, and the temporary registration hold established
+by DEC-006, DEC-007, `EXECUTION_BOUNDARY.md`, `AGENTS.md`, and `TASK.md`.
+
+The factual basis for the temporary hold has been resolved. The exact controlling preregistration
+artifact, SHA-256 `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17`, was
+downloaded from and byte-matched to the immutable embargoed OSF registration snapshot.
+Registration was initiated on July 8, 2026 and approved on July 9, 2026 before implementation or
+execution of Study 3 stages 19–21.
+
+I therefore release the temporary Study 3 registration-verification hold.
+
+This decision does not create supplementary scientific authority or add a new implementation or
+execution gate. Authority to proceed derives from the sequencing and execution provisions already
+frozen in §8 of the registered protocol. The registered protocol's prerequisites have been
+completed, subject to the amended §3.4 ORA consistency check in DEC-009.
+
+The execution-contract files shall be updated solely to:
+
+1. replace the obsolete statements that OSF registration is pending or unverified;
+2. record the verified controlling artifact hash and registration approval date;
+3. identify `study3-ranked-enrichment` as the registered Study 3 branch;
+4. specify that the branch is to be created from `review/study3-freeze-and-gate0-20260716`, because
+   the reviewed protocol, checksum lineage, Gate 0 record, and DEC-004 through DEC-011 are not
+   present on `main`; and
+5. preserve the registered additive-only execution boundary and all existing prohibitions against
+   modifying frozen inputs, frozen parameters, `comparison.tsv`, prior results, or the manuscript
+   during Study 3 execution.
+
+The §3.4 ORA consistency preflight is an authorized and required real-data preflight under the
+registered protocol. It is not the confirmatory Study 3 endpoint. It shall be run against the
+frozen parent inputs and shall halt execution mechanically if any DEC-009 condition fails.
+
+After the execution-contract reconciliation is reviewed and committed, the registered sequence may
+proceed on `study3-ranked-enrichment`: implementation of stages 19–21, the §3.4 preflight, and—only
+if that preflight passes—the registered ranked-enrichment, bootstrap, endpoint evaluation,
+disposition, and output freeze.
+
+This decision does not modify the registered endpoint, directional hypothesis, estimator,
+thresholds, random seeds, uncertainty procedure, stopping rules, or disposition criteria.
