@@ -21,3 +21,6 @@ results/**/*.tsv
 results/**/*.csv
 !results/**/*_summary.tsv
 scratch/
+
+# Local Claude Code session and harness state
+.claude/
