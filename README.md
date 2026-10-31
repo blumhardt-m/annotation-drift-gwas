@@ -1,3 +1,5 @@
+**Publication status — October 30, 2026:** Unpublished manuscript. No preprint has been posted.
+
 # Annotation Drift in GWAS Pathway Interpretation
 
 Reproducible analysis pipeline and manuscript for the study:
