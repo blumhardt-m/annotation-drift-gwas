@@ -8,7 +8,7 @@ Reproducible analysis pipeline and manuscript for the study:
 
 ## Status
 
-Active project. Manuscript resubmission is pending completion of the confirmatory scientific disposition and submission documentation.
+Study 3 has been superseded without execution (DEC-013). Corrections to the parent study are recorded in DEC-012. The successor per-trait annotation-version pilot remains a nonmember candidate pending a portfolio membership decision; no pilot execution is authorized. The manuscript is unpublished; no preprint has been posted.
 
 ## Summary
 
