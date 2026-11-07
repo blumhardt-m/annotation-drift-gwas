@@ -537,3 +537,12 @@ viability probe under scratch/study3_viability/, branch review/study3-freeze-and
 local-safety/study3-pre-review-20260716. No evaluation of the Study 3 kill rule (C_ORA <= C_GSEA) was found in the inspected evidence; the
 parent threshold-amplification claim is therefore neither corroborated nor narrowed by Study 3 and is
 carried as "mechanism not established" per DEC-012 (i).
+
+---
+
+## 2026-11-07 — Per-trait pilot preregistration v1.0 FROZEN (DEC-014)
+prereg/pertrait_pilot_prereg_v1.0.md sha256 d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad, sidecar prereg/pertrait_pilot_prereg.sha256 written by Codex under the owner's explicit freeze instruction on 2026-11-07.
+Source: DECISION_PACKAGE_annotation_drift_2026-11-07_v1.3 §D (md sha256
+29f4ee72018e184e31284a36ee5a8b006a428b51745d7e1d1588948691e7d3e3), owner-adopted D-D1. Deferred field: frozen
+roster hash (NOT_RECORDED until the roster script runs). No execution authorized by this entry.
+The candidate was copied byte-for-byte without edits; its conditional CANDIDATE status is fulfilled by this sidecar and decision. This is a local freeze, not an external OSF registration.
