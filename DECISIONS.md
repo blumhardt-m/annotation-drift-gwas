@@ -369,3 +369,171 @@ disposition, and output freeze.
 
 This decision does not modify the registered endpoint, directional hypothesis, estimator,
 thresholds, random seeds, uncertainty procedure, stopping rules, or disposition criteria.
+
+
+---
+
+## 2026-11-07 — Record corrections after independent assessment (DEC-012)
+
+Basis: GWAS_ANNOTATION_DRIFT_INDEPENDENT_ASSESSMENT_2026-11-07_v1.2 (md sha256 91fdc8fbc64ff694ccd061813a3fadaeb060c1e12d14d751c5aec13e786aadd1) and
+VERIFICATION_REPORT_20261107.md (sha256 329c432bd55050d56ee5b2e300565d81869c4f6dc7fc56da800ca986c53c837e).
+Scope: corrections to the record of the parent study (v1.0_submission, 37272b2) and its deposited results.
+No artifact listed in LOCKED_PROTOCOL_FILES.md is modified by this entry.
+
+(a) Preregistered prediction I > 5% (prereg/prereg.md §1) was not met: I = 4.15% (row-weighted), Wilson
+    CI [4.10, 4.19]; results/tables/bootstrap.txt records "CI upper bound < 5%: EFFECT IS TRIVIAL". The
+    negative-result rule (I < 5% AND J > 0.90) did not trigger because J = 0.613. The manuscript did not
+    disclose the failed prediction. Status: disclosed here; the manuscript framing ("modest drift") stands
+    as a description, not as a preregistered outcome.
+(b) Window sensitivity was run at 250/500/1000 kb (results/tables/sensitivity.tsv); the frozen grid
+    map.windows_kb is 10/25/50/100/250/500 kb. No amendment was recorded. Status: deviation recorded.
+(c) The reported bootstrap (10,000 i.i.d. resamples of association rows; src/05_bootstrap.py) is not the
+    frozen chromosome-block bootstrap (1000 reps, seed 42). Rows are not independent. The Wilson CI, which
+    the protocol names primary, was reported. Status: deviation recorded; CI widths from (c) are not
+    to be cited as evidence of precision.
+(d) Frozen inclusion rules (European ancestry; sentinel SNP per locus with duplicates collapsed by
+    locus_id) are not implemented in src/03_parse_gwas.py; the mapping table is association-level
+    (721,406 rows for 291,292 distinct SNP identifiers). The manuscript Methods omit ancestry.
+    Status: deviation recorded.
+(e) Manuscript §2.5 describes per-version background universes (19,019 / 19,114) and argues from them;
+    the analysis used the frozen union universe (19,315 Ensembl IDs; 20,258 symbols). Status: reporting
+    error recorded; the code behaviour is the one of record.
+(f) Fig. 5B annotation "Full-foreground Jaccard ≈ 0.62 (saturation artifact: 89% universe coverage)" and
+    manuscript §3.3 rest on results/tables/baseline_random.tsv (mean 0.6197, SD 0.4649, CI [0.000, 1.000],
+    n = 100). src/15_baselines.py returns Jaccard = 1.0 when both significant sets are empty and warns
+    that the permutation may not be shuffling; results/tables/saturation_curve.tsv is 0/NaN throughout.
+    The statistic is degenerate. Status: the "by construction ≈ 0.62" claim is withdrawn from the record;
+    the saturation point itself (coverage 89.3% / 89.6%) stands and is recorded under (i).
+(g) "Drift is structured rather than random" rests on rho = 0.275 (differential sets) versus a size-matched
+    null of 0.150 with 95% CI [0.010, 0.314]. The observed value lies inside the null interval. Status:
+    claim withdrawn from the record.
+(h) Instability denominators: 29,920 / 721,406 association rows = 4.147%; 10,129 / 291,292 distinct literal
+    SNP identifiers = 3.477% (strict single-rsID subset 10,125 / 291,199 = 3.4770%); zero identifiers with
+    conflicting assignments (VERIFICATION_REPORT_20261107.md item 6). Status: both denominators are to be
+    reported wherever the rate is stated.
+(i) Scientific limitation of record: the ORA foreground is 89.3% (v29) / 89.6% (v45) of the universe
+    because all genome-wide-significant Catalog associations were pooled across traits. Pathway
+    significance in this regime is driven by the few unhit genes per pathway; 47 of 110 symbol-based
+    significance flips are one-gene overlap changes. The Discussion's per-trait non-identifiability
+    claim is not evidenced by this design. Status: limitation recorded; no per-trait claim is made
+    on this evidence.
+(j) Top-K reporting: Methods K = 10/20/50/100; Results "K >= 100"; results/tables/jaccard_robustness.txt
+    K = 25/50/100/200. Status: minor inconsistency recorded.
+Open (not corrected): identity of the bytes uploaded to ScholarOne 2026-03-12 and the source of fig6.tif
+    in the trashed submission_preparation_log.txt (NOT_COMPUTED).
+
+## 2026-11-07 — Lineage reconciliation (DEC-012-a)
+
+Shared ancestor `4da4768e130c1a90534a2f57735d5aa3ddfd3902`; main was fast-forwarded to
+`review/study3-freeze-and-gate0-20260716` (12 commits, tip
+`8e68ee6e78e4646e8e43f093e863da67a5fdcbed`), then merged with fetched origin/main
+`61df5e0df3fd5c0ac3af38099fe9fb4fe6263be7`. The single reconciliation merge is
+`491c90cee28a59b13dbbaf567b0df0cf11a7c67a`, with those review and public tips as its two
+parents; tag `reconciled-20261107-491c90c` identifies that merge. README auto-merged,
+preserving both status statements; its merge-time SHA-256 is
+`f0ee5a2d166c016459923b0da0a3021b890cfebda3fed9a082b1356143455266`.
+Not pushed; publication decision D-A1b remains pending. This is the owner's explicit
+local reconciliation instruction executed by Codex; it does not authorize publication.
+
+Fresh post-merge audit: `~/agent_work/annotation_drift_lineage_verify_20261107/VERIFICATION_LINEAGE_20261107.md`.
+Report SHA-256 `c1137b69e6564d9ad3157119b53aa1aed3d796847504de23e7e352ac6aa795ec`; commands.log SHA-256 `ea117fcf076262eb877748c192fa75c8db576d24262f98f2acd43c801ffce299`, copied from the audit's SHA256SUMS.
+
+The audit verified both histories reachable, both prereg sidecars, the controlling Study 3
+prereg SHA-256 `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17`,
+and RUN_LOG.md byte identity (SHA-256
+`09946bd7ef47c4e7c4b1b961511b6c4238e086ee0bb2a2ba1b06cbd900966456`). No Stage 19–21
+implementation or results/study3_ranked_enrichment/ path was found at main. Repository
+endpoints were clean and unchanged, and the four-file portfolio bracket matched.
+The audit precedes DEC-012/012-a/013/014 and the separate README Status correction.
+
+Locked-file hashes below are transcribed programmatically from audit item 3: 52 available
+committed paths are byte-identical between the review tip and the merge. Five listed paths
+have no blob in either commit and remain ABSENT / NOT_COMPUTED; no local-file hash is
+substituted for historical evidence. The disposed foreign results path is excluded per the
+inventory. This is a tracked-lineage verification, not a claim that every named path was hashed.
+
+| Path | Bytes at merge | SHA-256 at both review and merge / limitation |
+|---|---:|---|
+| `AGENTS.md` | 3677 | `fea7d8bb6bbf8f2446213e88f70751859f7d5a40e4960de9efe3aacf9986fe81` |
+| `EXECUTION_BOUNDARY.md` | 6041 | `fbe566c4c01650ec6c3f0771769c5e773133bd513040b240426d2b7c77decb6f` |
+| `LOCKED_PROTOCOL_FILES.md` | 7008 | `c962e085e16397a882e2a0b01022f38a4d0fd40a02479756dbfa010072c2ebc9` |
+| `ONBOARDING_SOP.md` | 3919 | `edc44c095641b9bd610541a85475581e46f42238597912612d06b6ae3a092a55` |
+| `REVIEW_CHECKLIST.md` | 2738 | `12c0dc67f6535346ebf179eb5f109c8a8aba20fc30644e0d6e5007ea8551167b` |
+| `REVIEW_TRIGGER.md` | 4208 | `c7ede8753370ed9cf5256691b28b544e3ba0f24bcd4f84c6dbaaffb4cba6b630` |
+| `annotation_drift_manuscript.pdf` | — | ABSENT in both Git trees; comparison NOT_COMPUTED |
+| `data/processed/mappings/comparison.tsv` | — | ABSENT in both Git trees; comparison NOT_COMPUTED |
+| `data/raw/gencode.v29.annotation.gtf.gz` | — | ABSENT in both Git trees; comparison NOT_COMPUTED |
+| `data/raw/gencode.v45.annotation.gtf.gz` | — | ABSENT in both Git trees; comparison NOT_COMPUTED |
+| `data/raw/gwas_catalog.tsv` | — | ABSENT in both Git trees; comparison NOT_COMPUTED |
+| `data/raw/reactome.gmt` | 1006622 | `a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb` |
+| `manuscript/annotation_drift_manuscript.pdf` | 32991 | `c331bd69c62d32dd628b2fac51c6419e469c687b69c2e2415308d417c97e90dd` |
+| `manuscript/build_manuscript.py` | 48621 | `b00b708f44f834edf5dbfeadf64367dbf0da552de3376414431e373cf7ae6d22` |
+| `pre_auth_check.sh` | 5227 | `9e98540049a28da64f5c5bbb1375d27130578ae4bae24d424104e6e6978d5184` |
+| `prereg/frozen_params.sha256` | 92 | `758696c08cb936760e855374103854388912e9151e2d2ccd0a0eb17ad89814f5` |
+| `prereg/frozen_params.yaml` | 5034 | `8407f51ff47b8ba4cdfd0f58b22a23a94f3d221dd295ae828cbee225ec01322f` |
+| `prereg/prereg.md` | 5974 | `68aed7121f16d92ca6d67e9f22ac1e3541c660b5afe1cea3ad2b2b30b67073c5` |
+| `prereg/study3_prereg.sha256` | 88 | `0abe0e566a0e4089c82271ad267095339f8d67f4ce1792eb51ced3968565c05d` |
+| `prereg/study3_prereg_v1.0.md` | 22370 | `29fe3ff1bfe017cc76fec92c4b118a6a21c877ecd83ef71ae562de5cc2651d17` |
+| `results/figures/.gitkeep` | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `results/figures/FIGURE_MANIFEST.txt` | 10587 | `51af7acbe5756b13f1a031559c190ec2b7498de03c4d121db0d895aa0dd7e4af` |
+| `results/figures/fig1_pathway_scatter.pdf` | 44411 | `ad0eeffe8832eecf4ececb90578d109e64f807707e790806507b464867fbbd7a` |
+| `results/figures/fig2_instability_windows.pdf` | 13180 | `9c9ccc96869e227f510d7b390b6606830460340d8d487221f3c115480e9f7991` |
+| `results/figures/fig3_drift_decomposition.pdf` | 15684 | `8081d0fbb49d81ec1e49032c030438e9ca26c5a9e1a4e3a2e58dd83edafd7315` |
+| `results/figures/fig4_concordance_summary.pdf` | 19023 | `1396fbcca889c0feb99998f16ac69360a3e51f2d87996a712770cb2a25eb295f` |
+| `results/figures/fig5_calibration.pdf` | 32128 | `fc428b1cac787b4c21c8ceb0f0093f41278bae2817cfe21985b744762bd89e46` |
+| `results/final_manuscript_update_log.txt` | 5087 | `bd62f730f16c43a8965eba0e755831a15f3acff88c5bc76874504f5b06d045d6` |
+| `results/study1_GO_replication/go_rank_scatter.png` | 72461 | `f5cc67b718d0ae1a8214fcea3ac2201304892b195bbe57f97091f62b64f8eacb` |
+| `results/study1_GO_replication/go_replication_summary.tsv` | 157 | `3529d7088cc1abe03a1bd7a3e8d43333e1fb9f98289658ac6e98880273f738e5` |
+| `results/study2_v37_v45/instability_summary.tsv` | 193 | `a9d1b7004bb30cdb3a57a8eccff887a82ceb5ffd634c1621ff6c548bb7bea539` |
+| `results/study2_v37_v45/rank_scatter.png` | 133635 | `2bd2d91deea77988b98035f82458369745e53b8067515751d48f1375869c3bb0` |
+| `results/study2_v37_v45/study2_summary.tsv` | 430 | `72ecce675913a3ba2fdb24690d97b694411fa1e6c0d3642a4e54f8c92df89124` |
+| `results/tables/.gitkeep` | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| `results/tables/baseline_fixed.tsv` | 168 | `2bd20f8a6dc7edded8b0f98ffe1fcee4112ed972d3244d50564307690821d73f` |
+| `results/tables/baseline_random.tsv` | 150 | `88e33351e320bb5d3379a6c8d38adac954b32a94f15c411c436b6ebe71c5108d` |
+| `results/tables/bootstrap.txt` | 231 | `c8e8c16dca7b45acc460021ea76206a7339e1dbfdc38f89a15b3bbb423052a02` |
+| `results/tables/category_summary.tsv` | 544 | `2f0f305c7a435068493dbd798b9027a6ebe2b4b96ed305dea8e54509208109a9` |
+| `results/tables/difference_classification.tsv` | 2980440 | `11329c05b081108963f214a25fe592aa567264516c5b51b276d555816573a27b` |
+| `results/tables/difference_classification_summary.txt` | 255 | `613e7f786aefa060b822f6d6f449949da0e07a16e852b97fab73034651f2032d` |
+| `results/tables/differential_baseline_random.tsv` | 130 | `db0d5c0f52a07ffd147c76bc61e0d5c4fe4c4ec7c38925d1c5c902df153d4c01` |
+| `results/tables/differential_enrichment.tsv` | 90 | `bd4ed15760814c9657efac2fe792df7a051f45a160da70e3b6c24c628a13bda9` |
+| `results/tables/enrichment_diagnostics.txt` | 4842 | `fa7a58168a2b0209004d5ff6d6c82d6f1a80f913781d2b26f5ef01e11c9039d1` |
+| `results/tables/enrichment_ensembl_id.txt` | 3355 | `63a70dc46ab1756584caf994c7243961b4f213d09befb9cd999b0190449e2c5f` |
+| `results/tables/enrichment_harmonized.txt` | 2638 | `2934a83b6062963824764a7ba4847adc942b8c3f70002a9669338fa59b563761` |
+| `results/tables/enrichment_jaccard_by_window.tsv` | 145208 | `355e7bf5da3eb1fe5b9b6bb184cc52917eae40c27edd1d1b3bef1ddd21990718` |
+| `results/tables/flip_rate.tsv` | 182 | `cf2077217eb3ef6a9ad80f80acab30956fc8b96c68f920587cd00d2d79c0fb12` |
+| `results/tables/jaccard_robustness.txt` | 2466 | `9d4ee22fb0aefdb8e22623b12c30758453fab62b6709b8548827e00a802f53eb` |
+| `results/tables/saturation_curve.tsv` | 179 | `365d4257f656f561418b755ecd55f278e2fe62c39353ca32063505833bcb6e5c` |
+| `results/tables/sensitivity.tsv` | 144 | `f982a012328e4f9f8b8ebdaaed9681232d7bc04d31c81423cf190abfcb7e61d8` |
+| `scripts/study2_v37_v45/export_primary_reactome.py` | 11737 | `e202126a27f23dc5520e96388adbea3ae96eacdf40961043bd7756a7064f6493` |
+| `src/04_map_variants.py` | 3466 | `e64c1bfd76e22b6db181b24171788c5760e238b7257181737dc88d1d061056d0` |
+| `src/05_bootstrap.py` | 1828 | `804229a524408d2548498b61871394d0777505771e47c2c90c07b057582c2dd9` |
+| `src/12_ensembl_id_enrichment.py` | 15264 | `2934db6053aa9013eff6570ea1fc7278b8fed1854824f39de975970308b3f87a` |
+| `src/16_flip_rate.py` | 14140 | `7ba8410dda81b4a2435deecd2ae3bf7d9a25bb834aed0d50200667785b1e3d4e` |
+| `src/primary_reactome_export.py` | 10240 | `a4d3a52cc614fddc79ee2e6ec1ee302b80356102a1c0c9895531f5e4b6b0fdd1` |
+| `validate_config.py` | 6153 | `77f599697f9d4299ae1219cf43777481b81bec12e7f88b98e4db9d52efde8c2b` |
+
+Preview-run deviations (owner-specified record):
+
+1. Output-path deviation: the preview was written under `~/Study/research/08_GENOMICS/annotation_drift_gwas/annotation_drift_lineage_preview_20261107/` instead of the prompt's `~/agent_work/annotation_drift_lineage_preview_20261107/` (commands.log batches 1–3 and report provenance paragraphs). On 2026-11-07 the complete directory was moved to the requested agent_work path; all nine files retained their SHA-256 and byte count. Historical path statements inside the preview were preserved.
+2. Failed script-construction attempt: "A functions.exec script-construction attempt failed with a JavaScript SyntaxError before executing commands or writing files" (commands.log line 41). No side effects; retained as an execution event in the transcript.
+3. Post-seal wording correction: `verify_preview.py` edited one row of `LOCKED_FILES_CHECK.md` after the first `SHA256SUMS` was written, then resealed the manifest (commands.log lines 244–249). The delivered files match the resealed manifest; the first seal is superseded. The relocation preserved the final resealed bytes.
+
+Audit execution disclosure: the initial fresh audit attempt was stopped after it read an
+explicitly excluded Downloads instruction file; its deviation receipt is preserved as
+`attempt1_deviation.txt` in the verification directory. It supplied no passing verdict.
+A fresh replacement audit produced the report cited above without reading that receipt or
+the excluded instructions. The launcher did not expose a plan-mode selector: the replacement
+report records actual Default mode and workspace-write sandbox, with read-only behavior
+outside its output directory and narrowly scoped escalation for the deliverables. Exact
+deployed model/version was unavailable and is labelled NOT_VERIFIABLE in the report.
+
+## 2026-11-07 — Study 3 superseded without execution (DEC-013)   [ADOPTED 2026-11-07 14:27 -08:00, D-C1]
+Study 3 (prereg/study3_prereg_v1.0.md, sha256 29fe3ff1…, OSF fv4sg) is superseded by the per-trait
+annotation-version pilot specified in DECISION_PACKAGE_annotation_drift_2026-11-07 §D. Basis: assessment
+v1.2 §7 and §10. No confirmatory Study 3 execution evidence (stages 19–21, results directory, R/fgsea logs, or an
+implementation branch) was found in the inspected scope (VERIFICATION_REPORT_20261107 item 4).
+Preserved unchanged: the prereg and sidecar, the OSF registration (embargo disposition per D-A1b), the
+viability probe under scratch/study3_viability/, branch review/study3-freeze-and-gate0-20260716 and tag
+local-safety/study3-pre-review-20260716. No evaluation of the Study 3 kill rule (C_ORA <= C_GSEA) was found in the inspected evidence; the
+parent threshold-amplification claim is therefore neither corroborated nor narrowed by Study 3 and is
+carried as "mechanism not established" per DEC-012 (i).
