@@ -76,3 +76,29 @@ review branch.
 This entry records remote-publication status only. It does not lift the
 standing Study 3 execution hold or authorize implementation or execution of
 stages 19–21.
+
+
+MODEL: Codex, based on GPT-6; version unavailable. THINKING LEVEL: high requested; actual setting unavailable.
+Pilot revision 1.1 execution: exact governance installed, inputs staged and software versions matched; prescribed TSS preparation imported parse_gtf_to_tss with default biotype.
+{
+  "v29": {
+    "regenerated_sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+    "retained_sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+    "byte_equal": true,
+    "verdict": "EQUAL"
+  },
+  "v45": {
+    "regenerated_sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+    "retained_sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+    "byte_equal": true,
+    "verdict": "EQUAL"
+  }
+}
+
+Both pilot and legacy authorization gates PASS; 31 synthetic checks PASS. No empirical outcome has been inspected. Commits: {"governance": "064e46728c1ad4fa20b5c7fb25e46135b404d213", "implementation": "99a08d7806575022468f01aec43885764e62ed98", "tests": "8a4c0ddbe214cc5f3078418f4e43740d4510eaba"}
+
+MODEL: Codex, based on GPT-6; version unavailable. THINKING LEVEL: high requested; actual setting unavailable.
+Roster >= 100 frozen before enrichment: N=699, SHA-256 9d6b812deed0337fb81d4e32224701425eb861ecb377957fe7ad6d845842079b; code-point order, existing indices preserved.
+
+MODEL: Codex, based on GPT-6; version unavailable. THINKING LEVEL: high requested; actual runtime setting unavailable.
+2026-11-08T04:36:16.753107+00:00 STOPPED: fgsea v29 for trait index 2 returned NA pval/padj for 2 of 1369 pathways. No scientific rule evaluated; no C2, deletion, extension or rerun. Attempted outputs retained; scientific code unchanged. Owner disposition required. The adopted terminal deposit/parking pair closes this attempt.
