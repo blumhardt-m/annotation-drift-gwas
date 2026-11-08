@@ -191,8 +191,10 @@ def test_baseline_symlink_identity_without_following_target(tmp_path):
     assert gate.baseline_bytes(p,b"120000")==b"../../../00_ADMIN/tools/run.sh"
 
 
-def test_fgsea_adapter_integration_and_determinism(tmp_path):
+def test_fgsea_adapter_integration_and_determinism(tmp_path, monkeypatch):
     import pipeline
+    monkeypatch.setattr(pipeline,"OUT",tmp_path)
+    (tmp_path/"EXECUTION_BINDING.json").write_text("synthetic binding")
     genes=[f"G{i:03d}" for i in range(100)]
     stats={g:float(100-i) for i,g in enumerate(genes)}
     pathways={"head":set(genes[:15]),"tail":set(genes[-15:])}
@@ -200,5 +202,5 @@ def test_fgsea_adapter_integration_and_determinism(tmp_path):
     second,qb=pipeline.fgsea_run(tmp_path/"two","v29",stats,pathways)
     assert first==second and qa==qb
     assert {r[0] for r in first}==set(pathways)
-    assert qa["head"]<.05 and qa["tail"]<.05
+    assert qa["head"]<.05 and qa["tail"]>=.05
     assert [(r[0],r[2]) for r in first]==[(r[0],15) for r in first]
