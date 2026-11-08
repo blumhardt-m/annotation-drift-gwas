@@ -546,3 +546,15 @@ Source: DECISION_PACKAGE_annotation_drift_2026-11-07_v1.3 §D (md sha256
 29f4ee72018e184e31284a36ee5a8b006a428b51745d7e1d1588948691e7d3e3), owner-adopted D-D1. Deferred field: frozen
 roster hash (NOT_RECORDED until the roster script runs). No execution authorized by this entry.
 The candidate was copied byte-for-byte without edits; its conditional CANDIDATE status is fulfilled by this sidecar and decision. This is a local freeze, not an external OSF registration.
+
+
+
+## 2026-11-07 — Per-trait pilot preregistration amended v1.0 → v1.1 before any execution (DEC-015)
+
+Controlling file after adoption: prereg/pertrait_pilot_prereg_v1.1.md, sha256 b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db; sidecar prereg/pertrait_pilot_prereg.sha256 rewritten by owner over the v1.1 bytes. v1.0 preserved unchanged at prereg/pertrait_pilot_prereg_v1.0.md (sha256 d7e26148…, DEC-014); v1.0 sidecar retained as prereg/pertrait_pilot_prereg_v1.0.sha256 for provenance.
+
+Basis: activation preflight package 2026-11-07 (manifest sha256 bd41cd6d…), owner dispositions 17:28 -08:00. Execution state at amendment: none — no roster, enrichment, C2, sensitivity, or implementation exists under any version.
+
+Amendment contents (prereg §11): v37/v45 pair and GO:BP deferred (both v1.0 provenance statements were text errors: no v37 pin exists in the clone; Study 1 GO inputs were unpinned mutable downloads); v29/v45 TSS tables bound by deterministic regeneration from the pinned GTFs with src/02_parse_gencode.py::parse_gtf_to_tss and byte comparison to the retained tables before enrichment, mismatch leaving the binding unresolved; roster order (code-point; extension appends, indices preserved); C2 draw order, generator scope and exact sampling calls; C2 percentile = 950th order statistic with strict exceedance; R executable pinned by absolute path. Thresholds, precedence, outcomes, extension rule, estimand, mapping, ORA and fgsea parameters unchanged.
+
+Authority: owner adoption of the amendment is recorded here; no implementation, roster, or empirical execution is authorized by this entry. Membership and allocation remain as recorded in PDG-033 (nonmember, OWNER_DECISION_PENDING).
