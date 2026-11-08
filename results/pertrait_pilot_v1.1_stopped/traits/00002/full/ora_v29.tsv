@@ -1,0 +1,1370 @@
+pathway	p	q	overlap
+ABC transporter disorders	0.9999999999778926	0.9999999999927582	0
+ABC transporters in lipid homeostasis	0.9999999999849285	0.9999999999927582	0
+ABC-family proteins mediated transport	0.9999999999719424	0.9999999999927582	0
+ADORA2B mediated anti-inflammatory cytokines production	0.40231157485391517	0.9999999999927582	1
+ADP signalling through P2Y purinoceptor 1	0.9999999999693486	0.9999999999927582	0
+ADP signalling through P2Y purinoceptor 12	0.9999999999713697	0.9999999999927582	0
+AMPK-induced ERAD and lysosome mediated degradation of PD-L1(CD274)	0.9999999999799639	0.9999999999927582	0
+APC-Cdc20 mediated degradation of Nek2A	0.9999999999838654	0.9999999999927582	0
+APC/C-mediated degradation of cell cycle proteins	0.9999999999654162	0.9999999999927582	0
+APC/C:Cdc20 mediated degradation of Cyclin B	0.9999999999846867	0.9999999999927582	0
+APC/C:Cdc20 mediated degradation of Securin	0.9999999999799639	0.9999999999927582	0
+APC/C:Cdc20 mediated degradation of mitotic proteins	0.9999999999846415	0.9999999999927582	0
+APC/C:Cdh1 mediated degradation of Cdc20 and other APC/C:Cdh1 targeted proteins in late mitosis/early G1	0.9999999999907598	0.9999999999927582	0
+APC:Cdc20 mediated degradation of cell cycle proteins prior to satisfation of the cell cycle checkpoint	0.9999999999907598	0.9999999999927582	0
+ATF4 activates genes in response to endoplasmic reticulum  stress	0.9999999999635173	0.9999999999927582	0
+ATP-dependent chromatin remodelers	0.3159867999245989	0.9999999999927582	1
+AUF1 (hnRNP D0) binds and destabilizes mRNA	0.9999999999776203	0.9999999999927582	0
+AURKA Activation by TPX2	0.9999999999776097	0.9999999999927582	0
+Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects	0.9999999999849285	0.9999999999927582	0
+Aberrant regulation of mitotic cell cycle due to RB1 defects	0.9999999999856307	0.9999999999927582	0
+Aberrant regulation of mitotic exit in cancer due to RB1 defects	0.999999999959521	0.9999999999927582	0
+Abortive elongation of HIV-1 transcript in the absence of Tat	0.9999999999753613	0.9999999999927582	0
+Acetylcholine Neurotransmitter Release Cycle	0.9999999999849285	0.9999999999927582	0
+Activated NOTCH1 Transmits Signal to the Nucleus	0.3159867999245989	0.9999999999927582	1
+Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3	0.9999999999709193	0.9999999999927582	0
+Activated point mutants of FGFR2	0.015809309748793982	0.6145683838015972	2
+Activation of AMPK downstream of NMDARs	0.9999999999714452	0.9999999999927582	0
+Activation of APC/C and APC/C:Cdc20 mediated degradation of mitotic proteins	0.9999999999778926	0.9999999999927582	0
+Activation of ATR in response to replication stress	0.9999999999927582	0.9999999999927582	0
+Activation of BAD and translocation to mitochondria	0.16780370988038532	0.9999999999927582	1
+Activation of BH3-only proteins	0.30754884182071957	0.9999999999927582	1
+Activation of G protein gated Potassium channels	0.04825846754066534	0.7103853985287188	2
+Activation of GABAB receptors	0.015343948976687621	0.6145683838015972	3
+Activation of HOX genes during differentiation	0.2904221903929128	0.9999999999927582	2
+Activation of IRF3, IRF7 mediated by TBK1, IKKε (IKBKE)	0.19783548748264998	0.9999999999927582	1
+Activation of Matrix Metalloproteinases	0.32432236837867806	0.9999999999927582	1
+Activation of NF-kappaB in B cells	0.9999999999662371	0.9999999999927582	0
+Activation of NMDA receptors and postsynaptic events	0.9999999999656157	0.9999999999927582	0
+Activation of SMO	0.9999999999677108	0.9999999999927582	0
+Activation of anterior HOX genes in hindbrain development during early embryogenesis	0.2904221903929128	0.9999999999927582	2
+Activation of gene expression by SREBF (SREBP)	0.3949342556793892	0.9999999999927582	1
+Activation of kainate receptors upon glutamate binding	0.9999999999714452	0.9999999999927582	0
+Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S	0.9999999999799639	0.9999999999927582	0
+Activation of the pre-replicative complex	0.9999999999624224	0.9999999999927582	0
+Acyl chain remodelling of PC	0.9999999999635173	0.9999999999927582	0
+Acyl chain remodelling of PE	0.9999999999714452	0.9999999999927582	0
+Acyl chain remodelling of PG	0.9999999999677108	0.9999999999927582	0
+Acyl chain remodelling of PI	0.9999999999849285	0.9999999999927582	0
+Acyl chain remodelling of PS	0.9999999999713697	0.9999999999927582	0
+Adherens junctions interactions	0.7175280990118703	0.9999999999927582	2
+Adipogenesis	0.1362693564295951	0.9999999999927582	3
+Adrenaline,noradrenaline inhibits insulin secretion	0.2903607323276728	0.9999999999927582	1
+Aerobic respiration and respiratory electron transport	0.9999999999894049	0.9999999999927582	0
+Aflatoxin activation and detoxification	0.9999999999677108	0.9999999999927582	0
+Aggrephagy	0.999999999983398	0.9999999999927582	0
+Amine ligand-binding receptors	0.3874662698620969	0.9999999999927582	1
+Amino acid transport across the plasma membrane	0.9999999999714452	0.9999999999927582	0
+Amino acids regulate mTORC1	0.4777823413152897	0.9999999999927582	1
+Amplification  of signal from unattached  kinetochores via a MAD2  inhibitory signal	0.10196401144623603	0.9999999999927582	3
+Amplification of signal from the kinetochores	0.10196401144623603	0.9999999999927582	3
+Amyloid fiber formation	0.9999999999833875	0.9999999999927582	0
+Anchoring of the basal body to the plasma membrane	0.9999999999565057	0.9999999999927582	0
+Anti-inflammatory response favouring Leishmania parasite infection	0.5965025770630716	0.9999999999927582	1
+Antigen Presentation: Folding, assembly and peptide loading of class I MHC	0.9999999999735208	0.9999999999927582	0
+Antigen activates B Cell Receptor (BCR) leading to generation of second messengers	0.9999999999735208	0.9999999999927582	0
+Antigen processing-Cross presentation	0.9999999999706595	0.9999999999927582	0
+Antigen processing: Ub, ATP-independent proteasomal degradation	0.999999999961952	0.9999999999927582	0
+Antigen processing: Ubiquitination & Proteasome degradation	0.45769808460809147	0.9999999999927582	4
+Antimicrobial mechanism of IFN-stimulated genes	0.13361474088586975	0.9999999999927582	4
+Antimicrobial peptides	0.6602976498204374	0.9999999999927582	1
+Apoptosis	0.8618082934935394	0.9999999999927582	1
+Apoptotic cleavage of cellular proteins	0.9999999999806142	0.9999999999927582	0
+Apoptotic execution phase	0.999999999975052	0.9999999999927582	0
+Apoptotic factor-mediated response	0.999999999961952	0.9999999999927582	0
+Aquaporin-mediated transport	0.46480402494884254	0.9999999999927582	1
+Arachidonate metabolism	0.9999999999729907	0.9999999999927582	0
+Asparagine N-linked glycosylation	0.9770840777525195	0.9999999999927582	1
+Aspirin ADME	0.9999999999669141	0.9999999999927582	0
+Assembly Of The HIV Virion	0.9999999999646785	0.9999999999927582	0
+Assembly and cell surface presentation of NMDA receptors	0.9999999999776203	0.9999999999927582	0
+Assembly of active LPL and LIPC lipase complexes	0.9999999999677108	0.9999999999927582	0
+Assembly of collagen fibrils and other multimeric structures	0.1612566413854175	0.9999999999927582	2
+Assembly of the ORC complex at the origin of replication	0.9999999999856307	0.9999999999927582	0
+Assembly of the pre-replicative complex	0.9999999999707591	0.9999999999927582	0
+Association of TriC/CCT with target proteins during biosynthesis	0.9999999999726835	0.9999999999927582	0
+Asymmetric localization of PCP proteins	0.46480402494884254	0.9999999999927582	1
+Attachment and Entry_9694614	0.9999999999646785	0.9999999999927582	0
+Attachment of bacteria to epithelial cells	0.22678794273159497	0.9999999999927582	1
+Attenuation phase	0.9999999999635173	0.9999999999927582	0
+Autodegradation of Cdh1 by Cdh1:APC/C	0.9999999999826081	0.9999999999927582	0
+Autodegradation of the E3 ubiquitin ligase COP1	0.9999999999752546	0.9999999999927582	0
+Autophagy	0.5577219296142933	0.9999999999927582	2
+Azathioprine ADME	0.9999999999713697	0.9999999999927582	0
+B-WICH complex positively regulates rRNA expression	0.9999999999577459	0.9999999999927582	0
+BBSome-mediated cargo-targeting to cilium	0.9999999999753613	0.9999999999927582	0
+BMAL1:CLOCK,NPAS2 activates circadian expression	0.03680049602890505	0.6704758364244455	2
+Bacterial Infection Pathways	0.34847629281712084	0.9999999999927582	2
+Base Excision Repair	0.576175914522076	0.9999999999927582	1
+Base-Excision Repair, AP Site Formation	0.40231157485391517	0.9999999999927582	1
+Basigin interactions	0.9999999999846867	0.9999999999927582	0
+Beta defensins	0.3645071502196093	0.9999999999927582	1
+Beta-catenin independent WNT signaling	0.22037914358612454	0.9999999999927582	3
+Beta-catenin phosphorylation cascade	0.1779366698871728	0.9999999999927582	1
+Bile acid and bile salt metabolism	0.4167985845635938	0.9999999999927582	1
+Binding and Uptake of Ligands by Scavenger Receptors	0.999999999960504	0.9999999999927582	0
+Biofilm formation	0.22678794273159497	0.9999999999927582	1
+Biological oxidations	0.9264308645183881	0.9999999999927582	1
+Biosynthesis of DHA-derived SPMs	0.9999999999849285	0.9999999999927582	0
+Biosynthesis of specialized proresolving mediators (SPMs)	0.999999999961952	0.9999999999927582	0
+Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein	0.6111078435143834	0.9999999999927582	1
+Blood group systems biosynthesis	0.999999999959521	0.9999999999927582	0
+Branched-chain amino acid catabolism	0.21725463562236444	0.9999999999927582	1
+Budding and maturation of HIV virion	0.9999999999735208	0.9999999999927582	0
+Butyrate Response Factor 1 (BRF1) binds and destabilizes mRNA	0.18794676795670193	0.9999999999927582	1
+C-type lectin receptors (CLRs)	0.4548072438117689	0.9999999999927582	2
+CD209 (DC-SIGN) signaling	0.21725463562236444	0.9999999999927582	1
+CD28 dependent PI3K/Akt signaling	0.9999999999635173	0.9999999999927582	0
+CDC42 GTPase cycle	0.5286946769551887	0.9999999999927582	2
+CDK-mediated phosphorylation and removal of Cdc6	0.9999999999633389	0.9999999999927582	0
+CLEC7A (Dectin-1) signaling	0.6475322803355221	0.9999999999927582	1
+COPI-dependent Golgi-to-ER retrograde traffic	0.9999999999707591	0.9999999999927582	0
+COPI-independent Golgi-to-ER retrograde traffic	0.13595866366407133	0.9999999999927582	2
+COPI-mediated anterograde transport	0.9999999999848619	0.9999999999927582	0
+COPII-mediated vesicle transport	0.9999999999824705	0.9999999999927582	0
+CREB1 phosphorylation through NMDA receptor-mediated activation of RAS signaling	0.9999999999693486	0.9999999999927582	0
+CRMPs in Sema3A signaling	0.9999999999872295	0.9999999999927582	0
+CS-GAG biosynthesis	0.2076042940580923	0.9999999999927582	1
+CS/DS degradation	0.19783548748264998	0.9999999999927582	1
+Ca-dependent events	0.35666526722987985	0.9999999999927582	1
+Ca2+ pathway	0.17420665578554262	0.9999999999927582	2
+CaM pathway	0.3406912701835075	0.9999999999927582	1
+Calmodulin induced events	0.3406912701835075	0.9999999999927582	1
+Calnexin/calreticulin cycle	0.9999999999838654	0.9999999999927582	0
+Cap-dependent Translation Initiation	0.9999999999677579	0.9999999999927582	0
+Carboxyterminal post-translational modifications of tubulin	0.9999999999669822	0.9999999999927582	0
+Cardiac conduction	0.7845722435272146	0.9999999999927582	1
+Cardiogenesis	0.2727478377469062	0.9999999999927582	1
+Cargo concentration in the ER	0.9999999999767414	0.9999999999927582	0
+Cargo recognition for clathrin-mediated endocytosis	0.7069172882048194	0.9999999999927582	1
+Cargo trafficking to the periciliary membrane	0.9999999999776097	0.9999999999927582	0
+Caspase activation via Death Receptors in the presence of ligand	0.9999999999646785	0.9999999999927582	0
+Caspase activation via extrinsic apoptotic signalling pathway	0.9999999999693486	0.9999999999927582	0
+Cdc20:Phospho-APC/C mediated degradation of Cyclin A	0.9999999999633389	0.9999999999927582	0
+Cell Cycle Checkpoints	0.4171587003475555	0.9999999999927582	4
+Cell death signalling via NRAGE, NRIF and NADE	0.576175914522076	0.9999999999927582	1
+Cell junction organization	0.8308925029572736	0.9999999999927582	2
+Cell recruitment (pro-inflammatory response)	0.9999999999838654	0.9999999999927582	0
+Cell surface interactions at the vascular wall	0.4828094193557928	0.9999999999927582	2
+Cell-Cell communication	0.8791381374915914	0.9999999999927582	2
+Cell-cell junction organization	0.7864849971995402	0.9999999999927582	2
+Cell-extracellular matrix interactions	0.9999999999646785	0.9999999999927582	0
+Cellular Senescence	0.5854614005834896	0.9999999999927582	2
+Cellular hexose transport	0.9999999999787348	0.9999999999927582	0
+Cellular response to chemical stress	0.9010016916388883	0.9999999999927582	1
+Cellular response to heat stress	0.7032886892224159	0.9999999999927582	1
+Cellular response to hypoxia	0.9999999999692479	0.9999999999927582	0
+Cellular response to starvation	0.8377617178737139	0.9999999999927582	1
+Cellular responses to mechanical stimuli	0.1280278051312248	0.9999999999927582	3
+Centrosome maturation	0.9999999999618389	0.9999999999927582	0
+Chaperone Mediated Autophagy	0.999999999959521	0.9999999999927582	0
+Chaperonin-mediated protein folding	0.9999999999652912	0.9999999999927582	0
+Chemokine receptors bind chemokines	0.49666452926935306	0.9999999999927582	1
+Chk1/Chk2(Cds1) mediated inactivation of Cyclin B:Cdk1 complex	0.9999999999872295	0.9999999999927582	0
+Cholesterol biosynthesis	0.9999999999693486	0.9999999999927582	0
+Chondroitin sulfate/dermatan sulfate metabolism	0.3406912701835075	0.9999999999927582	1
+Chromatin modifications during the maternal to zygotic transition (MZT)	0.9999999999927582	0.9999999999927582	0
+Chromatin modifying enzymes	0.1367419713496017	0.9999999999927582	5
+Chromatin organization	0.16529614154633798	0.9999999999927582	5
+Chromosome Maintenance	0.9999999999716631	0.9999999999927582	0
+Cilium Assembly	0.9999999999659092	0.9999999999927582	0
+Circadian clock	0.011134124006510534	0.6145683838015972	5
+Citric acid cycle (TCA cycle)	0.9999999999767414	0.9999999999927582	0
+Class A/1 (Rhodopsin-like receptors)	0.5405571996055584	0.9999999999927582	4
+Class B/2 (Secretin family receptors)	0.10699256621647771	0.9999999999927582	3
+Class C/3 (Metabotropic glutamate/pheromone receptors)	0.9999999999752546	0.9999999999927582	0
+Class I MHC mediated antigen processing & presentation	0.6364752810160649	0.9999999999927582	4
+Class I peroxisomal membrane protein import	0.2076042940580923	0.9999999999927582	1
+Clathrin-mediated endocytosis	0.818715985377728	0.9999999999927582	1
+Cleavage of the damaged purine	0.9999999999806142	0.9999999999927582	0
+Cleavage of the damaged pyrimidine	0.3874662698620969	0.9999999999927582	1
+Co-inhibition by CTLA4	0.22678794273159497	0.9999999999927582	1
+Co-inhibition by PD-1	0.6400887229160588	0.9999999999927582	2
+Co-stimulation by CD28	0.4378760766004279	0.9999999999927582	1
+Cobalamin (Cbl, vitamin B12) transport and metabolism	0.9999999999713697	0.9999999999927582	0
+Collagen biosynthesis and modifying enzymes	0.1873165338253293	0.9999999999927582	2
+Collagen chain trimerization	0.09246416922321521	0.9904779969556841	2
+Collagen degradation	0.17420665578554262	0.9999999999927582	2
+Collagen formation	0.2904221903929128	0.9999999999927582	2
+Common Pathway of Fibrin Clot Formation	0.9999999999787348	0.9999999999927582	0
+Complement cascade	0.9999999999615264	0.9999999999927582	0
+Complex I biogenesis	0.9999999999633389	0.9999999999927582	0
+Complex III assembly	0.9999999999693486	0.9999999999927582	0
+Complex IV assembly	0.9999999999669141	0.9999999999927582	0
+Condensation of Prophase Chromosomes	0.9999999999867482	0.9999999999927582	0
+Constitutive Signaling by AKT1 E17K in Cancer	0.9999999999693486	0.9999999999927582	0
+Constitutive Signaling by Aberrant PI3K in Cancer	0.2768993734331587	0.9999999999927582	2
+Constitutive Signaling by EGFRvIII	0.9999999999872295	0.9999999999927582	0
+Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants	0.999999999961952	0.9999999999927582	0
+Constitutive Signaling by NOTCH1 HD Domain Mutants	0.16780370988038532	0.9999999999927582	1
+Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants	0.14011123040881443	0.9999999999927582	2
+Constitutive Signaling by NOTCH1 PEST Domain Mutants	0.14011123040881443	0.9999999999927582	2
+Conversion from APC/C:Cdc20 to APC/C:Cdh1 in late anaphase	0.999999999959521	0.9999999999927582	0
+Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding	0.9999999999726835	0.9999999999927582	0
+Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding	0.9999999999767414	0.9999999999927582	0
+Cristae formation	0.9999999999714452	0.9999999999927582	0
+Cross-presentation of soluble exogenous antigens (endosomes)	0.9999999999884099	0.9999999999927582	0
+Crosslinking of collagen fibrils	0.9999999999646785	0.9999999999927582	0
+Cyclin A/B1/B2 associated events during G2/M transition	0.9999999999624224	0.9999999999927582	0
+Cyclin A:Cdk2-associated events at S phase entry	0.6014306938012993	0.9999999999927582	1
+Cyclin D associated events in G1	0.9999999999669822	0.9999999999927582	0
+Cyclin E associated events during G1/S transition	0.5915137890079741	0.9999999999927582	1
+Cytochrome P450 - arranged by substrate type	0.5493281387666813	0.9999999999927582	1
+Cytoprotection by HMOX1	0.4841534943622522	0.9999999999927582	1
+Cytosolic sensors of pathogen-associated DNA	0.5381207898081263	0.9999999999927582	1
+Cytosolic sulfonation of small molecules	0.9999999999677108	0.9999999999927582	0
+Cytosolic tRNA aminoacylation	0.9999999999846867	0.9999999999927582	0
+DAG and IP3 signaling	0.3874662698620969	0.9999999999927582	1
+DAG1 glycosylations	0.9999999999677108	0.9999999999927582	0
+DAP12 interactions	0.9999999999867482	0.9999999999927582	0
+DAP12 signaling	0.9999999999735208	0.9999999999927582	0
+DARPP-32 events	0.2546997059356997	0.9999999999927582	1
+DDX58/IFIH1-mediated induction of interferon-alpha/beta	0.6205510103965239	0.9999999999927582	1
+DNA Damage Bypass	0.4378760766004279	0.9999999999927582	1
+DNA Damage Recognition in GG-NER	0.9999999999856307	0.9999999999927582	0
+DNA Damage/Telomere Stress Induced Senescence	0.5148667811536353	0.9999999999927582	1
+DNA Double Strand Break Response	0.006114352309340047	0.6145683838015972	4
+DNA Double-Strand Break Repair	0.11281865808889213	0.9999999999927582	4
+DNA Repair	0.08205968573993129	0.9361642481497161	7
+DNA Replication	0.9999999999724434	0.9999999999927582	0
+DNA Replication Pre-Initiation	0.9999999999811426	0.9999999999927582	0
+DNA methylation	0.9999999999767414	0.9999999999927582	0
+DNA strand elongation	0.9999999999624224	0.9999999999927582	0
+Deactivation of the beta-catenin transactivating complex	0.01349043697980934	0.6145683838015972	3
+Deadenylation of mRNA	0.9999999999693486	0.9999999999927582	0
+Deadenylation-dependent mRNA decay	0.9999999999615264	0.9999999999927582	0
+Death Receptor Signaling	0.5286946769551887	0.9999999999927582	2
+Dectin-1 mediated noncanonical NF-kB signaling	0.999999999975052	0.9999999999927582	0
+Dectin-2 family	0.9999999999735208	0.9999999999927582	0
+Defective B3GALT6 causes EDSP2 and SEMDJL1	0.18794676795670193	0.9999999999927582	1
+Defective B3GALTL causes PpS	0.07088885142327976	0.8903379596189908	2
+Defective B3GAT3 causes JDSSDHD	0.18794676795670193	0.9999999999927582	1
+Defective B4GALT7 causes EDS, progeroid type	0.18794676795670193	0.9999999999927582	1
+Defective C1GALT1C1 causes TNPS	0.9999999999677108	0.9999999999927582	0
+Defective CFTR causes cystic fibrosis	0.9999999999912235	0.9999999999927582	0
+Defective GALNT12 causes CRCS1	0.9999999999677108	0.9999999999927582	0
+Defective GALNT3 causes HFTC	0.9999999999677108	0.9999999999927582	0
+Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA1 binding function	0.26377883967942795	0.9999999999927582	1
+Defective HDR through Homologous Recombination Repair (HRR) due to PALB2 loss of BRCA2/RAD51/RAD51C binding function	0.26377883967942795	0.9999999999927582	1
+Defective Intrinsic Pathway for Apoptosis	0.9999999999693486	0.9999999999927582	0
+Defective TPR may confer susceptibility towards thyroid papillary carcinoma (TPC)	0.32432236837867806	0.9999999999927582	1
+Defective binding of RB1 mutants to E2F1,(E2F2, E2F3)	0.9999999999849285	0.9999999999927582	0
+Defective homologous recombination repair (HRR) due to BRCA1 loss of function	0.26377883967942795	0.9999999999927582	1
+Defective homologous recombination repair (HRR) due to BRCA2 loss of function	0.3949342556793892	0.9999999999927582	1
+Defective homologous recombination repair (HRR) due to PALB2 loss of function	0.26377883967942795	0.9999999999927582	1
+Defective pyroptosis	0.9999999999726835	0.9999999999927582	0
+Defects in vitamin and cofactor metabolism	0.9999999999713697	0.9999999999927582	0
+Defensins	0.4309359104640122	0.9999999999927582	1
+Degradation of AXIN	0.9999999999776203	0.9999999999927582	0
+Degradation of CDH1	0.4777823413152897	0.9999999999927582	1
+Degradation of CRY and PER proteins	0.9999999999912235	0.9999999999927582	0
+Degradation of DVL	0.9999999999669141	0.9999999999927582	0
+Degradation of GLI1 by the proteasome	0.999999999988957	0.9999999999927582	0
+Degradation of GLI2 by the proteasome	0.999999999988957	0.9999999999927582	0
+Degradation of beta-catenin by the destruction complex	0.21390487240263817	0.9999999999927582	2
+Degradation of cysteine and homocysteine	0.9999999999872295	0.9999999999927582	0
+Degradation of the extracellular matrix	0.02548230858352327	0.61694317963145	5
+Dengue Virus Attachment and Entry	0.3949342556793892	0.9999999999927582	1
+Dengue Virus Genome Translation and Replication	0.6297658282789991	0.9999999999927582	1
+Dengue Virus Infection	0.6321063804572409	0.9999999999927582	4
+Dengue Virus-Host Interactions	0.5835279687280264	0.9999999999927582	3
+Dengue virus activates/modulates innate and adaptive immune responses	0.2990072417877644	0.9999999999927582	1
+Dengue virus modulates apoptosis	0.1779366698871728	0.9999999999927582	1
+Deposition of new CENPA-containing nucleosomes at the centromere	0.9999999999742152	0.9999999999927582	0
+Depurination	0.9999999999806142	0.9999999999927582	0
+Depyrimidination	0.3874662698620969	0.9999999999927582	1
+Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models	0.9999999999713697	0.9999999999927582	0
+Detoxification of Reactive Oxygen Species	0.9999999999806142	0.9999999999927582	0
+Deubiquitination	0.9999999999668311	0.9999999999927582	0
+Developmental Cell Lineages	0.32432236837867806	0.9999999999927582	1
+Developmental Cell Lineages of the Exocrine Pancreas	0.2990072417877644	0.9999999999927582	1
+Developmental Lineage of Pancreatic Ductal Cells	0.2546997059356997	0.9999999999927582	1
+Digestion	0.9999999999713697	0.9999999999927582	0
+Digestion and absorption	0.9999999999635173	0.9999999999927582	0
+Disassembly of the destruction complex and recruitment of AXIN to the membrane	0.30754884182071957	0.9999999999927582	1
+Diseases associated with N-glycosylation of proteins	0.999999999961952	0.9999999999927582	0
+Diseases associated with O-glycosylation of proteins	0.19613126186970145	0.9999999999927582	2
+Diseases associated with glycosaminoglycan metabolism	0.3722538469518597	0.9999999999927582	1
+Diseases associated with glycosylation precursor biosynthesis	0.9999999999646785	0.9999999999927582	0
+Diseases associated with the TLR signaling cascade	0.9999999999714452	0.9999999999927582	0
+Diseases of DNA Double-Strand Break Repair	0.3949342556793892	0.9999999999927582	1
+Diseases of DNA repair	0.46480402494884254	0.9999999999927582	1
+Diseases of Immune System	0.9999999999714452	0.9999999999927582	0
+Diseases of carbohydrate metabolism	0.9999999999767414	0.9999999999927582	0
+Diseases of glycosylation	0.23963597611974968	0.9999999999927582	3
+Diseases of hemostasis	0.9999999999849285	0.9999999999927582	0
+Diseases of metabolism	0.3870091861017085	0.9999999999927582	4
+Diseases of mitotic cell cycle	0.9999999999927582	0.9999999999927582	0
+Diseases of programmed cell death	0.9999999999778602	0.9999999999927582	0
+Diseases of signal transduction by growth factor receptors and second messengers	0.0029707175996979765	0.5766706511312492	13
+Disorders of Developmental Biology	0.9999999999646785	0.9999999999927582	0
+Disorders of transmembrane transporters	0.8530111860931173	0.9999999999927582	1
+Dopamine Neurotransmitter Release Cycle	0.9999999999787348	0.9999999999927582	0
+Downregulation of ERBB2 signaling	0.9999999999714452	0.9999999999927582	0
+Downregulation of SMAD2/3:SMAD4 transcriptional activity	0.2990072417877644	0.9999999999927582	1
+Downregulation of TGF-beta receptor signaling	0.9999999999838654	0.9999999999927582	0
+Downstream TCR signaling	0.9999999999555741	0.9999999999927582	0
+Downstream signal transduction	0.2990072417877644	0.9999999999927582	1
+Downstream signaling events of B Cell Receptor (BCR)	0.5602646742628066	0.9999999999927582	1
+Downstream signaling of activated FGFR1	0.054410098498430495	0.7448742484435136	2
+Downstream signaling of activated FGFR2	0.04825846754066534	0.7103853985287188	2
+Downstream signaling of activated FGFR3	0.034124921956599004	0.6579861712476626	2
+Downstream signaling of activated FGFR4	0.03955388806768697	0.6854338324640944	2
+Drug ADME	0.3704137469965182	0.9999999999927582	2
+Dual Incision in GG-NER	0.9999999999867482	0.9999999999927582	0
+Dual incision in TC-NER	0.5324134801846531	0.9999999999927582	1
+E2F mediated regulation of DNA replication	0.999999999959521	0.9999999999927582	0
+E3 ubiquitin ligases ubiquitinate target proteins	0.9999999999799639	0.9999999999927582	0
+ECM proteoglycans	0.05947201513287418	0.7828575838163918	3
+EGFR downregulation	0.05130084093073695	0.7166413391242743	2
+EGR2 and SOX10-mediated initiation of Schwann cell myelination	0.9999999999635173	0.9999999999927582	0
+EML4 and NUDC in mitotic spindle formation	0.16496241797418024	0.9999999999927582	3
+EPH-Ephrin signaling	0.2994212239272221	0.9999999999927582	2
+EPH-ephrin mediated repulsion of cells	0.9999999999742152	0.9999999999927582	0
+EPHA-mediated growth cone collapse	0.2990072417877644	0.9999999999927582	1
+EPHB-mediated forward signaling	0.08874683727942816	0.9719553618842972	2
+ER Quality Control Compartment (ERQC)	0.9999999999787348	0.9999999999927582	0
+ER to Golgi Anterograde Transport	0.9999999999549959	0.9999999999927582	0
+ER-Phagosome pathway	0.9999999999741467	0.9999999999927582	0
+ERBB2 Regulates Cell Motility	0.9999999999872295	0.9999999999927582	0
+ERCC6 (CSB) and EHMT2 (G9a) positively regulate rRNA expression	0.9999999999776203	0.9999999999927582	0
+ERK/MAPK targets	0.999999999959521	0.9999999999927582	0
+ESR-mediated signaling	0.18662725956745466	0.9999999999927582	4
+Early SARS-CoV-2 Infection Events	0.9999999999731298	0.9999999999927582	0
+Effects of PIP2 hydrolysis	0.9999999999838654	0.9999999999927582	0
+Elastic fibre formation	0.10003109834165703	0.9999999999927582	2
+Elevation of cytosolic Ca2+ levels	0.9999999999646785	0.9999999999927582	0
+Endogenous sterols	0.2727478377469062	0.9999999999927582	1
+Endosomal Sorting Complex Required For Transport (ESCRT)	0.9999999999624224	0.9999999999927582	0
+Energy dependent regulation of mTOR by LKB1-AMPK	0.2903607323276728	0.9999999999927582	1
+Ephrin signaling	0.9999999999849285	0.9999999999927582	0
+Epigenetic regulation by WDR5-containing histone modifying complexes	0.204589975683246	0.9999999999927582	3
+Epigenetic regulation of adipogenesis genes by MLL3 and MLL4 complexes	0.3351914908169908	0.9999999999927582	2
+Epigenetic regulation of gene expression	0.44158127668988817	0.9999999999927582	4
+Epigenetic regulation of gene expression by MLL3 and MLL4 complexes	0.3351914908169908	0.9999999999927582	2
+Estrogen-dependent gene expression	0.050644531730410274	0.7166413391242743	4
+Estrogen-dependent nuclear events downstream of ESR-membrane signaling	0.9999999999753613	0.9999999999927582	0
+Eukaryotic Translation Elongation	0.9999999999656157	0.9999999999927582	0
+Eukaryotic Translation Initiation	0.9999999999677579	0.9999999999927582	0
+Eukaryotic Translation Termination	0.9999999999710649	0.9999999999927582	0
+Evasion by RSV of host interferon responses	0.9999999999731298	0.9999999999927582	0
+Export of Viral Ribonucleoproteins from Nucleus	0.3325567843617056	0.9999999999927582	1
+Expression and translocation of olfactory receptors	0.9999999999852214	0.9999999999927582	0
+Expression of BMAL (ARNTL), CLOCK, and NPAS2	0.008057932539980592	0.6145683838015972	3
+Extension of Telomeres	0.999999999975052	0.9999999999927582	0
+Extra-nuclear estrogen signaling	0.9999999999767533	0.9999999999927582	0
+Extracellular matrix organization	0.08871109378136725	0.9719553618842972	7
+FBXL7 down-regulates AURKA during mitotic entry and in early mitosis	0.9999999999776203	0.9999999999927582	0
+FCERI mediated Ca+2 mobilization	0.30754884182071957	0.9999999999927582	1
+FCERI mediated MAPK activation	0.9999999999767414	0.9999999999927582	0
+FCERI mediated NF-kB activation	0.9999999999649364	0.9999999999927582	0
+FCGR3A-mediated IL10 synthesis	0.3645071502196093	0.9999999999927582	1
+FCGR3A-mediated phagocytosis	0.9999999999729907	0.9999999999927582	0
+FGFR1 ligand binding and activation	0.017775100840756685	0.6145683838015972	2
+FGFR1 mutant receptor activation	0.0005191566187852337	0.2369084703723283	4
+FGFR2 alternative splicing	0.9999999999838654	0.9999999999927582	0
+FGFR2 ligand binding and activation	0.021996969179166007	0.6145683838015972	2
+FGFR2 mutant receptor activation	0.057584177949484464	0.7653664040081964	2
+FLT3 Signaling	0.3722538469518597	0.9999999999927582	1
+FLT3 signaling in disease	0.2903607323276728	0.9999999999927582	1
+FOXO-mediated transcription	0.1873165338253293	0.9999999999927582	2
+FOXO-mediated transcription of cell cycle genes	0.9999999999646785	0.9999999999927582	0
+FOXO-mediated transcription of cell death genes	0.9999999999872295	0.9999999999927582	0
+FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes	0.04825846754066534	0.7103853985287188	2
+FRS-mediated FGFR1 signaling	0.031529481967543314	0.6571900606597662	2
+FRS-mediated FGFR2 signaling	0.034124921956599004	0.6579861712476626	2
+FRS-mediated FGFR3 signaling	0.021996969179166007	0.6145683838015972	2
+FRS-mediated FGFR4 signaling	0.026588493497630056	0.61694317963145	2
+Factors involved in megakaryocyte development and platelet production	0.8511859617179682	0.9999999999927582	1
+Fanconi Anemia Pathway	0.9999999999927582	0.9999999999927582	0
+Fatty acid metabolism	0.8748059627196926	0.9999999999927582	1
+Fatty acids	0.9999999999872295	0.9999999999927582	0
+Fatty acyl-CoA biosynthesis	0.9999999999856307	0.9999999999927582	0
+Fc epsilon receptor (FCERI) signaling	0.7563322280874145	0.9999999999927582	1
+Fcgamma receptor (FCGR) dependent phagocytosis	0.6431718932042783	0.9999999999927582	1
+Fertilization	0.2727478377469062	0.9999999999927582	1
+Fibronectin matrix formation	0.19783548748264998	0.9999999999927582	1
+Formation of ATP by chemiosmotic coupling	0.9999999999677108	0.9999999999927582	0
+Formation of Fibrin Clot (Clotting Cascade)	0.9999999999927582	0.9999999999927582	0
+Formation of HIV elongation complex in the absence of HIV Tat	0.999999999960504	0.9999999999927582	0
+Formation of HIV-1 elongation complex containing HIV-1 Tat	0.999999999983398	0.9999999999927582	0
+Formation of Incision Complex in GG-NER	0.3949342556793892	0.9999999999927582	1
+Formation of RNA Pol II elongation complex	0.9999999999577459	0.9999999999927582	0
+Formation of Senescence-Associated Heterochromatin Foci (SAHF)	0.9999999999849285	0.9999999999927582	0
+Formation of TC-NER Pre-Incision Complex	0.4581949311858588	0.9999999999927582	1
+Formation of WDR5-containing histone-modifying complexes	0.3799065079449865	0.9999999999927582	1
+Formation of a pool of free 40S subunits	0.9999999999780355	0.9999999999927582	0
+Formation of definitive endoderm	0.16780370988038532	0.9999999999927582	1
+Formation of neuronal progenitor and neuronal BAF (npBAF and nBAF)	0.9999999999693486	0.9999999999927582	0
+Formation of paraxial mesoderm	0.5088733889534103	0.9999999999927582	1
+Formation of the Early Elongation Complex	0.9999999999709193	0.9999999999927582	0
+Formation of the HIV-1 Early Elongation Complex	0.9999999999709193	0.9999999999927582	0
+Formation of the beta-catenin:TCF transactivating complex	0.1698707748715611	0.9999999999927582	2
+Formation of the canonical BAF (cBAF) complex	0.9999999999677108	0.9999999999927582	0
+Formation of the cornified envelope	0.9999999999547025	0.9999999999927582	0
+Formation of the dystrophin-glycoprotein complex (DGC)	0.9999999999731298	0.9999999999927582	0
+Formation of the embryonic stem cell BAF (esBAF) complex	0.999999999961952	0.9999999999927582	0
+Formation of the nephric duct	0.18794676795670193	0.9999999999927582	1
+Formation of the non-canonical BAF (ncBAF) complex	0.9999999999849285	0.9999999999927582	0
+Formation of the polybromo-BAF (pBAF) complex	0.19783548748264998	0.9999999999927582	1
+Formation of the ternary complex, and subsequently, the 43S complex	0.999999999988957	0.9999999999927582	0
+Formation of the ureteric bud	0.22678794273159497	0.9999999999927582	1
+Formation of tubulin folding intermediates by CCT/TriC	0.9999999999838654	0.9999999999927582	0
+G alpha (12/13) signalling events	0.23182193757177064	0.9999999999927582	2
+G alpha (i) signalling events	0.08098016050410582	0.9361642481497161	7
+G alpha (q) signalling events	0.720016784265365	0.9999999999927582	2
+G alpha (s) signalling events	0.12302723626920027	0.9999999999927582	4
+G alpha (z) signalling events	0.4447319579570038	0.9999999999927582	1
+G beta:gamma signalling through BTK	0.9999999999849285	0.9999999999927582	0
+G beta:gamma signalling through CDC42	0.999999999961952	0.9999999999927582	0
+G beta:gamma signalling through PI3Kgamma	0.9999999999693486	0.9999999999927582	0
+G beta:gamma signalling through PLC beta	0.999999999959521	0.9999999999927582	0
+G protein gated Potassium channels	0.04825846754066534	0.7103853985287188	2
+G-protein activation	0.9999999999846867	0.9999999999927582	0
+G-protein beta:gamma signalling	0.9999999999759103	0.9999999999927582	0
+G-protein mediated events	0.4777823413152897	0.9999999999927582	1
+G0 and Early G1	0.9999999999635173	0.9999999999927582	0
+G1 Phase	0.9999999999669822	0.9999999999927582	0
+G1/S DNA Damage Checkpoints	0.9999999999824705	0.9999999999927582	0
+G1/S Transition	0.7651707958467436	0.9999999999927582	1
+G1/S-Specific Transcription	0.9999999999735208	0.9999999999927582	0
+G2/M Checkpoints	0.8164669227842472	0.9999999999927582	1
+G2/M DNA damage checkpoint	0.6158583195035658	0.9999999999927582	1
+G2/M Transition	0.9999999999775326	0.9999999999927582	0
+GAB1 signalosome	0.9999999999849285	0.9999999999927582	0
+GABA B receptor activation	0.015343948976687621	0.6145683838015972	3
+GABA receptor activation	0.03216342882703019	0.6571900606597662	3
+GABA synthesis, release, reuptake and degradation	0.999999999961952	0.9999999999927582	0
+GLI3 is processed to GLI3R by the proteasome	0.999999999988957	0.9999999999927582	0
+GPCR ligand binding	0.3085251464853287	0.9999999999927582	7
+GPER1 signaling	0.10387747848461812	0.9999999999927582	2
+GPVI-mediated activation cascade	0.9999999999806142	0.9999999999927582	0
+GRB2 events in ERBB2 signaling	0.9999999999646785	0.9999999999927582	0
+GRB2:SOS provides linkage to MAPK signaling for Integrins	0.16780370988038532	0.9999999999927582	1
+GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2	0.9999999999776203	0.9999999999927582	0
+GSK3B-mediated proteasomal degradation of PD-L1(CD274)	0.9999999999669141	0.9999999999927582	0
+GTP hydrolysis and joining of the 60S ribosomal subunit	0.9999999999632148	0.9999999999927582	0
+Gamma carboxylation, hypusinylation, hydroxylation, and arylsulfatase activation	0.4841534943622522	0.9999999999927582	1
+Gap junction assembly	0.9999999999927582	0.9999999999927582	0
+Gap junction trafficking	0.9999999999912235	0.9999999999927582	0
+Gap junction trafficking and regulation	0.9999999999742152	0.9999999999927582	0
+Gap-filling DNA repair synthesis and ligation in GG-NER	0.9999999999693486	0.9999999999927582	0
+Gap-filling DNA repair synthesis and ligation in TC-NER	0.5266359507644863	0.9999999999927582	1
+Gastrin-CREB signalling pathway via PKC and MAPK	0.9999999999849285	0.9999999999927582	0
+Gastrulation	0.41335714811680874	0.9999999999927582	2
+Gene Silencing by RNA	0.6062988740130625	0.9999999999927582	1
+Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation	0.9999999999856307	0.9999999999927582	0
+Generation of second messenger molecules	0.9999999999759103	0.9999999999927582	0
+Germ layer formation at gastrulation	0.9999999999849285	0.9999999999927582	0
+Global Genome Nucleotide Excision Repair (GG-NER)	0.6342893299199535	0.9999999999927582	1
+Glucagon signaling in metabolic regulation	0.3325567843617056	0.9999999999927582	1
+Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	0.40231157485391517	0.9999999999927582	1
+Glucagon-type ligand receptors	0.9999999999709193	0.9999999999927582	0
+Gluconeogenesis	0.26377883967942795	0.9999999999927582	1
+Glucose metabolism	0.2633621962933669	0.9999999999927582	2
+Glucuronidation	0.9999999999635173	0.9999999999927582	0
+Glutamate Neurotransmitter Release Cycle	0.9999999999846867	0.9999999999927582	0
+Glutamate binding, activation of AMPA receptors and synaptic plasticity	0.9999999999714452	0.9999999999927582	0
+Glutathione conjugation	0.9999999999806142	0.9999999999927582	0
+Glycerophospholipid biosynthesis	0.19524834522664325	0.9999999999927582	3
+Glycogen metabolism	0.9999999999753613	0.9999999999927582	0
+Glycogen storage diseases	0.9999999999872295	0.9999999999927582	0
+Glycolysis	0.5813512151209693	0.9999999999927582	1
+Glycosaminoglycan metabolism	0.7974450212448017	0.9999999999927582	1
+Glycosaminoglycan-protein linkage region biosynthesis	0.2727478377469062	0.9999999999927582	1
+Glycosphingolipid biosynthesis	0.999999999961952	0.9999999999927582	0
+Glycosphingolipid catabolism	0.9999999999709193	0.9999999999927582	0
+Glycosphingolipid metabolism	0.9999999999675967	0.9999999999927582	0
+Glyoxylate metabolism and glycine degradation	0.9999999999677108	0.9999999999927582	0
+Golgi Associated Vesicle Biogenesis	0.46480402494884254	0.9999999999927582	1
+Golgi-to-ER retrograde transport	0.4867373373479422	0.9999999999927582	2
+Growth hormone receptor signaling	0.2546997059356997	0.9999999999927582	1
+HATs acetylate histones	0.1280278051312248	0.9999999999927582	3
+HCMV Early Events	0.3616717676426305	0.9999999999927582	2
+HCMV Infection	0.46289677285189956	0.9999999999927582	2
+HCMV Late Events	0.6431718932042783	0.9999999999927582	1
+HDACs deacetylate histones	0.9999999999729907	0.9999999999927582	0
+HDMs demethylate histones	0.9999999999787348	0.9999999999927582	0
+HDR through Homologous Recombination (HRR)	0.5709369128809706	0.9999999999927582	1
+HDR through Homologous Recombination (HRR) or Single Strand Annealing (SSA)	0.40912556693439117	0.9999999999927582	2
+HDR through Single Strand Annealing (SSA)	0.3645071502196093	0.9999999999927582	1
+HIV Infection	0.9273358923700324	0.9999999999927582	1
+HIV Life Cycle	0.8357479854319849	0.9999999999927582	1
+HIV Transcription Elongation	0.999999999983398	0.9999999999927582	0
+HIV Transcription Initiation	0.999999999960504	0.9999999999927582	0
+HIV elongation arrest and recovery	0.9999999999709193	0.9999999999927582	0
+HS-GAG biosynthesis	0.9999999999759103	0.9999999999927582	0
+HS-GAG degradation	0.9999999999849285	0.9999999999927582	0
+HSF1 activation	0.9999999999714452	0.9999999999927582	0
+HSF1-dependent transactivation	0.9999999999927582	0.9999999999927582	0
+HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand	0.9999999999615264	0.9999999999927582	0
+Hedgehog 'off' state	0.7032886892224159	0.9999999999927582	1
+Hedgehog 'on' state	0.9999999999653525	0.9999999999927582	0
+Hedgehog ligand biogenesis	0.47133283796342845	0.9999999999927582	1
+Heme degradation	0.9999999999646785	0.9999999999927582	0
+Heme signaling	0.01838035220156211	0.6145683838015972	3
+Heparan sulfate/heparin (HS-GAG) metabolism	0.9999999999927582	0.9999999999927582	0
+Hh mutants abrogate ligand secretion	0.9999999999669822	0.9999999999927582	0
+Hh mutants are degraded by ERAD	0.999999999983398	0.9999999999927582	0
+High laminar flow shear stress activates signaling by PIEZO1 and PECAM1:CDH5:KDR in endothelial cells	0.20499656168812028	0.9999999999927582	2
+Homologous DNA Pairing and Strand Exchange	0.4095993235193585	0.9999999999927582	1
+Homology Directed Repair	0.43428487311108305	0.9999999999927582	2
+Host Interactions of HIV factors	0.7563322280874145	0.9999999999927582	1
+Hyaluronan degradation	0.9999999999646785	0.9999999999927582	0
+Hyaluronan metabolism	0.999999999959521	0.9999999999927582	0
+IGF1R signaling cascade	0.02412912894306561	0.61694317963145	3
+IKK complex recruitment mediated by RIP1	0.9999999999713697	0.9999999999927582	0
+IL-6-type cytokine receptor ligand interactions	0.18794676795670193	0.9999999999927582	1
+IRAK4 deficiency (TLR2/4)	0.9999999999849285	0.9999999999927582	0
+IRE1alpha activates chaperones	0.999999999975052	0.9999999999927582	0
+IRS-mediated signalling	0.11168826879696443	0.9999999999927582	2
+IRS-related events triggered by IGF1R	0.02291040949485264	0.61694317963145	3
+ISG15 antiviral mechanism	0.5965025770630716	0.9999999999927582	1
+Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	0.7845722435272146	0.9999999999927582	1
+Impaired BRCA2 binding to PALB2	0.2546997059356997	0.9999999999927582	1
+Impaired BRCA2 binding to RAD51	0.3487270334546087	0.9999999999927582	1
+Inactivation of APC/C via direct inhibition of the APC/C complex	0.9999999999787348	0.9999999999927582	0
+Inactivation of CSF3 (G-CSF) signaling	0.26377883967942795	0.9999999999927582	1
+Inactivation, recovery and regulation of the phototransduction cascade	0.9999999999624224	0.9999999999927582	0
+Incretin synthesis, secretion, and inactivation	0.24550908993906456	0.9999999999927582	1
+Infection with Enterobacteria	0.3645071502196093	0.9999999999927582	1
+Infection with Mycobacterium tuberculosis	0.9999999999838654	0.9999999999927582	0
+Inflammasomes	0.9999999999787348	0.9999999999927582	0
+Influenza Infection	0.845573772124196	0.9999999999927582	1
+Influenza Viral RNA Transcription and Replication	0.7999261481829776	0.9999999999927582	1
+Inhibition  of voltage gated Ca2+ channels via Gbeta/gamma subunits	0.04825846754066534	0.7103853985287188	2
+Inhibition of DNA recombination at telomere	0.999999999960504	0.9999999999927582	0
+Inhibition of the proteolytic activity of APC/C required for the onset of anaphase by mitotic spindle checkpoint components	0.9999999999787348	0.9999999999927582	0
+Initial triggering of complement	0.9999999999787348	0.9999999999927582	0
+Initiation of Nuclear Envelope (NE) Reformation	0.9999999999677108	0.9999999999927582	0
+Inositol phosphate metabolism	0.999999999960504	0.9999999999927582	0
+Insertion of tail-anchored proteins into the endoplasmic reticulum membrane	0.999999999959521	0.9999999999927582	0
+Insulin processing	0.9999999999846867	0.9999999999927582	0
+Insulin receptor recycling	0.9999999999714452	0.9999999999927582	0
+Insulin receptor signalling cascade	0.13595866366407133	0.9999999999927582	2
+Integration of energy metabolism	0.7277794428174317	0.9999999999927582	1
+Integrin cell surface interactions	0.018577612265729185	0.6145683838015972	4
+Integrin signaling	0.2816080305064746	0.9999999999927582	1
+Interaction between L1 and Ankyrins	0.9999999999759103	0.9999999999927582	0
+Interactions of Rev with host cellular proteins	0.3645071502196093	0.9999999999927582	1
+Interactions of Vpr with host cellular proteins	0.3487270334546087	0.9999999999927582	1
+Interconversion of nucleotide di- and triphosphates	0.9999999999735208	0.9999999999927582	0
+Interferon Signaling	0.02164842086072066	0.6145683838015972	8
+Interferon alpha/beta signaling	0.6062988740130625	0.9999999999927582	1
+Interferon gamma signaling	0.02783384640950564	0.6305339545622236	4
+Interleukin receptor SHC signaling	0.9999999999846867	0.9999999999927582	0
+Interleukin-1 family signaling	0.9999999999566515	0.9999999999927582	0
+Interleukin-1 signaling	0.9999999999652932	0.9999999999927582	0
+Interleukin-10 signaling	0.9999999999669141	0.9999999999927582	0
+Interleukin-12 family signaling	0.9999999999826081	0.9999999999927582	0
+Interleukin-12 signaling	0.9999999999669141	0.9999999999927582	0
+Interleukin-17 signaling	0.9999999999649364	0.9999999999927582	0
+Interleukin-2 family signaling	0.3874662698620969	0.9999999999927582	1
+Interleukin-20 family signaling	0.2727478377469062	0.9999999999927582	1
+Interleukin-3, Interleukin-5 and GM-CSF signaling	0.42391042787452937	0.9999999999927582	1
+Interleukin-37 signaling	0.9999999999787348	0.9999999999927582	0
+Interleukin-4 and Interleukin-13 signaling	0.35728388761758756	0.9999999999927582	2
+Interleukin-6 family signaling	0.2546997059356997	0.9999999999927582	1
+Interleukin-7 signaling	0.24550908993906456	0.9999999999927582	1
+Intra-Golgi and retrograde Golgi-to-ER traffic	0.44023851842081924	0.9999999999927582	3
+Intra-Golgi traffic	0.4095993235193585	0.9999999999927582	1
+Intracellular signaling by second messengers	0.07264387468547492	0.8929420129686609	7
+Intraflagellar transport	0.9999999999826081	0.9999999999927582	0
+Intrinsic Pathway for Apoptosis	0.4841534943622522	0.9999999999927582	1
+Intrinsic Pathway of Fibrin Clot Formation	0.9999999999787348	0.9999999999927582	0
+Inwardly rectifying K+ channels	0.06747531920510584	0.8553121480721286	2
+Ion channel transport	0.621478471033563	0.9999999999927582	2
+Ion homeostasis	0.9999999999675967	0.9999999999927582	0
+Ion transport by P-type ATPases	0.46480402494884254	0.9999999999927582	1
+Iron uptake and transport	0.5028062726457636	0.9999999999927582	1
+JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1	0.999999999961952	0.9999999999927582	0
+KEAP1-NFE2L2 pathway	0.999999999976283	0.9999999999927582	0
+KSRP (KHSRP) binds and destabilizes mRNA	0.9999999999849285	0.9999999999927582	0
+Keratan sulfate biosynthesis	0.9999999999714452	0.9999999999927582	0
+Keratan sulfate degradation	0.9999999999872295	0.9999999999927582	0
+Keratan sulfate/keratin metabolism	0.9999999999927582	0.9999999999927582	0
+Keratinization	0.9999999999768991	0.9999999999927582	0
+Kidney development	0.0021523609785514563	0.4910970299394906	4
+Kinesins	0.9999999999907598	0.9999999999927582	0
+L13a-mediated translational silencing of Ceruloplasmin expression	0.9999999999828807	0.9999999999927582	0
+L1CAM interactions	0.40487925129440344	0.9999999999927582	2
+LDL clearance	0.2076042940580923	0.9999999999927582	1
+Lagging Strand Synthesis	0.999999999961952	0.9999999999927582	0
+Laminin interactions	0.9999999999735208	0.9999999999927582	0
+Late Phase of HIV Life Cycle	0.8071894111420518	0.9999999999927582	1
+Late SARS-CoV-2 Infection Events	0.5813512151209693	0.9999999999927582	1
+Late endosomal microautophagy	0.9999999999709193	0.9999999999927582	0
+Leishmania infection	0.8530111860931173	0.9999999999927582	1
+Leishmania parasite growth and survival	0.5965025770630716	0.9999999999927582	1
+Leishmania phagocytosis	0.9999999999729907	0.9999999999927582	0
+Lewis blood group biosynthesis	0.9999999999646785	0.9999999999927582	0
+Listeria monocytogenes entry into host cells	0.2076042940580923	0.9999999999927582	1
+Long-term potentiation	0.9999999999713697	0.9999999999927582	0
+Loss of Nlp from mitotic centrosomes	0.9999999999573634	0.9999999999927582	0
+Loss of proteins required for interphase microtubule organization from the centrosome	0.9999999999573634	0.9999999999927582	0
+Lysosome Vesicle Biogenesis	0.3325567843617056	0.9999999999927582	1
+M Phase	0.6429658281228491	0.9999999999927582	4
+M-decay: degradation of maternal mRNAs by maternally stored factors	0.9999999999669822	0.9999999999927582	0
+MAP kinase activation	0.9999999999577459	0.9999999999927582	0
+MAP2K and MAPK activation	0.07787937095678328	0.9191108520675544	2
+MAP3K8 (TPL2)-dependent MAPK1/3 activation	0.9999999999872295	0.9999999999927582	0
+MAPK family signaling cascades	0.03196839186945449	0.6571900606597662	8
+MAPK targets/ Nuclear events mediated by MAP kinases	0.9999999999714452	0.9999999999927582	0
+MAPK1/MAPK3 signaling	0.041701668161489576	0.6907391526874964	7
+MAPK6/MAPK4 signaling	0.6111078435143834	0.9999999999927582	1
+MECP2 regulates neuronal receptors and channels	0.9999999999849285	0.9999999999927582	0
+MET activates PTK2 signaling	0.30754884182071957	0.9999999999927582	1
+MET promotes cell motility	0.3949342556793892	0.9999999999927582	1
+MHC class II antigen presentation	0.7791979054404017	0.9999999999927582	1
+MITF-M-dependent gene expression	0.3704137469965182	0.9999999999927582	2
+MITF-M-regulated melanocyte development	0.04219438762971274	0.6907391526874964	5
+MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis	0.3351914908169908	0.9999999999927582	2
+MTOR signalling	0.3874662698620969	0.9999999999927582	1
+Macroautophagy	0.5060962864574139	0.9999999999927582	2
+Major pathway of rRNA processing in the nucleolus and cytosol	0.9999999999771231	0.9999999999927582	0
+Maternal to zygotic transition (MZT)	0.9999999999570204	0.9999999999927582	0
+Maturation of DENV proteins	0.46480402494884254	0.9999999999927582	1
+Maturation of TCA enzymes and regulation of TCA cycle	0.999999999959521	0.9999999999927582	0
+Maturation of nucleoprotein_9694631	0.16780370988038532	0.9999999999927582	1
+Maturation of spike protein_9694548	0.9999999999752546	0.9999999999927582	0
+Mechanical load activates signaling by PIEZO1 and integrins in osteocytes	0.9999999999849285	0.9999999999927582	0
+Meiosis	0.6518396081658481	0.9999999999927582	1
+Meiotic recombination	0.9999999999615264	0.9999999999927582	0
+Meiotic synapsis	0.49666452926935306	0.9999999999927582	1
+Metabolic disorders of biological oxidation enzymes	0.9999999999709193	0.9999999999927582	0
+Metabolism of Angiotensinogen to Angiotensins	0.9999999999872295	0.9999999999927582	0
+Metabolism of amine-derived hormones	0.9999999999787348	0.9999999999927582	0
+Metabolism of amino acids and derivatives	0.9225832079322674	0.9999999999927582	2
+Metabolism of carbohydrates and carbohydrate derivatives	0.6745182041113824	0.9999999999927582	3
+Metabolism of cofactors	0.9999999999693486	0.9999999999927582	0
+Metabolism of fat-soluble vitamins	0.4309359104640122	0.9999999999927582	1
+Metabolism of folate and pterines	0.9999999999849285	0.9999999999927582	0
+Metabolism of nitric oxide: NOS3 activation and regulation	0.9999999999849285	0.9999999999927582	0
+Metabolism of non-coding RNA	0.47133283796342845	0.9999999999927582	1
+Metabolism of nucleotides	0.9999999999565057	0.9999999999927582	0
+Metabolism of polyamines	0.9999999999669141	0.9999999999927582	0
+Metabolism of porphyrins	0.9999999999838654	0.9999999999927582	0
+Metabolism of steroid hormones	0.9999999999806142	0.9999999999927582	0
+Metabolism of steroids	0.5433678403056706	0.9999999999927582	2
+Metabolism of vitamins and cofactors	0.90693629380433	0.9999999999927582	1
+Metabolism of water-soluble vitamins and cofactors	0.9999999999736	0.9999999999927582	0
+Metal ion SLC transporters	0.9999999999884099	0.9999999999927582	0
+Metalloprotease DUBs	0.9999999999759103	0.9999999999927582	0
+MicroRNA (miRNA) biogenesis	0.9999999999846867	0.9999999999927582	0
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane	0.999999999959521	0.9999999999927582	0
+Miscellaneous transport and binding events	0.9999999999635173	0.9999999999927582	0
+Mismatch Repair	0.9999999999872295	0.9999999999927582	0
+Mitochondrial Fatty Acid Beta-Oxidation	0.9999999999856307	0.9999999999927582	0
+Mitochondrial biogenesis	0.2904221903929128	0.9999999999927582	2
+Mitochondrial calcium ion transport	0.9999999999753613	0.9999999999927582	0
+Mitochondrial protein degradation	0.9999999999719424	0.9999999999927582	0
+Mitochondrial protein import	0.5088733889534103	0.9999999999927582	1
+Mitochondrial ribosome-associated quality control	0.9999999999537985	0.9999999999927582	0
+Mitochondrial tRNA aminoacylation	0.9999999999787348	0.9999999999927582	0
+Mitochondrial translation	0.9999999999698951	0.9999999999927582	0
+Mitochondrial translation elongation	0.9999999999719424	0.9999999999927582	0
+Mitochondrial translation initiation	0.9999999999719424	0.9999999999927582	0
+Mitochondrial translation termination	0.9999999999656157	0.9999999999927582	0
+Mitochondrial unfolded protein response (UPRmt)	0.9999999999677108	0.9999999999927582	0
+Mitophagy	0.3722538469518597	0.9999999999927582	1
+Mitotic Anaphase	0.2691249865758477	0.9999999999927582	4
+Mitotic G1 phase and G1/S transition	0.8118851089223439	0.9999999999927582	1
+Mitotic G2-G2/M phases	0.9999999999758546	0.9999999999927582	0
+Mitotic Metaphase and Anaphase	0.27181295004929323	0.9999999999927582	4
+Mitotic Prometaphase	0.4241718866919718	0.9999999999927582	3
+Mitotic Prophase	0.7343994818728565	0.9999999999927582	1
+Mitotic Spindle Checkpoint	0.14753164006252503	0.9999999999927582	3
+Modulation of host responses by IFN-stimulated genes	0.9999999999677108	0.9999999999927582	0
+Molecules associated with elastic fibres	0.07435747953135673	0.8929420129686609	2
+Muscle contraction	0.911427824044909	0.9999999999927582	1
+MyD88 cascade initiated on plasma membrane	0.9999999999713279	0.9999999999927582	0
+MyD88 deficiency (TLR2/4)	0.9999999999646785	0.9999999999927582	0
+MyD88 dependent cascade initiated on endosome	0.9999999999801291	0.9999999999927582	0
+MyD88-independent TLR4 cascade	0.7209951202059136	0.9999999999927582	1
+MyD88:MAL(TIRAP) cascade initiated on plasma membrane	0.9999999999570204	0.9999999999927582	0
+Myogenesis	0.2990072417877644	0.9999999999927582	1
+N-Glycan antennae elongation	0.9999999999872295	0.9999999999927582	0
+N-glycan antennae elongation in the medial/trans-Golgi	0.9999999999838654	0.9999999999927582	0
+N-glycan trimming in the ER and Calnexin/Calreticulin cycle	0.9999999999806142	0.9999999999927582	0
+NCAM signaling for neurite out-growth	0.5324134801846531	0.9999999999927582	1
+NCAM1 interactions	0.3949342556793892	0.9999999999927582	1
+NEP/NS2 Interacts with the Cellular Export Machinery	0.32432236837867806	0.9999999999927582	1
+NFE2L2 regulating anti-oxidant/detoxification enzymes	0.999999999959521	0.9999999999927582	0
+NGF-stimulated transcription	0.010963433834289094	0.6145683838015972	3
+NIK-->noncanonical NF-kB signaling	0.9999999999669822	0.9999999999927582	0
+NOD1/2 Signaling Pathway	0.9999999999709193	0.9999999999927582	0
+NOTCH1 Intracellular Domain Regulates Transcription	0.4167985845635938	0.9999999999927582	1
+NOTCH2 Activation and Transmission of Signal to the Nucleus	0.26377883967942795	0.9999999999927582	1
+NOTCH3 Activation and Transmission of Signal to the Nucleus	0.26377883967942795	0.9999999999927582	1
+NOTCH3 Intracellular Domain Regulates Transcription	0.2546997059356997	0.9999999999927582	1
+NOTCH4 Intracellular Domain Regulates Transcription	0.999999999961952	0.9999999999927582	0
+NPAS4 regulates expression of target genes	0.9999999999787348	0.9999999999927582	0
+NR1H2 and NR1H3-mediated signaling	0.1077637114962144	0.9999999999927582	2
+NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux	0.35666526722987985	0.9999999999927582	1
+NRAGE signals death through JNK	0.4841534943622522	0.9999999999927582	1
+NRIF signals cell death from the nucleus	0.9999999999646785	0.9999999999927582	0
+NS1 Mediated Effects on Host Pathways	0.4095993235193585	0.9999999999927582	1
+Neddylation	0.9365884367760258	0.9999999999927582	1
+Nef-mediates down modulation of cell surface receptors by recruiting them to clathrin adapters	0.999999999959521	0.9999999999927582	0
+Negative Regulation of CDH1 Gene Transcription	0.9999999999633389	0.9999999999927582	0
+Negative epigenetic regulation of rRNA expression	0.9999999999654162	0.9999999999927582	0
+Negative regulation of FGFR1 signaling	0.057584177949484464	0.7653664040081964	2
+Negative regulation of FGFR2 signaling	0.060821056886941595	0.7929907321735529	2
+Negative regulation of FGFR3 signaling	0.04528508120040307	0.7103853985287188	2
+Negative regulation of FGFR4 signaling	0.05130084093073695	0.7166413391242743	2
+Negative regulation of FLT3	0.9999999999872295	0.9999999999927582	0
+Negative regulation of MAPK pathway	0.01349043697980934	0.6145683838015972	3
+Negative regulation of MET activity	0.21725463562236444	0.9999999999927582	1
+Negative regulation of NMDA receptor-mediated neuronal transmission	0.999999999959521	0.9999999999927582	0
+Negative regulation of NOTCH4 signaling	0.9999999999669141	0.9999999999927582	0
+Negative regulation of TCF-dependent signaling by WNT ligand antagonists	0.16780370988038532	0.9999999999927582	1
+Negative regulation of the PI3K/AKT network	0.176906326367764	0.9999999999927582	3
+Negative regulators of DDX58/IFIH1 signaling	0.9999999999731298	0.9999999999927582	0
+Nephrin family interactions	0.9999999999713697	0.9999999999927582	0
+Netrin-1 signaling	0.09622613118707522	0.9904779969556841	2
+Neurexins and neuroligins	0.9999999999675967	0.9999999999927582	0
+Neurodegenerative Diseases	0.9999999999713697	0.9999999999927582	0
+Neuronal System	0.8577015427254885	0.9999999999927582	3
+Neurotransmitter receptors and postsynaptic signal transmission	0.4209395310552705	0.9999999999927582	3
+Neurotransmitter release cycle	0.9999999999912235	0.9999999999927582	0
+Neutrophil degranulation	0.8141104318557962	0.9999999999927582	4
+Nicotinate metabolism	0.9999999999714452	0.9999999999927582	0
+Nitric oxide stimulates guanylate cyclase	0.9999999999713697	0.9999999999927582	0
+NoRC negatively regulates rRNA expression	0.9999999999653525	0.9999999999927582	0
+Non-integrin membrane-ECM interactions	0.6014306938012993	0.9999999999927582	1
+Nonhomologous End-Joining (NHEJ)	0.4581949311858588	0.9999999999927582	1
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)	0.9999999999809803	0.9999999999927582	0
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)	0.9999999999537985	0.9999999999927582	0
+Nonsense-Mediated Decay (NMD)	0.9999999999809803	0.9999999999927582	0
+Norepinephrine Neurotransmitter Release Cycle	0.9999999999849285	0.9999999999927582	0
+Notch-HLH transcription pathway	0.2546997059356997	0.9999999999927582	1
+Nuclear Envelope (NE) Reassembly	0.23182193757177064	0.9999999999927582	2
+Nuclear Envelope Breakdown	0.47133283796342845	0.9999999999927582	1
+Nuclear Events (kinase and transcription factor activation)	0.03511468646253041	0.6676667467667241	3
+Nuclear Pore Complex (NPC) Disassembly	0.35666526722987985	0.9999999999927582	1
+Nuclear RNA decay	0.9999999999806142	0.9999999999927582	0
+Nuclear Receptor transcription pathway	0.1277402435122934	0.9999999999927582	2
+Nuclear events mediated by NFE2L2	0.9999999999710649	0.9999999999927582	0
+Nuclear events stimulated by ALK signaling in cancer	0.9999999999709193	0.9999999999927582	0
+Nuclear import of Rev protein	0.3406912701835075	0.9999999999927582	1
+Nuclear signaling by ERBB4	0.9999999999767414	0.9999999999927582	0
+Nucleosome assembly	0.9999999999742152	0.9999999999927582	0
+Nucleotide Excision Repair	0.3704137469965182	0.9999999999927582	2
+Nucleotide catabolism	0.9999999999806142	0.9999999999927582	0
+Nucleotide salvage	0.999999999959521	0.9999999999927582	0
+Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways	0.9999999999662371	0.9999999999927582	0
+O-glycosylation of TSR domain-containing proteins	0.07435747953135673	0.8929420129686609	2
+O-linked glycosylation	0.4425440104070123	0.9999999999927582	2
+O-linked glycosylation of mucins	0.9999999999846415	0.9999999999927582	0
+Olfactory Signaling Pathway	0.9999999999684023	0.9999999999927582	0
+Oncogene Induced Senescence	0.9999999999709193	0.9999999999927582	0
+Oncogenic MAPK signaling	0.015766877071807173	0.6145683838015972	4
+Opioid Signalling	0.29492371728123085	0.9999999999927582	2
+Orc1 removal from chromatin	0.9999999999577459	0.9999999999927582	0
+Organelle biogenesis and maintenance	0.8602514948821547	0.9999999999927582	2
+Other interleukin signaling	0.9999999999846867	0.9999999999927582	0
+Other semaphorin interactions	0.19783548748264998	0.9999999999927582	1
+Ovarian tumor domain proteases	0.9999999999856307	0.9999999999927582	0
+Oxidative Stress Induced Senescence	0.6685510690505222	0.9999999999927582	1
+Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha	0.9999999999662371	0.9999999999927582	0
+PCNA-Dependent Long Patch Base Excision Repair	0.9999999999787348	0.9999999999927582	0
+PCP/CE pathway	0.6205510103965239	0.9999999999927582	1
+PD-L1(CD274) glycosylation and translocation to plasma membrane	0.999999999959521	0.9999999999927582	0
+PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA	0.6475322803355221	0.9999999999927582	1
+PERK regulates gene expression	0.9999999999624224	0.9999999999927582	0
+PI Metabolism	0.07179263059190558	0.8929420129686609	3
+PI-3K cascade:FGFR1	0.026588493497630056	0.61694317963145	2
+PI-3K cascade:FGFR2	0.029016536988619494	0.6305339545622236	2
+PI-3K cascade:FGFR3	0.017775100840756685	0.6145683838015972	2
+PI-3K cascade:FGFR4	0.021996969179166007	0.6145683838015972	2
+PI3K Cascade	0.09622613118707522	0.9904779969556841	2
+PI3K events in ERBB2 signaling	0.9999999999646785	0.9999999999927582	0
+PI3K/AKT Signaling in Cancer	0.39205473608307395	0.9999999999927582	2
+PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling	0.156170359991355	0.9999999999927582	3
+PINK1-PRKN Mediated Mitophagy	0.32432236837867806	0.9999999999927582	1
+PIP3 activates AKT signaling	0.09727421289157266	0.9937940108101715	6
+PIWI-interacting RNA (piRNA) biogenesis	0.9999999999714452	0.9999999999927582	0
+PKA activation	0.19783548748264998	0.9999999999927582	1
+PKA activation in glucagon signalling	0.18794676795670193	0.9999999999927582	1
+PKA-mediated phosphorylation of CREB	0.2076042940580923	0.9999999999927582	1
+PKMTs methylate histone lysines	0.4167985845635938	0.9999999999927582	1
+PKR-mediated signaling	0.22284896636261992	0.9999999999927582	2
+PLC beta mediated events	0.4447319579570038	0.9999999999927582	1
+PPARA activates gene expression	0.40487925129440344	0.9999999999927582	2
+PRC2 methylates histones and DNA	0.9999999999884099	0.9999999999927582	0
+PTEN Regulation	0.19524834522664325	0.9999999999927582	3
+Packaging Of Telomere Ends	0.9999999999624224	0.9999999999927582	0
+Paracetamol ADME	0.9999999999735208	0.9999999999927582	0
+Paradoxical activation of RAF signaling by kinase inactive BRAF	0.09622613118707522	0.9904779969556841	2
+Parasite infection	0.9999999999729907	0.9999999999927582	0
+Parasitic Infection Pathways	0.8530111860931173	0.9999999999927582	1
+Pausing and recovery of HIV elongation	0.9999999999709193	0.9999999999927582	0
+Pausing and recovery of Tat-mediated HIV elongation	0.9999999999624224	0.9999999999927582	0
+Peptide chain elongation	0.9999999999800558	0.9999999999927582	0
+Peptide hormone metabolism	0.2633621962933669	0.9999999999927582	2
+Peptide ligand-binding receptors	0.6807120925617292	0.9999999999927582	2
+Peroxisomal lipid metabolism	0.2816080305064746	0.9999999999927582	1
+Peroxisomal protein import	0.5324134801846531	0.9999999999927582	1
+Phase 0 - rapid depolarisation	0.9999999999624224	0.9999999999927582	0
+Phase 4 - resting membrane potential	0.2076042940580923	0.9999999999927582	1
+Phase I - Functionalization of compounds	0.7175400879549566	0.9999999999927582	1
+Phase II - Conjugation of compounds	0.9999999999602323	0.9999999999927582	0
+Phospholipase C-mediated cascade: FGFR1	0.015809309748793982	0.6145683838015972	2
+Phospholipase C-mediated cascade; FGFR2	0.017775100840756685	0.6145683838015972	2
+Phospholipid metabolism	0.03818130781231956	0.6704758364244455	6
+Phosphorylated BMAL1:CLOCK (ARNTL:CLOCK) activates expression of core clock genes	0.029016536988619494	0.6305339545622236	2
+Phosphorylation of CD3 and TCR zeta chains	0.999999999959521	0.9999999999927582	0
+Phosphorylation of the APC/C	0.999999999959521	0.9999999999927582	0
+Plasma lipoprotein assembly	0.999999999961952	0.9999999999927582	0
+Plasma lipoprotein assembly, remodeling, and clearance	0.5965025770630716	0.9999999999927582	1
+Plasma lipoprotein clearance	0.3645071502196093	0.9999999999927582	1
+Plasma lipoprotein remodeling	0.9999999999709193	0.9999999999927582	0
+Platelet Adhesion to exposed collagen	0.9999999999646785	0.9999999999927582	0
+Platelet Aggregation (Plug Formation)	0.3799065079449865	0.9999999999927582	1
+Platelet activation, signaling and aggregation	0.08686562432513019	0.9668214609845791	6
+Platelet calcium homeostasis	0.9999999999635173	0.9999999999927582	0
+Platelet degranulation	0.014731494550026994	0.6145683838015972	5
+Platelet homeostasis	0.6475322803355221	0.9999999999927582	1
+Platelet sensitization by LDL	0.18794676795670193	0.9999999999927582	1
+Polo-like kinase mediated events	0.9999999999646785	0.9999999999927582	0
+Polymerase switching on the C-strand of the telomere	0.9999999999693486	0.9999999999927582	0
+Positive epigenetic regulation of rRNA expression	0.9999999999726593	0.9999999999927582	0
+Post NMDA receptor activation events	0.9999999999618389	0.9999999999927582	0
+Post-chaperonin tubulin folding pathway	0.9999999999753613	0.9999999999927582	0
+Post-translational modification: synthesis of GPI-anchored proteins	0.9999999999713279	0.9999999999927582	0
+Post-translational protein phosphorylation	0.036020380889776445	0.6704758364244455	4
+Postmitotic nuclear pore complex (NPC) reformation	0.04238282602319189	0.6907391526874964	2
+Potassium Channels	0.3528852625773101	0.9999999999927582	2
+Potential therapeutics for SARS	0.6766047955507736	0.9999999999927582	1
+Pre-NOTCH Expression and Processing	0.9999999999741467	0.9999999999927582	0
+Pre-NOTCH Processing in Golgi	0.9999999999677108	0.9999999999927582	0
+Pre-NOTCH Transcription and Translation	0.9999999999778926	0.9999999999927582	0
+Prefoldin mediated transfer of substrate  to CCT/TriC	0.9999999999635173	0.9999999999927582	0
+Presynaptic function of Kainate receptors	0.9999999999787348	0.9999999999927582	0
+Presynaptic phase of homologous DNA pairing and strand exchange	0.3874662698620969	0.9999999999927582	1
+Processing of Capped Intron-Containing Pre-mRNA	0.8505476185145615	0.9999999999927582	2
+Processing of Capped Intronless Pre-mRNA	0.9999999999735208	0.9999999999927582	0
+Processing of DNA double-strand break ends	0.24982842902457622	0.9999999999927582	2
+Processing of Intronless Pre-mRNAs	0.999999999961952	0.9999999999927582	0
+Processing of SMDT1	0.9999999999646785	0.9999999999927582	0
+Processive synthesis on the C-strand of the telomere	0.999999999961952	0.9999999999927582	0
+Programmed Cell Death	0.9057784173356749	0.9999999999927582	1
+Prolactin receptor signaling	0.16780370988038532	0.9999999999927582	1
+Prostacyclin signalling through prostacyclin receptor	0.999999999961952	0.9999999999927582	0
+Proteasome assembly	0.9999999999824303	0.9999999999927582	0
+Protein folding	0.9999999999801291	0.9999999999927582	0
+Protein hydroxylation	0.999999999961952	0.9999999999927582	0
+Protein localization	0.28550280378419063	0.9999999999927582	3
+Protein methylation	0.9999999999849285	0.9999999999927582	0
+Protein ubiquitination	0.9999999999653525	0.9999999999927582	0
+Protein-protein interactions at synapses	0.9999999999833875	0.9999999999927582	0
+Purine catabolism	0.9999999999849285	0.9999999999927582	0
+Purinergic signaling in leishmaniasis infection	0.9999999999838654	0.9999999999927582	0
+Pyroptosis	0.9999999999635173	0.9999999999927582	0
+Pyruvate metabolism	0.9999999999669822	0.9999999999927582	0
+RA biosynthesis pathway	0.9999999999713697	0.9999999999927582	0
+RAB GEFs exchange GTP for GDP on RABs	0.08285803588972611	0.9374599267192978	3
+RAB geranylgeranylation	0.5088733889534103	0.9999999999927582	1
+RAC1 GTPase cycle	0.6246307578545911	0.9999999999927582	2
+RAC2 GTPase cycle	0.999999999974634	0.9999999999927582	0
+RAC3 GTPase cycle	0.6518396081658481	0.9999999999927582	1
+RAF activation	0.007412554411381305	0.6145683838015972	3
+RAF-independent MAPK1/3 activation	0.23620562871860598	0.9999999999927582	1
+RAF/MAP kinase cascade	0.03756643902157013	0.6704758364244455	7
+RAS processing	0.9999999999753613	0.9999999999927582	0
+RET signaling	0.9999999999884099	0.9999999999927582	0
+RHO GTPase Effectors	0.25783742261581416	0.9999999999927582	5
+RHO GTPase cycle	0.5923665477103569	0.9999999999927582	5
+RHO GTPases Activate Formins	0.23318350918094172	0.9999999999927582	3
+RHO GTPases Activate NADPH Oxidases	0.9999999999713697	0.9999999999927582	0
+RHO GTPases Activate ROCKs	0.021996969179166007	0.6145683838015972	2
+RHO GTPases Activate WASPs and WAVEs	0.9999999999731298	0.9999999999927582	0
+RHO GTPases activate CIT	0.999999999961952	0.9999999999927582	0
+RHO GTPases activate IQGAPs	0.9999999999767414	0.9999999999927582	0
+RHO GTPases activate PAKs	0.999999999961952	0.9999999999927582	0
+RHO GTPases activate PKNs	0.9999999999633389	0.9999999999927582	0
+RHOA GTPase cycle	0.513706685140947	0.9999999999927582	2
+RHOB GTPase cycle	0.5602646742628066	0.9999999999927582	1
+RHOBTB GTPase Cycle	0.3406912701835075	0.9999999999927582	1
+RHOBTB1 GTPase cycle	0.23620562871860598	0.9999999999927582	1
+RHOBTB2 GTPase cycle	0.9999999999713697	0.9999999999927582	0
+RHOC GTPase cycle	0.586463585960657	0.9999999999927582	1
+RHOD GTPase cycle	0.9999999999742152	0.9999999999927582	0
+RHOF GTPase cycle	0.9999999999867482	0.9999999999927582	0
+RHOG GTPase cycle	0.9999999999681369	0.9999999999927582	0
+RHOH GTPase cycle	0.3645071502196093	0.9999999999927582	1
+RHOJ GTPase cycle	0.9999999999824303	0.9999999999927582	0
+RHOQ GTPase cycle	0.5028062726457636	0.9999999999927582	1
+RHOU GTPase cycle	0.9999999999927582	0.9999999999927582	0
+RHOV GTPase cycle	0.9999999999856307	0.9999999999927582	0
+RIP-mediated NFkB activation via ZBP1	0.9999999999646785	0.9999999999927582	0
+RIPK1-mediated regulated necrosis	0.9999999999759103	0.9999999999927582	0
+RMTs methylate histone arginines	0.4309359104640122	0.9999999999927582	1
+RNA Pol II CTD phosphorylation and interaction with CE	0.9999999999635173	0.9999999999927582	0
+RNA Pol II CTD phosphorylation and interaction with CE during HIV infection	0.9999999999635173	0.9999999999927582	0
+RNA Polymerase I Promoter Clearance	0.9999999999846068	0.9999999999927582	0
+RNA Polymerase I Promoter Escape	0.9999999999577459	0.9999999999927582	0
+RNA Polymerase I Promoter Opening	0.9999999999759103	0.9999999999927582	0
+RNA Polymerase I Transcription	0.9999999999618389	0.9999999999927582	0
+RNA Polymerase I Transcription Initiation	0.9999999999669822	0.9999999999927582	0
+RNA Polymerase I Transcription Termination	0.9999999999624224	0.9999999999927582	0
+RNA Polymerase II HIV Promoter Escape	0.999999999960504	0.9999999999927582	0
+RNA Polymerase II Pre-transcription Events	0.9999999999679082	0.9999999999927582	0
+RNA Polymerase II Promoter Escape	0.999999999960504	0.9999999999927582	0
+RNA Polymerase II Transcription Elongation	0.9999999999577459	0.9999999999927582	0
+RNA Polymerase II Transcription Initiation	0.999999999960504	0.9999999999927582	0
+RNA Polymerase II Transcription Initiation And Promoter Clearance	0.999999999960504	0.9999999999927582	0
+RNA Polymerase II Transcription Pre-Initiation And Promoter Opening	0.999999999960504	0.9999999999927582	0
+RNA Polymerase II Transcription Termination	0.9999999999846415	0.9999999999927582	0
+RNA Polymerase III Abortive And Retractive Initiation	0.9999999999884099	0.9999999999927582	0
+RNA Polymerase III Chain Elongation	0.9999999999677108	0.9999999999927582	0
+RNA Polymerase III Transcription	0.9999999999884099	0.9999999999927582	0
+RNA Polymerase III Transcription Initiation	0.9999999999856307	0.9999999999927582	0
+RNA Polymerase III Transcription Initiation From Type 1 Promoter	0.9999999999735208	0.9999999999927582	0
+RNA Polymerase III Transcription Initiation From Type 2 Promoter	0.9999999999635173	0.9999999999927582	0
+RNA Polymerase III Transcription Initiation From Type 3 Promoter	0.9999999999735208	0.9999999999927582	0
+RNA Polymerase III Transcription Termination	0.9999999999753613	0.9999999999927582	0
+RNA polymerase II transcribes snRNA genes	0.9999999999767533	0.9999999999927582	0
+RND1 GTPase cycle	0.3949342556793892	0.9999999999927582	1
+RND2 GTPase cycle	0.40231157485391517	0.9999999999927582	1
+RND3 GTPase cycle	0.3949342556793892	0.9999999999927582	1
+RORA,B,C and NR1D1 (REV-ERBA) regulate gene expression	0.034124921956599004	0.6579861712476626	2
+ROS and RNS production in phagocytes	0.9999999999806142	0.9999999999927582	0
+RSV-host interactions	0.9999999999713279	0.9999999999927582	0
+RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known	0.07435747953135673	0.8929420129686609	2
+RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	0.9999999999692479	0.9999999999927582	0
+RUNX1 regulates transcription of genes involved in differentiation of HSCs	0.9999999999748788	0.9999999999927582	0
+RUNX2 regulates bone development	0.2990072417877644	0.9999999999927582	1
+RUNX2 regulates osteoblast differentiation	0.9999999999713697	0.9999999999927582	0
+Rab regulation of trafficking	0.051990191960365764	0.7189350787246539	4
+Rap1 signalling	0.1779366698871728	0.9999999999927582	1
+Ras activation upon Ca2+ influx through NMDA receptor	0.999999999961952	0.9999999999927582	0
+Receptor-type tyrosine-protein phosphatases	0.9999999999646785	0.9999999999927582	0
+Recognition and association of DNA glycosylase with site containing an affected purine	0.9999999999806142	0.9999999999927582	0
+Recognition and association of DNA glycosylase with site containing an affected pyrimidine	0.3874662698620969	0.9999999999927582	1
+Recognition of DNA damage by PCNA-containing replication complex	0.9999999999714452	0.9999999999927582	0
+Recruitment and ATM-mediated phosphorylation of repair and signaling proteins at DNA double strand breaks	0.005760689697850664	0.6145683838015972	4
+Recruitment of NuMA to mitotic centrosomes	0.9999999999713279	0.9999999999927582	0
+Recruitment of mitotic centrosome proteins and complexes	0.9999999999618389	0.9999999999927582	0
+Recycling of bile acids and salts	0.19783548748264998	0.9999999999927582	1
+Recycling pathway of L1	0.10003109834165703	0.9999999999927582	2
+Regulated Necrosis	0.9999999999729907	0.9999999999927582	0
+Regulation of APC/C activators between G1/S and early anaphase	0.9999999999776097	0.9999999999927582	0
+Regulation of Apoptosis	0.9999999999867482	0.9999999999927582	0
+Regulation of CDH1 Expression and Function	0.6086662645652653	0.9999999999927582	2
+Regulation of CDH1 Function	0.5207873413096601	0.9999999999927582	1
+Regulation of CDH1 Gene Transcription	0.576175914522076	0.9999999999927582	1
+Regulation of CDH1 posttranslational processing and trafficking to plasma membrane	0.9999999999767414	0.9999999999927582	0
+Regulation of CDH11 Expression and Function	0.9999999999635173	0.9999999999927582	0
+Regulation of Complement cascade	0.999999999960504	0.9999999999927582	0
+Regulation of Expression and Function of Type I Classical Cadherins	0.6086662645652653	0.9999999999927582	2
+Regulation of Expression and Function of Type II Classical Cadherins	0.9999999999759103	0.9999999999927582	0
+Regulation of FZD by ubiquitination	0.9999999999787348	0.9999999999927582	0
+Regulation of Glucokinase by Glucokinase Regulatory Protein	0.32432236837867806	0.9999999999927582	1
+Regulation of HSF1-mediated heat shock response	0.6297658282789991	0.9999999999927582	1
+Regulation of Homotypic Cell-Cell Adhesion	0.6550437685767652	0.9999999999927582	2
+Regulation of IFNA/IFNB signaling	0.9999999999693486	0.9999999999927582	0
+Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)	0.003369879626771361	0.5766706511312492	6
+Regulation of KIT signaling	0.9999999999646785	0.9999999999927582	0
+Regulation of MECP2 expression and activity	0.9999999999714452	0.9999999999927582	0
+Regulation of MITF-M-dependent genes involved in apoptosis	0.9999999999677108	0.9999999999927582	0
+Regulation of MITF-M-dependent genes involved in cell cycle and proliferation	0.01983853591664176	0.6145683838015972	2
+Regulation of MITF-M-dependent genes involved in lysosome biogenesis and autophagy	0.9999999999646785	0.9999999999927582	0
+Regulation of MITF-M-dependent genes involved in pigmentation	0.9999999999884099	0.9999999999927582	0
+Regulation of NF-kappa B signaling	0.9999999999849285	0.9999999999927582	0
+Regulation of PD-L1(CD274) Post-translational modification	0.9999999999680073	0.9999999999927582	0
+Regulation of PD-L1(CD274) expression	0.5820649878295229	0.9999999999927582	2
+Regulation of PD-L1(CD274) transcription	0.2005580708104294	0.9999999999927582	2
+Regulation of PLK1 Activity at G2/M Transition	0.9999999999748788	0.9999999999927582	0
+Regulation of PTEN gene transcription	0.1612566413854175	0.9999999999927582	2
+Regulation of PTEN stability and activity	0.9999999999799639	0.9999999999927582	0
+Regulation of RAS by GAPs	0.9999999999799639	0.9999999999927582	0
+Regulation of RUNX1 Expression and Activity	0.18794676795670193	0.9999999999927582	1
+Regulation of RUNX2 expression and activity	0.9999999999746253	0.9999999999927582	0
+Regulation of RUNX3 expression and activity	0.999999999960504	0.9999999999927582	0
+Regulation of T cell activation by CD28 family	0.5265593928257526	0.9999999999927582	3
+Regulation of TLR by endogenous ligand	0.9999999999787348	0.9999999999927582	0
+Regulation of TNFR1 signaling	0.9999999999669822	0.9999999999927582	0
+Regulation of TP53 Activity	0.5717538179556015	0.9999999999927582	2
+Regulation of TP53 Activity through Acetylation	0.2990072417877644	0.9999999999927582	1
+Regulation of TP53 Activity through Methylation	0.999999999961952	0.9999999999927582	0
+Regulation of TP53 Activity through Phosphorylation	0.6685510690505222	0.9999999999927582	1
+Regulation of TP53 Degradation	0.9999999999856307	0.9999999999927582	0
+Regulation of TP53 Expression and Degradation	0.9999999999927582	0.9999999999927582	0
+Regulation of actin dynamics for phagocytic cup formation	0.9999999999746253	0.9999999999927582	0
+Regulation of activated PAK-2p34 by proteasome mediated degradation	0.9999999999927582	0.9999999999927582	0
+Regulation of beta-cell development	0.3949342556793892	0.9999999999927582	1
+Regulation of cholesterol biosynthesis by SREBP (SREBF)	0.4777823413152897	0.9999999999927582	1
+Regulation of endogenous retroelements	0.737649136766777	0.9999999999927582	1
+Regulation of endogenous retroelements by KRAB-ZFP proteins	0.5965025770630716	0.9999999999927582	1
+Regulation of endogenous retroelements by Piwi-interacting RNAs (piRNAs)	0.9999999999778926	0.9999999999927582	0
+Regulation of endogenous retroelements by the Human Silencing Hub (HUSH) complex	0.9999999999726835	0.9999999999927582	0
+Regulation of expression of SLITs and ROBOs	0.9999999999724434	0.9999999999927582	0
+Regulation of gene expression in beta cells	0.9999999999787348	0.9999999999927582	0
+Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells	0.9999999999872295	0.9999999999927582	0
+Regulation of innate immune responses to cytosolic DNA	0.16780370988038532	0.9999999999927582	1
+Regulation of insulin secretion	0.6111078435143834	0.9999999999927582	1
+Regulation of lipid metabolism by PPARalpha	0.41335714811680874	0.9999999999927582	2
+Regulation of mRNA stability by proteins that bind AU-rich elements	0.6062988740130625	0.9999999999927582	1
+Regulation of mitotic cell cycle	0.9999999999654162	0.9999999999927582	0
+Regulation of necroptotic cell death	0.9999999999759103	0.9999999999927582	0
+Regulation of ornithine decarboxylase (ODC)	0.9999999999726835	0.9999999999927582	0
+Regulation of pyruvate metabolism	0.9999999999624224	0.9999999999927582	0
+Regulation of signaling by CBL	0.9999999999713697	0.9999999999927582	0
+Removal of the Flap Intermediate from the C-strand	0.9999999999849285	0.9999999999927582	0
+Replacement of protamines by nucleosomes in the male pronucleus	0.9999999999846867	0.9999999999927582	0
+Reproduction	0.44664869003751395	0.9999999999927582	2
+Resolution of AP sites via the multiple-nucleotide patch replacement pathway	0.9999999999693486	0.9999999999927582	0
+Resolution of Abasic Sites (AP sites)	0.3722538469518597	0.9999999999927582	1
+Resolution of D-Loop Structures	0.35666526722987985	0.9999999999927582	1
+Resolution of D-loop Structures through Holliday Junction Intermediates	0.3487270334546087	0.9999999999927582	1
+Resolution of D-loop Structures through Synthesis-Dependent Strand Annealing (SDSA)	0.2816080305064746	0.9999999999927582	1
+Resolution of Sister Chromatid Cohesion	0.18601723421989563	0.9999999999927582	3
+Respiratory Syncytial Virus Infection Pathway	0.9999999999612281	0.9999999999927582	0
+Respiratory electron transport	0.9999999999684656	0.9999999999927582	0
+Respiratory syncytial virus (RSV) attachment and entry	0.9999999999787348	0.9999999999927582	0
+Respiratory syncytial virus (RSV) genome replication, transcription and translation	0.9999999999849285	0.9999999999927582	0
+Response of EIF2AK4 (GCN2) to amino acid deficiency	0.9999999999780355	0.9999999999927582	0
+Response of Mtb to phagocytosis	0.9999999999713697	0.9999999999927582	0
+Response of endothelial cells to shear stress	0.10196401144623603	0.9999999999927582	3
+Response to elevated platelet cytosolic Ca2+	0.01733559583981576	0.6145683838015972	5
+Retinoid metabolism and transport	0.40231157485391517	0.9999999999927582	1
+Retrograde transport at the Trans-Golgi-Network	0.999999999988957	0.9999999999927582	0
+Rev-mediated nuclear export of HIV RNA	0.3487270334546087	0.9999999999927582	1
+Ribosomal scanning and start codon recognition	0.9999999999826081	0.9999999999927582	0
+Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide	0.9999999999707591	0.9999999999927582	0
+Ribosome-associated quality control	0.818715985377728	0.9999999999927582	1
+Role of LAT2/NTAL/LAB on calcium mobilization	0.9999999999646785	0.9999999999927582	0
+Role of phospholipids in phagocytosis	0.26377883967942795	0.9999999999927582	1
+S Phase	0.8357479854319849	0.9999999999927582	1
+SARS-CoV Infections	0.8668560173084864	0.9999999999927582	3
+SARS-CoV-1 Infection	0.8164669227842472	0.9999999999927582	1
+SARS-CoV-1 activates/modulates innate immune responses	0.9999999999867482	0.9999999999927582	0
+SARS-CoV-1 modulates host translation machinery	0.9999999999731298	0.9999999999927582	0
+SARS-CoV-1 targets host intracellular signalling and regulatory pathways	0.1779366698871728	0.9999999999927582	1
+SARS-CoV-1-host interactions	0.6844636408043093	0.9999999999927582	1
+SARS-CoV-2 Infection	0.8668276032568722	0.9999999999927582	2
+SARS-CoV-2 activates/modulates innate and adaptive immune responses	0.7708850751737882	0.9999999999927582	1
+SARS-CoV-2 modulates host translation machinery	0.9999999999669822	0.9999999999927582	0
+SARS-CoV-2-host interactions	0.90693629380433	0.9999999999927582	1
+SCF(Skp2)-mediated degradation of p27/p21	0.9999999999742152	0.9999999999927582	0
+SCF-beta-TrCP mediated degradation of Emi1	0.9999999999776203	0.9999999999927582	0
+SHC-mediated cascade:FGFR1	0.026588493497630056	0.61694317963145	2
+SHC-mediated cascade:FGFR2	0.029016536988619494	0.6305339545622236	2
+SHC-mediated cascade:FGFR3	0.017775100840756685	0.6145683838015972	2
+SHC-mediated cascade:FGFR4	0.021996969179166007	0.6145683838015972	2
+SHC1 events in ERBB2 signaling	0.9999999999713697	0.9999999999927582	0
+SIRT1 negatively regulates rRNA expression	0.9999999999731298	0.9999999999927582	0
+SLC transporter disorders	0.6766047955507736	0.9999999999927582	1
+SLC-mediated transmembrane transport	0.5353762662394908	0.9999999999927582	3
+SLC-mediated transport of amino acids	0.9999999999731298	0.9999999999927582	0
+SLC-mediated transport of inorganic anions	0.3487270334546087	0.9999999999927582	1
+SLC-mediated transport of neurotransmitters	0.999999999959521	0.9999999999927582	0
+SLC-mediated transport of organic anions	0.3645071502196093	0.9999999999927582	1
+SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription	0.9999999999856307	0.9999999999927582	0
+SPOP-mediated proteasomal degradation of PD-L1(CD274)	0.9999999999669822	0.9999999999927582	0
+SRP-dependent cotranslational protein targeting to membrane	0.9999999999570204	0.9999999999927582	0
+STING mediated induction of host immune responses	0.9999999999646785	0.9999999999927582	0
+SUMO E3 ligases SUMOylate target proteins	0.00018526130683016088	0.16589236246835	9
+SUMOylation	0.00024235553318970054	0.16589236246835	9
+SUMOylation of DNA damage response and repair proteins	0.0020808986943368656	0.4910970299394906	5
+SUMOylation of DNA methylation proteins	0.015809309748793982	0.6145683838015972	2
+SUMOylation of DNA replication proteins	0.01838035220156211	0.6145683838015972	3
+SUMOylation of RNA binding proteins	0.019461172312645842	0.6145683838015972	3
+SUMOylation of SUMOylation proteins	0.06747531920510584	0.8553121480721286	2
+SUMOylation of chromatin organization proteins	0.03216342882703019	0.6571900606597662	3
+SUMOylation of intracellular receptors	0.005144365592631472	0.6145683838015972	3
+SUMOylation of transcription cofactors	0.01632182093868022	0.6145683838015972	3
+SUMOylation of transcription factors	0.21725463562236444	0.9999999999927582	1
+SUMOylation of ubiquitinylation proteins	0.011772242951303486	0.6145683838015972	3
+SWI/SNF chromatin remodelers	0.3159867999245989	0.9999999999927582	1
+Scavenging by Class A Receptors	0.999999999961952	0.9999999999927582	0
+Sealing of the nuclear envelope (NE) by ESCRT-III	0.9999999999767414	0.9999999999927582	0
+Selective autophagy	0.6602976498204374	0.9999999999927582	1
+Selenoamino acid metabolism	0.9999999999677579	0.9999999999927582	0
+Selenocysteine synthesis	0.9999999999656157	0.9999999999927582	0
+Sema4D in semaphorin signaling	0.034124921956599004	0.6579861712476626	2
+Sema4D induced cell migration and growth-cone collapse	0.024247804275815403	0.61694317963145	2
+Semaphorin interactions	0.03820096073126863	0.6704758364244455	3
+Senescence-Associated Secretory Phenotype (SASP)	0.9999999999833875	0.9999999999927582	0
+Sensory perception of sweet, bitter, and umami (glutamate) taste	0.9999999999884099	0.9999999999927582	0
+Sensory perception of taste	0.999999999988957	0.9999999999927582	0
+Sensory processing of sound	0.9999999999726593	0.9999999999927582	0
+Sensory processing of sound by inner hair cells of the cochlea	0.9999999999573634	0.9999999999927582	0
+Sensory processing of sound by outer hair cells of the cochlea	0.9999999999675967	0.9999999999927582	0
+Separation of Sister Chromatids	0.3519579489134658	0.9999999999927582	3
+Serotonin Neurotransmitter Release Cycle	0.9999999999849285	0.9999999999927582	0
+Sialic acid metabolism	0.9999999999709193	0.9999999999927582	0
+Signal amplification	0.9999999999709193	0.9999999999927582	0
+Signal regulatory protein family interactions	0.9999999999646785	0.9999999999927582	0
+Signal transduction by L1	0.999999999959521	0.9999999999927582	0
+Signaling by ALK	0.9999999999714452	0.9999999999927582	0
+Signaling by ALK fusions and activated point mutants	0.6685510690505222	0.9999999999927582	1
+Signaling by ALK in cancer	0.6685510690505222	0.9999999999927582	1
+Signaling by Activin	0.9999999999849285	0.9999999999927582	0
+Signaling by BMP	0.05130084093073695	0.7166413391242743	2
+Signaling by BRAF and RAF1 fusions	0.041421006499612494	0.6907391526874964	3
+Signaling by CSF1 (M-CSF) in myeloid cells	0.9999999999759103	0.9999999999927582	0
+Signaling by CSF3 (G-CSF)	0.30754884182071957	0.9999999999927582	1
+Signaling by EGFR	0.13183456062394983	0.9999999999927582	2
+Signaling by EGFR in Cancer	0.9999999999693486	0.9999999999927582	0
+Signaling by EGFRvIII in Cancer	0.9999999999872295	0.9999999999927582	0
+Signaling by ERBB2	0.9999999999742152	0.9999999999927582	0
+Signaling by ERBB2 ECD mutants	0.9999999999646785	0.9999999999927582	0
+Signaling by ERBB2 KD Mutants	0.9999999999693486	0.9999999999927582	0
+Signaling by ERBB2 TMD/JMD mutants	0.9999999999713697	0.9999999999927582	0
+Signaling by ERBB2 in Cancer	0.9999999999838654	0.9999999999927582	0
+Signaling by ERBB4	0.9999999999729907	0.9999999999927582	0
+Signaling by Erythropoietin	0.26377883967942795	0.9999999999927582	1
+Signaling by FGFR	0.2859172243536398	0.9999999999927582	2
+Signaling by FGFR in disease	0.0068643564760490815	0.6145683838015972	4
+Signaling by FGFR1	0.1277402435122934	0.9999999999927582	2
+Signaling by FGFR1 in disease	0.001139492631930894	0.3899913532783485	4
+Signaling by FGFR2	0.21837288550958148	0.9999999999927582	2
+Signaling by FGFR2 IIIa TM	0.2076042940580923	0.9999999999927582	1
+Signaling by FGFR2 in disease	0.09246416922321521	0.9904779969556841	2
+Signaling by FGFR3	0.08145272922831663	0.9361642481497161	2
+Signaling by FGFR3 in disease	0.026588493497630056	0.61694317963145	2
+Signaling by FGFR4	0.08507579336171811	0.9546619763294434	2
+Signaling by FLT3 ITD and TKD mutants	0.1779366698871728	0.9999999999927582	1
+Signaling by FLT3 fusion proteins	0.2076042940580923	0.9999999999927582	1
+Signaling by Hedgehog	0.49453742259764194	0.9999999999927582	2
+Signaling by Hippo	0.999999999961952	0.9999999999927582	0
+Signaling by Insulin receptor	0.2543381547512007	0.9999999999927582	2
+Signaling by Interleukins	0.7693708137882069	0.9999999999927582	4
+Signaling by KIT in disease	0.21725463562236444	0.9999999999927582	1
+Signaling by Ligand-Responsive EGFR Variants in Cancer	0.999999999961952	0.9999999999927582	0
+Signaling by MET	0.24532119362312285	0.9999999999927582	2
+Signaling by NODAL	0.9999999999787348	0.9999999999927582	0
+Signaling by NOTCH	0.4209395310552705	0.9999999999927582	3
+Signaling by NOTCH1	0.20944580008640312	0.9999999999927582	2
+Signaling by NOTCH1 HD Domain Mutants in Cancer	0.16780370988038532	0.9999999999927582	1
+Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer	0.14011123040881443	0.9999999999927582	2
+Signaling by NOTCH1 PEST Domain Mutants in Cancer	0.14011123040881443	0.9999999999927582	2
+Signaling by NOTCH1 in Cancer	0.14011123040881443	0.9999999999927582	2
+Signaling by NOTCH2	0.3487270334546087	0.9999999999927582	1
+Signaling by NOTCH3	0.11564965280383438	0.9999999999927582	2
+Signaling by NOTCH4	0.5813512151209693	0.9999999999927582	1
+Signaling by NTRK1 (TRKA)	0.04931832856376878	0.7166413391242743	4
+Signaling by NTRK2 (TRKB)	0.9999999999693486	0.9999999999927582	0
+Signaling by NTRK3 (TRKC)	0.9999999999849285	0.9999999999927582	0
+Signaling by NTRKs	0.07779324108382936	0.9191108520675544	4
+Signaling by Non-Receptor Tyrosine Kinases	0.9999999999826081	0.9999999999927582	0
+Signaling by Nuclear Receptors	0.2002302304777515	0.9999999999927582	5
+Signaling by PDGF	0.15272690041132506	0.9999999999927582	2
+Signaling by PDGFR in disease	0.999999999959521	0.9999999999927582	0
+Signaling by PTK6	0.9999999999826081	0.9999999999927582	0
+Signaling by RAF1 mutants	0.08145272922831663	0.9361642481497161	2
+Signaling by RAS mutants	0.09622613118707522	0.9904779969556841	2
+Signaling by ROBO receptors	0.9999999999566384	0.9999999999927582	0
+Signaling by Retinoic Acid	0.9999999999752546	0.9999999999927582	0
+Signaling by SCF-KIT	0.4095993235193585	0.9999999999927582	1
+Signaling by TGF-beta Receptor Complex	0.3084019244730248	0.9999999999927582	2
+Signaling by TGFB family members	0.04028551481735809	0.6893858723120403	5
+Signaling by TGFBR3	0.42391042787452937	0.9999999999927582	1
+Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R)	0.025382315699751957	0.61694317963145	3
+Signaling by VEGF	0.13075469773183546	0.9999999999927582	3
+Signaling by WNT	0.007844856827730838	0.6145683838015972	9
+Signaling by WNT in cancer	0.0067989067325376525	0.6145683838015972	3
+Signaling by cytosolic FGFR1 fusion mutants	0.01983853591664176	0.6145683838015972	2
+Signaling by high-kinase activity BRAF mutants	0.06411875215836739	0.8280997330641977	2
+Signaling by moderate kinase activity BRAF mutants	0.09622613118707522	0.9904779969556841	2
+Signaling by phosphorylated juxtamembrane, extracellular and kinase domain KIT mutants	0.21725463562236444	0.9999999999927582	1
+Signaling by the B Cell Receptor (BCR)	0.6844636408043093	0.9999999999927582	1
+Signaling downstream of RAS mutants	0.09622613118707522	0.9904779969556841	2
+Signalling to ERKs	0.9999999999731298	0.9999999999927582	0
+Signalling to RAS	0.999999999959521	0.9999999999927582	0
+Smooth Muscle Contraction	0.999999999983398	0.9999999999927582	0
+Somitogenesis	0.999999999960504	0.9999999999927582	0
+Specification of the neural plate border	0.9999999999849285	0.9999999999927582	0
+Sphingolipid de novo biosynthesis	0.9999999999927582	0.9999999999927582	0
+Sphingolipid metabolism	0.7105016981556838	0.9999999999927582	1
+Spry regulation of FGF signaling	0.9999999999646785	0.9999999999927582	0
+Stabilization of p53	0.9999999999669141	0.9999999999927582	0
+Stimuli-sensing channels	0.7069172882048194	0.9999999999927582	1
+Striated Muscle Contraction	0.9999999999806142	0.9999999999927582	0
+Sulfur amino acid metabolism	0.9999999999735208	0.9999999999927582	0
+Surfactant metabolism	0.9999999999714452	0.9999999999927582	0
+Switching of origins to a post-replicative state	0.9999999999679082	0.9999999999927582	0
+Synaptic adhesion-like molecules	0.999999999961952	0.9999999999927582	0
+Syndecan interactions	0.2727478377469062	0.9999999999927582	1
+Synthesis of DNA	0.9999999999662108	0.9999999999927582	0
+Synthesis of IP3 and IP4 in the cytosol	0.9999999999693486	0.9999999999927582	0
+Synthesis of Leukotrienes (LT) and Eoxins (EX)	0.999999999959521	0.9999999999927582	0
+Synthesis of PA	0.9999999999752546	0.9999999999927582	0
+Synthesis of PC	0.2816080305064746	0.9999999999927582	1
+Synthesis of PIPs at the Golgi membrane	0.9999999999849285	0.9999999999927582	0
+Synthesis of PIPs at the early endosome membrane	0.9999999999872295	0.9999999999927582	0
+Synthesis of PIPs at the plasma membrane	0.4447319579570038	0.9999999999927582	1
+Synthesis of Prostaglandins (PG) and Thromboxanes (TX)	0.9999999999872295	0.9999999999927582	0
+Synthesis of active ubiquitin: roles of E1 and E2 enzymes	0.9999999999635173	0.9999999999927582	0
+Synthesis of bile acids and bile salts	0.3325567843617056	0.9999999999927582	1
+Synthesis of bile acids and bile salts via 7alpha-hydroxycholesterol	0.24550908993906456	0.9999999999927582	1
+Synthesis of glycosylphosphatidylinositol (GPI)	0.9999999999849285	0.9999999999927582	0
+Synthesis of substrates in N-glycan biosythesis	0.9999999999846415	0.9999999999927582	0
+Synthesis of very long-chain fatty acyl-CoAs	0.9999999999753613	0.9999999999927582	0
+Synthesis, secretion, and deacylation of Ghrelin	0.2076042940580923	0.9999999999927582	1
+Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)	0.21725463562236444	0.9999999999927582	1
+TAK1-dependent IKK and NF-kappa-B activation	0.9999999999884099	0.9999999999927582	0
+TBC/RABGAPs	0.4095993235193585	0.9999999999927582	1
+TCF dependent signaling in response to WNT	0.026503885754807582	0.61694317963145	6
+TCR signaling	0.9999999999676561	0.9999999999927582	0
+TGF-beta receptor signaling activates SMADs	0.4378760766004279	0.9999999999927582	1
+TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition)	0.9999999999646785	0.9999999999927582	0
+TGFBR3 expression	0.9999999999693486	0.9999999999927582	0
+TICAM1, RIP1-mediated IKK complex recruitment	0.9999999999677108	0.9999999999927582	0
+TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway	0.1779366698871728	0.9999999999927582	1
+TNF signaling	0.9999999999826081	0.9999999999927582	0
+TNFR1-induced NF-kappa-B signaling pathway	0.9999999999759103	0.9999999999927582	0
+TNFR1-induced proapoptotic signaling	0.9999999999846867	0.9999999999927582	0
+TNFR2 non-canonical NF-kB pathway	0.6431718932042783	0.9999999999927582	1
+TNFs bind their physiological receptors	0.9999999999838654	0.9999999999927582	0
+TP53 Regulates Metabolic Genes	0.9999999999833875	0.9999999999927582	0
+TP53 Regulates Transcription of Cell Cycle Genes	0.9999999999912235	0.9999999999927582	0
+TP53 Regulates Transcription of Cell Death Genes	0.015343948976687621	0.6145683838015972	3
+TP53 Regulates Transcription of DNA Repair Genes	0.9999999999692479	0.9999999999927582	0
+TP53 Regulates Transcription of Genes Involved in Cytochrome C Release	0.21725463562236444	0.9999999999927582	1
+TP53 Regulates Transcription of Genes Involved in G2 Cell Cycle Arrest	0.9999999999677108	0.9999999999927582	0
+TP53 regulates transcription of additional cell cycle genes whose exact role in the p53 pathway remain uncertain	0.999999999959521	0.9999999999927582	0
+TRAF3-dependent IRF activation pathway	0.9999999999872295	0.9999999999927582	0
+TRAF6 mediated IRF7 activation	0.2990072417877644	0.9999999999927582	1
+TRAF6 mediated NF-kB activation	0.9999999999846867	0.9999999999927582	0
+TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation	0.9999999999780355	0.9999999999927582	0
+TRAF6-mediated induction of TAK1 complex within TLR4 complex	0.9999999999872295	0.9999999999927582	0
+TRIF (TICAM1)-mediated TLR4 signaling	0.7209951202059136	0.9999999999927582	1
+TRP channels	0.9999999999635173	0.9999999999927582	0
+Tat-mediated HIV elongation arrest and recovery	0.9999999999624224	0.9999999999927582	0
+Tat-mediated elongation of the HIV-1 transcript	0.999999999983398	0.9999999999927582	0
+Telomere C-strand (Lagging Strand) Synthesis	0.9999999999709193	0.9999999999927582	0
+Telomere Extension By Telomerase	0.9999999999713697	0.9999999999927582	0
+Telomere Maintenance	0.9999999999656157	0.9999999999927582	0
+Termination of O-glycan biosynthesis	0.9999999999693486	0.9999999999927582	0
+Termination of translesion DNA synthesis	0.32432236837867806	0.9999999999927582	1
+The NLRP3 inflammasome	0.9999999999646785	0.9999999999927582	0
+The canonical retinoid cycle in rods (twilight vision)	0.23620562871860598	0.9999999999927582	1
+The phototransduction cascade	0.9999999999767414	0.9999999999927582	0
+The role of GTSE1 in G2/M progression after G2 checkpoint	0.9999999999649364	0.9999999999927582	0
+The role of Nef in HIV-1 replication and disease pathogenesis	0.9999999999635173	0.9999999999927582	0
+Thrombin signalling through proteinase activated receptors (PARs)	0.9999999999767414	0.9999999999927582	0
+Thromboxane signalling through TP receptor	0.9999999999846867	0.9999999999927582	0
+Tie2 Signaling	0.9999999999677108	0.9999999999927582	0
+Tight junction interactions	0.9999999999714452	0.9999999999927582	0
+Toll Like Receptor 10 (TLR10) Cascade	0.9999999999713279	0.9999999999927582	0
+Toll Like Receptor 2 (TLR2) Cascade	0.999999999967514	0.9999999999927582	0
+Toll Like Receptor 3 (TLR3) Cascade	0.7069172882048194	0.9999999999927582	1
+Toll Like Receptor 4 (TLR4) Cascade	0.818715985377728	0.9999999999927582	1
+Toll Like Receptor 5 (TLR5) Cascade	0.9999999999713279	0.9999999999927582	0
+Toll Like Receptor 7/8 (TLR7/8) Cascade	0.9999999999652932	0.9999999999927582	0
+Toll Like Receptor 9 (TLR9) Cascade	0.9999999999848619	0.9999999999927582	0
+Toll Like Receptor TLR1:TLR2 Cascade	0.999999999967514	0.9999999999927582	0
+Toll Like Receptor TLR6:TLR2 Cascade	0.9999999999570204	0.9999999999927582	0
+Toll-like Receptor Cascades	0.8618082934935394	0.9999999999927582	1
+Trafficking of AMPA receptors	0.9999999999714452	0.9999999999927582	0
+Trafficking of GluR2-containing AMPA receptors	0.9999999999872295	0.9999999999927582	0
+Transcription of E2F targets under negative control by DREAM complex	0.999999999961952	0.9999999999927582	0
+Transcription of E2F targets under negative control by p107 (RBL1) and p130 (RBL2) in complex with HDAC1	0.9999999999646785	0.9999999999927582	0
+Transcription of the HIV genome	0.9999999999776097	0.9999999999927582	0
+Transcription-Coupled Nucleotide Excision Repair (TC-NER)	0.6014306938012993	0.9999999999927582	1
+Transcriptional Regulation by E2F6	0.057584177949484464	0.7653664040081964	2
+Transcriptional Regulation by MECP2	0.9999999999577459	0.9999999999927582	0
+Transcriptional Regulation by NPAS4	0.9999999999709193	0.9999999999927582	0
+Transcriptional Regulation by TP53	0.4198453586880626	0.9999999999927582	5
+Transcriptional Regulation by VENTX	0.3799065079449865	0.9999999999927582	1
+Transcriptional activation of mitochondrial biogenesis	0.1277402435122934	0.9999999999927582	2
+Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer	0.4515045738198914	0.9999999999927582	1
+Transcriptional and post-translational regulation of MITF-M expression and activity	0.03820096073126863	0.6704758364244455	3
+Transcriptional regulation by RUNX1	0.4046915953964625	0.9999999999927582	3
+Transcriptional regulation by RUNX2	0.3616717676426305	0.9999999999927582	2
+Transcriptional regulation by RUNX3	0.2768993734331587	0.9999999999927582	2
+Transcriptional regulation by small RNAs	0.4167985845635938	0.9999999999927582	1
+Transcriptional regulation by the AP-2 (TFAP2) family of transcription factors	0.3487270334546087	0.9999999999927582	1
+Transcriptional regulation of brown and beige adipocyte differentiation	0.04825846754066534	0.7103853985287188	2
+Transcriptional regulation of brown and beige adipocyte differentiation by EBF2	0.04825846754066534	0.7103853985287188	2
+Transcriptional regulation of granulopoiesis	0.5028062726457636	0.9999999999927582	1
+Transcriptional regulation of pluripotent stem cells	0.04825846754066534	0.7103853985287188	2
+Transcriptional regulation of white adipocyte differentiation	0.25884964629718255	0.9999999999927582	2
+Transferrin endocytosis and recycling	0.9999999999759103	0.9999999999927582	0
+Translation	0.9857228126607033	0.9999999999927582	1
+Translation initiation complex formation	0.9999999999826081	0.9999999999927582	0
+Translation of Structural Proteins_9683701	0.2990072417877644	0.9999999999927582	1
+Translation of Structural Proteins_9694635	0.5148667811536353	0.9999999999927582	1
+Translesion Synthesis by POLH	0.999999999961952	0.9999999999927582	0
+Translesion synthesis by POLI	0.18794676795670193	0.9999999999927582	1
+Translesion synthesis by POLK	0.18794676795670193	0.9999999999927582	1
+Translesion synthesis by REV1	0.1779366698871728	0.9999999999927582	1
+Translesion synthesis by Y family DNA polymerases bypasses lesions on DNA template	0.3799065079449865	0.9999999999927582	1
+Translocation of SLC2A4 (GLUT4) to the plasma membrane	0.9999999999726593	0.9999999999927582	0
+Translocation of ZAP-70 to Immunological synapse	0.9999999999849285	0.9999999999927582	0
+Transmission across Chemical Synapses	0.6077094950811986	0.9999999999927582	3
+Transport of Mature Transcript to Cytoplasm	0.6205510103965239	0.9999999999927582	1
+Transport of Mature mRNA Derived from an Intronless Transcript	0.40231157485391517	0.9999999999927582	1
+Transport of Mature mRNA derived from an Intron-Containing Transcript	0.576175914522076	0.9999999999927582	1
+Transport of Mature mRNAs Derived from Intronless Transcripts	0.4095993235193585	0.9999999999927582	1
+Transport of Ribonucleoproteins into the Host Nucleus	0.32432236837867806	0.9999999999927582	1
+Transport of connexons to the plasma membrane	0.9999999999787348	0.9999999999927582	0
+Transport of the SLBP Dependant Mature mRNA	0.35666526722987985	0.9999999999927582	1
+Transport of the SLBP independent Mature mRNA	0.3487270334546087	0.9999999999927582	1
+Transport of vitamins, nucleosides, and related molecules	0.9999999999735208	0.9999999999927582	0
+Transport to the Golgi and subsequent modification	0.9999999999511836	0.9999999999927582	0
+Triglyceride catabolism	0.9999999999753613	0.9999999999927582	0
+Triglyceride metabolism	0.9999999999856307	0.9999999999927582	0
+Tristetraprolin (TTP, ZFP36) binds and destabilizes mRNA	0.9999999999849285	0.9999999999927582	0
+Turbulent (oscillatory, disturbed) flow shear stress activates signaling by PIEZO1 and integrins in endothelial cells	0.30754884182071957	0.9999999999927582	1
+UCH proteinases	0.9999999999741467	0.9999999999927582	0
+Ub-specific processing proteases	0.9999999999700909	0.9999999999927582	0
+Ubiquitin-Mediated Degradation of Phosphorylated Cdc25A	0.9999999999824303	0.9999999999927582	0
+Ubiquitin-dependent degradation of Cyclin D	0.9999999999752546	0.9999999999927582	0
+Unblocking of NMDA receptors, glutamate binding and activation	0.999999999961952	0.9999999999927582	0
+Unfolded Protein Response (UPR)	0.9999999999652912	0.9999999999927582	0
+Uptake and actions of bacterial toxins	0.9999999999714452	0.9999999999927582	0
+VEGFA-VEGFR2 Pathway	0.6883214548934117	0.9999999999927582	1
+VEGFR2 mediated cell proliferation	0.999999999961952	0.9999999999927582	0
+VEGFR2 mediated vascular permeability	0.9999999999838654	0.9999999999927582	0
+VLDLR internalisation and degradation	0.9999999999646785	0.9999999999927582	0
+Vasopressin regulates renal water homeostasis via Aquaporins	0.40231157485391517	0.9999999999927582	1
+Vif-mediated degradation of APOBEC3G	0.9999999999884099	0.9999999999927582	0
+Viral Messenger RNA Synthesis	0.4167985845635938	0.9999999999927582	1
+Viral mRNA Translation	0.9999999999800558	0.9999999999927582	0
+Visual phototransduction	0.6766047955507736	0.9999999999927582	1
+Vitamin B5 (pantothenate) metabolism	0.999999999961952	0.9999999999927582	0
+Voltage gated Potassium channels	0.9999999999776203	0.9999999999927582	0
+Vpr-mediated nuclear import of PICs	0.3406912701835075	0.9999999999927582	1
+Vpu mediated degradation of CD4	0.9999999999752546	0.9999999999927582	0
+VxPx cargo-targeting to cilium	0.999999999959521	0.9999999999927582	0
+WNT ligand biogenesis and trafficking	0.26377883967942795	0.9999999999927582	1
+WNT5A-dependent internalization of FZD4	0.9999999999872295	0.9999999999927582	0
+XBP1(S) activates chaperone genes	0.999999999988957	0.9999999999927582	0
+Xenobiotics	0.9999999999846867	0.9999999999927582	0
+YAP1- and WWTR1 (TAZ)-stimulated gene expression	0.9999999999872295	0.9999999999927582	0
+ZBP1(DAI) mediated induction of type I IFNs	0.999999999959521	0.9999999999927582	0
+ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA	0.9999999999713279	0.9999999999927582	0
+Zinc transporters	0.9999999999872295	0.9999999999927582	0
+Zygotic genome activation (ZGA)	0.9999999999849285	0.9999999999927582	0
+activated TAK1 mediates p38 MAPK activation	0.999999999959521	0.9999999999927582	0
+cGMP effects	0.9999999999646785	0.9999999999927582	0
+mRNA 3'-end processing	0.9999999999662228	0.9999999999927582	0
+mRNA Capping	0.9999999999714452	0.9999999999927582	0
+mRNA Polyadenylation	0.9999999999546363	0.9999999999927582	0
+mRNA Splicing	0.9125165603938019	0.9999999999927582	1
+mRNA Splicing - Major Pathway	0.9046061968874619	0.9999999999927582	1
+mRNA Splicing - Minor Pathway	0.999999999975052	0.9999999999927582	0
+mRNA decay by 3' to 5' exoribonuclease	0.9999999999646785	0.9999999999927582	0
+mRNA decay by 5' to 3' exoribonuclease	0.9999999999872295	0.9999999999927582	0
+mTORC1-mediated signalling	0.9999999999753613	0.9999999999927582	0
+p130Cas linkage to MAPK signaling for integrins	0.16780370988038532	0.9999999999927582	1
+p53-Dependent G1 DNA Damage Response	0.9999999999662371	0.9999999999927582	0
+p53-Dependent G1/S DNA damage checkpoint	0.9999999999662371	0.9999999999927582	0
+p53-Independent G1/S DNA Damage Checkpoint	0.9999999999824303	0.9999999999927582	0
+p75 NTR receptor-mediated signalling	0.303914143762222	0.9999999999927582	2
+p75NTR signals via NF-kB	0.9999999999872295	0.9999999999927582	0
+rRNA modification in the nucleus and cytosol	0.9999999999577459	0.9999999999927582	0
+rRNA processing	0.9999999999555065	0.9999999999927582	0
+rRNA processing in the mitochondrion	0.9999999999646785	0.9999999999927582	0
+rRNA processing in the nucleus and cytosol	0.9999999999787229	0.9999999999927582	0
+snRNP Assembly	0.47133283796342845	0.9999999999927582	1
+tRNA Aminoacylation	0.9999999999776203	0.9999999999927582	0
+tRNA modification in the nucleus and cytosol	0.015343948976687621	0.6145683838015972	3
+tRNA processing	0.01033890562694368	0.6145683838015972	5
+tRNA processing in the nucleus	0.15272690041132506	0.9999999999927582	2
+trans-Golgi Network Vesicle Budding	0.5602646742628066	0.9999999999927582	1

@@ -1,0 +1,11 @@
+
+  |                                                                            
+  |                                                                      |   0%
+  |                                                                            
+  |======================================================================| 100%
+
+[v29] pathways tested: 2 | significant padj<0.05: 2
+[1] 2
+Warning message:
+In preparePathwaysAndStats(pathways, stats, minSize, maxSize, gseaParam,  :
+  All values in the stats vector are greater than zero and scoreType is "std", maybe you should switch to scoreType = "pos".

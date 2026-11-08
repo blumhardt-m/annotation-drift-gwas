@@ -1,0 +1,12 @@
+{
+  "code": {
+    "scripts/pertrait_pilot/core.py": "1694a96ebbbeb1d5fd8a996efe14bf71f8b99f7f7996218537b3840166a11f95",
+    "scripts/pertrait_pilot/pipeline.py": "0a8a1331d3bbd43b6ec553df95b1c913f603f7fa79df53bbd399760a7b654d25",
+    "scripts/pertrait_pilot/pre_auth_pilot.py": "cc8163a23fc6756d414053060ec66ec1d624e3adb6135abb48f8c17fe6e6cc12",
+    "scripts/pertrait_pilot/run_fgsea.R": "109e23394873b79c56785865a2ccd62f5ca6b2032dfc78fd22e9c30dfa33f062",
+    "tests/pertrait_pilot/test_protocol.py": "f0b9494fa904f555470e069f3c65e414f7ac25e0e61262377eb4d95e3a3983d5",
+    "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/scratch/study3_viability/run_fgsea.R": "e387f75c33573904c291f2814aded3dae1f0eb3b91fc3b8362fe5befd0beb4a3"
+  },
+  "input_manifest": "dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288",
+  "implementation_commit": "8a4c0ddbe214cc5f3078418f4e43740d4510eaba"
+}

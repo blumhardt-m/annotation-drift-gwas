@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "input_rows": 746850,
+    "deduplicated_rows": 111002,
+    "P_NOT_STRICTLY_BELOW_5E8": 8301,
+    "NON_SINGLE_RSID": 114,
+    "THINNED_WITHIN_250KB": 252743
+  },
+  "sentinels_sha256": "3341664b60401139e187533e638590287959558fa9f3520630c4c8ecc1d67dac",
+  "ancestry_applied": false,
+  "ancestry_reason": "Catalog lacks per-row ancestry"
+}
