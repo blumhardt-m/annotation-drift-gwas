@@ -97,7 +97,7 @@ ok "governance inventories consistent"
 
 # ---- 8. Delegate frozen-field enforcement to the existing guard ----
 echo "-- validate_config.py --"
-if ! python3 validate_config.py; then
+if ! python3 validate_config.py config.yaml prereg/frozen_params.yaml; then
   fail "validate_config" "frozen-field divergence (TRIGGER 6). DO NOT re-freeze; escalate."
 fi
 ok "validate_config passed"

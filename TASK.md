@@ -1,34 +1,15 @@
-# TASK.md
+# Per-trait annotation-version pilot — revision 2 adoption candidate
 
-Active session authorization. Rewritten per session by the human. An agent runs only within this scope.
+Inactive pending one owner adoption of ACTIVATION_RECORD_rev2.md and its exact selected candidates. Authority: PILOT_EXECUTION_AUTHORITY.md, with the owner receipt and DEC-016 delegation on the pilot branch. No current implementation or empirical permission.
 
-## Task ID
-`study3-build-001`
+Baseline main: 847fd7cd98f68695b709ae155a1d2573ff7b7ee7. Installed DEC-015 controls prereg/pertrait_pilot_prereg_v1.1.md, SHA-256 b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db.
+Order SHA-256: b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043; rider SHA-256: fedfcce238d6ff66170ed45698d145fa31ee6c8b5115a46dc501c7d874907224.
+INPUT_MANIFEST_rev2.json SHA-256: dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288; copy its exact bytes to manifests/pertrait_pilot/INPUT_MANIFEST_rev2.json after adoption.
+Rscript absolute path: /home/michaelblumhardt/miniconda3/envs/study3probe/bin/Rscript; R 4.5.3, fgsea 1.36.2, data.table 1.18.4, BiocParallel 1.44.0. Python and all dependency/input hashes are bound by that manifest.
+Scientific scope: v29/v45 with Reactome only; ORA primary, preranked fgsea secondary, gene-to-gene C2, conditional chromosome deletion, and only the one rule-triggered extension. GENCODE v37/v45 and GO:BP are deferred by v1.1 §11 and have no implementation, restoration or execution authority here.
 
-## Objective
-Implement the registered Study 3 ranked-enrichment contrast (count-based) strictly per `prereg/study3_prereg_v1.0.md` (SHA in `prereg/study3_prereg.sha256`; controlling artifact `29fe3ff1…` verified against the immutable embargoed OSF registration snapshot, approved 2026-07-09 — DEC-008/DEC-011).
+Working directory: /home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot; branch: pertrait-pilot; output/evidence: /home/michaelblumhardt/agent_work/annotation_drift_pertrait_pilot_execution_20261107. Preserve main at 847fd7cd98f68695b709ae155a1d2573ff7b7ee7.
 
-## Branch
-`study3-ranked-enrichment` (create from `review/study3-freeze-and-gate0-20260716`, not `main` — the reviewed protocol, checksum lineage, Gate 0 record, and DEC-004 through DEC-011 are not present on `main`; never commit to `main`).
+Read the installed v1.1 completely, then implement only the additive paths and exact input staging in PILOT_EXECUTION_AUTHORITY.md and the bound manifest. Run both mandatory gates and meaningful synthetic checks before outcomes. Freeze the >=100 roster/hash before enrichment. Execute the v29/v45 Reactome ORA primary and fgsea secondary, restricted C2, full sensitivity metrics and conditional chromosome deletion; apply the five rules in order and exactly the one >=50 extension only if triggered. Roster ordering, seed assignment, exact RNG calls and percentile conventions are fixed in v1.1 §3/§6.
 
-## Allowed files (create/edit)
-- `src/19_gene_counts.py` — build per-gene, per-version count vectors over the shared union universe from `comparison.tsv` (prereg §3.2).
-- `src/20_gsea_preranked.py` — preranked fgsea per version, frozen parameters (prereg §3.3).
-- `src/21_boundary_flip_localization.py` — primary endpoint C, degenerate-case rule, descriptive A, chromosome-block bootstrap (prereg §4).
-- `results/study3_ranked_enrichment/**` — new outputs and diagnostics (prereg §6).
-- `RUN_LOG.md` — append run records only.
-
-## Prohibited actions
-- Modifying anything in `LOCKED_PROTOCOL_FILES.md`.
-- Reimplementing frozen machinery (import from `src/04`, `src/12`, `src/16`, `src/05`, `build_alias_table()`).
-- Resolving any parameter not fully specified in the prereg — escalate instead.
-- Running the `validate_config.py` re-freeze remediation, or any `.sha256` regeneration.
-- Proceeding through any `REVIEW_TRIGGER.md` condition, including the degenerate-GSEA case and the ORA consistency-check failure.
-
-## Preconditions
-`pre_auth_check.sh` must exit 0 before any stage runs. If it fails, stop and escalate; do not weaken the check.
-
-Gate 0 (registration verification): CLEARED 2026-07-17 (DEC-011). The external OSF registration of the controlling prereg (`29fe3ff1…`) was verified — initiated 2026-07-08, approved 2026-07-09, before any confirmatory execution. `pre_auth_check.sh` must still exit 0 (local lock integrity), and the amended §3.4 ORA consistency preflight (DEC-009) must pass against the frozen parent inputs before the contrast; either failure halts execution. See `EXECUTION_BOUNDARY.md` "Registration verification (Gate 0 — cleared)".
-
-## Definition of done
-Stages 19–21 implemented and run to the prereg; all §6 diagnostics emitted; H1 evaluated per §5 (or correctly halted at a trigger); results under `results/study3_ranked_enrichment/`; `RUN_LOG.md` appended with the run record and the Study 3 prereg SHA.
+The preflight reproduced both retained TSS tables exactly; repeat the prescribed regeneration/equality evidence before runtime enrichment, writing only new pilot evidence. Any input mismatch blocks; no substitution. Do not compute deferred v37/v45 or GO:BP analyses. Full scope, permitted paths, tests, preserved files, escalation and terminal transaction are specified in the adopted authority and order. Deliver all terminal products locally with reproducible commits and checksum manifest, then stop. No push, publication, contacts, paid calls or new data.

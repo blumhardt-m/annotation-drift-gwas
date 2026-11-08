@@ -1,0 +1,36 @@
+# Pilot execution authority — revision 2 candidate
+
+Inactive until the owner's single adoption binds the sealed activation record, order, rider, input manifest, exact selected portfolio variant and these repository candidate hashes. This file's presence supplies no authority. The installation and terminal writers must be explicitly named; the owner applies protected changes unless narrowly delegated to Codex in that adoption. The owner decision must resolve A and F as specified in ACTIVATION_RECORD_rev2.md. No earlier local freeze supplies execution permission.
+
+Baseline main: 847fd7cd98f68695b709ae155a1d2573ff7b7ee7. Installed DEC-015 controls prereg/pertrait_pilot_prereg_v1.1.md, SHA-256 b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db.
+Order SHA-256: b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043; rider SHA-256: fedfcce238d6ff66170ed45698d145fa31ee6c8b5115a46dc501c7d874907224.
+INPUT_MANIFEST_rev2.json SHA-256: dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288; copy its exact bytes to manifests/pertrait_pilot/INPUT_MANIFEST_rev2.json after adoption.
+Rscript absolute path: /home/michaelblumhardt/miniconda3/envs/study3probe/bin/Rscript; R 4.5.3, fgsea 1.36.2, data.table 1.18.4, BiocParallel 1.44.0. Python and all dependency/input hashes are bound by that manifest.
+Scientific scope: v29/v45 with Reactome only; ORA primary, preranked fgsea secondary, gene-to-gene C2, conditional chromosome deletion, and only the one rule-triggered extension. GENCODE v37/v45 and GO:BP are deferred by v1.1 §11 and have no implementation, restoration or execution authority here.
+
+Worktree: /home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot; branch: pertrait-pilot. Evidence directory: /home/michaelblumhardt/agent_work/annotation_drift_pertrait_pilot_execution_20261107.
+Main remains at the adopted baseline. Keep Study 3 CLOSED, the review branch, reconciliation/submission tags, prior preregistrations, inputs and evidence intact. No merge back or push.
+
+## Scope and additive paths
+
+After adoption, implement scripts/pertrait_pilot/** (including Python/R code and the mandatory pilot gate), tests/pertrait_pilot/**, results/pertrait_pilot/**, manifests/pertrait_pilot/**, environment/pertrait_pilot/** and the named evidence directory. Create prereg/pertrait_roster_ge100.tsv and its .sha256 before primary enrichment; create prereg/pertrait_roster_ge50.tsv and its .sha256 only if v1.1 §8 calls for the one extension. Append RUN_LOG.md and pilot DECISIONS.md records; use exact-path staging and separate logical commits. Put test caches and temporary outputs inside the new paths. No old output may be overwritten.
+
+Only the exact adopted AGENTS.md and EXECUTION_BOUNDARY.md appends, TASK.md replacement, new PILOT_EXECUTION_AUTHORITY.md, pre_auth_check.sh config-argument correction and DEC-016 delegation append are installation exceptions. They apply on the new pilot branch only. Do not change LOCKED_PROTOCOL_FILES.md, validate_config.py, config.yaml, frozen parameters, algorithms, preregistrations or their sidecars. Existing Study 3 execution instructions are historical and do not authorize a pilot run. This adopted pilot annex controls only its explicit scope.
+
+## Mandatory gates and custody
+
+Implement scripts/pertrait_pilot/pre_auth_pilot.py after adoption. It must authenticate the adoption and package hashes; require the exact worktree, branch and baseline ancestry; verify the selected canonical pilot row/mirror is ACTIVE with empirical_execution_authorized true and provider_calls_authorized false; verify the four-file adopted transaction evidence; require all manifest pins and software versions; verify original locked identities except the explicitly adopted governance deltas; verify v1.0 and v1.1 sidecars; and verify the exact adopted TASK.md and authority bytes. A missing or unequal binding is a hard failure.
+
+Run the corrected pre_auth_check.sh in the same session before every pipeline stage, retaining every existing check. The sole change supplies config.yaml and prereg/frozen_params.yaml to validate_config.py. A legacy-gate PASS proves baseline integrity, not pilot permission. The pilot gate is required in addition. Test refusal on missing adoption, wrong allocation, missing pins and altered locks using synthetic fixtures. No bypass switch, broadened locked allowlist or Study 3 permission reuse is allowed.
+
+Read the installed v1.1 in full. Import its named frozen computations unchanged. Any incompatibility capable of changing scientific definitions must stop for owner disposition. Only the exact source/destination/hash/size copies listed in INPUT_MANIFEST_rev2.json post_adoption_local_input_staging are permitted after adoption; no download, external restoration or source modification. Regenerate TSS tables from pinned GTFs using src/02_parse_gencode.py::parse_gtf_to_tss with default biotype into new pilot evidence paths before enrichment; record both hashes and byte-equality verdicts in the runtime manifest and RUN_LOG.md. A mismatch remains UNRESOLVED and stops execution; never substitute. The preflight regeneration provides existing equality evidence, not an input installation.
+
+Use the bound Rscript path explicitly and the Python environment/versions in the manifest. v1.1 §3 fixes roster order and extension index retention; §6 fixes generator, eligible order, exact choice/integer calls, 950th order statistic and strict exceedance. Implement meaningful synthetic checks covering all cases in order §6 before inspecting scientific outcomes. These tests do not establish statistical error guarantees. Freeze each authorized roster's exact bytes/hash before its enrichment and verify its hash immediately before every stage. Roster hashes are intentionally deferred until authorized roster generation, never guessed.
+
+## Execution and terminal disposition
+
+Run the full v1.1 primary roster once, apply its ordered rules once, and run the >=50 extension only when required, preserving original trait indices. No second extension, changed cutoffs, promoted secondary or outcome-selected rerun. Preserve failures, attempted outputs and unchanged-checkpoint recovery. Disclose a correctness defect found after outcomes with affected results before any scoped correction; do not silently replace a run.
+
+Deliver the complete local results, stopping outcome, C2 applicability/denominator, conditional deletion table, exclusions, rosters, reproducible code commit, tests, runtime/input identities, deviations and limitations, command/run logs, authorization evidence and sealed manifest. Apply only the selected terminal transaction explicitly adopted in the same decision, under a fresh short shared-lock transaction and current identity checks. Never reactivate a displaced member. Otherwise report the exact terminal transition pending.
+
+No publication, external registration, OSF/embargo changes, contacts, paid calls, new data retrieval, additional study or diagnostic tool. PASS supports only the narrow sensitivity-paper recommendation. Stop on consequential scientific ambiguity, protected-write conflict, unauthorized action, provenance failure or unreliable completion; ordinary implementation/testing and the authorized extension need no routine owner checkpoint.

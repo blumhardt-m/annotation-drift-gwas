@@ -558,3 +558,18 @@ Basis: activation preflight package 2026-11-07 (manifest sha256 bd41cd6d…), ow
 Amendment contents (prereg §11): v37/v45 pair and GO:BP deferred (both v1.0 provenance statements were text errors: no v37 pin exists in the clone; Study 1 GO inputs were unpinned mutable downloads); v29/v45 TSS tables bound by deterministic regeneration from the pinned GTFs with src/02_parse_gencode.py::parse_gtf_to_tss and byte comparison to the retained tables before enrichment, mismatch leaving the binding unresolved; roster order (code-point; extension appends, indices preserved); C2 draw order, generator scope and exact sampling calls; C2 percentile = 950th order statistic with strict exceedance; R executable pinned by absolute path. Thresholds, precedence, outcomes, extension rule, estimand, mapping, ORA and fgsea parameters unchanged.
 
 Authority: owner adoption of the amendment is recorded here; no implementation, roster, or empirical execution is authorized by this entry. Membership and allocation remain as recorded in PDG-033 (nonmember, OWNER_DECISION_PENDING).
+
+
+## 2026-11-07 — Scoped per-trait pilot execution delegation (DEC-016)
+
+DRAFT CANDIDATE: effective only upon the single owner adoption of ACTIVATION_RECORD_rev2.md and exact candidate hashes. This is an additional delegation entry; installed DEC-015 and its scientific amendment are preserved verbatim. DEC-016 is the next unused installed number at preparation, not reserved. Recheck before application.
+
+Baseline main: 847fd7cd98f68695b709ae155a1d2573ff7b7ee7. Installed DEC-015 controls prereg/pertrait_pilot_prereg_v1.1.md, SHA-256 b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db.
+Order SHA-256: b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043; rider SHA-256: fedfcce238d6ff66170ed45698d145fa31ee6c8b5115a46dc501c7d874907224.
+INPUT_MANIFEST_rev2.json SHA-256: dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288; copy its exact bytes to manifests/pertrait_pilot/INPUT_MANIFEST_rev2.json after adoption.
+Rscript absolute path: /home/michaelblumhardt/miniconda3/envs/study3probe/bin/Rscript; R 4.5.3, fgsea 1.36.2, data.table 1.18.4, BiocParallel 1.44.0. Python and all dependency/input hashes are bound by that manifest.
+Scientific scope: v29/v45 with Reactome only; ORA primary, preranked fgsea secondary, gene-to-gene C2, conditional chromosome deletion, and only the one rule-triggered extension. GENCODE v37/v45 and GO:BP are deferred by v1.1 §11 and have no implementation, restoration or execution authority here.
+
+The owner, if adopting, authorizes local additive pilot implementation, meaningful synthetic verification, one v1.1 empirical run and only the rule-triggered extension on pertrait-pilot in /home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot, with local deposit /home/michaelblumhardt/agent_work/annotation_drift_pertrait_pilot_execution_20261107. Only the exact adopted six repository candidates may change pre-existing governance/task/guard bytes; all other frozen files remain unchanged. The named writer applies the protected edits; the owner must explicitly name Codex to delegate them. Canonical portfolio membership/allocation/validator writes require the separately selected exact PDG-034 variant and narrow delegation in the same adoption. Provider calls remain false; Study 3 remains CLOSED.
+
+PILOT_EXECUTION_AUTHORITY.md specifies the new pilot gate, unchanged legacy checks, input staging, software bindings, permitted additive paths and terminal scope. The owner adopts the selected terminal transaction or explicitly leaves it pending. No publication, push, external registration, new data, paid calls, new study or automatic restoration of a displaced member.
