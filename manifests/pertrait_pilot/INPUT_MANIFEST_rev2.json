@@ -1,0 +1,345 @@
+{
+  "schema": "annotation-drift-pilot-input-manifest-rev2",
+  "measured_at": "2026-11-07T18:05:51-08:00",
+  "repository_main": "847fd7cd98f68695b709ae155a1d2573ff7b7ee7",
+  "amendment_verified": true,
+  "amendment_entry": "DEC-015",
+  "source_order": {
+    "received": {
+      "sha256": "e725e78fdd59a3a98d241db5a393d253b8f4d26da43381ac382e3b73dee9dbe5",
+      "bytes": 14979,
+      "matches_expected": true
+    },
+    "intended": {
+      "sha256": "b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043",
+      "bytes": 14979,
+      "expected_sha256": "b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043",
+      "matches_expected": true
+    },
+    "bound_sha256": "b28fdff1a374f3bfb17aaa3ca68ccd0bfe862fcac7385ae1bfe5c73e4a338043",
+    "bound_path": "ORDER_INTENDED.txt",
+    "transformation": "Remove first byte only, append one LF; no further edits"
+  },
+  "rider": {
+    "path": "/home/michaelblumhardt/Downloads/ORDER_RIDER_v1.1_2026-11-07.md",
+    "status": "FOUND",
+    "sha256": "fedfcce238d6ff66170ed45698d145fa31ee6c8b5115a46dc501c7d874907224",
+    "bytes": 3907
+  },
+  "inputs": {
+    "data/raw/gwas_catalog.tsv": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gwas_catalog.tsv",
+      "status": "FOUND",
+      "sha256": "bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b",
+      "bytes": 657844231,
+      "expected_sha256": "bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b",
+      "matches_expected": true
+    },
+    "data/processed/gwas_eligible.tsv": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/gwas_eligible.tsv",
+      "status": "FOUND",
+      "sha256": "8f7b2994d7e62da7845b832eb959a611a9b7f81603cfc019b69d22faa5edd7e2",
+      "bytes": 56324635,
+      "expected_sha256": "8f7b2994d7e62da7845b832eb959a611a9b7f81603cfc019b69d22faa5edd7e2",
+      "matches_expected": true
+    },
+    "data/processed/mappings/comparison.tsv": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/mappings/comparison.tsv",
+      "status": "FOUND",
+      "sha256": "8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1",
+      "bytes": 58878807,
+      "expected_sha256": "8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1",
+      "matches_expected": true
+    },
+    "data/raw/gencode.v29.annotation.gtf.gz": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gencode.v29.annotation.gtf.gz",
+      "status": "FOUND",
+      "sha256": "e77a9568d8783f432a03f5e49d8f52d89e8b0e795382cfcb1d93bbd279b0c2b9",
+      "bytes": 39387922,
+      "expected_sha256": "e77a9568d8783f432a03f5e49d8f52d89e8b0e795382cfcb1d93bbd279b0c2b9",
+      "matches_expected": true
+    },
+    "data/raw/gencode.v45.annotation.gtf.gz": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gencode.v45.annotation.gtf.gz",
+      "status": "FOUND",
+      "sha256": "56a166e4a43c934a1910c0d09dec786ac048862fc65130731d41f3c7f451ae68",
+      "bytes": 49770653,
+      "expected_sha256": "56a166e4a43c934a1910c0d09dec786ac048862fc65130731d41f3c7f451ae68",
+      "matches_expected": true
+    },
+    "data/raw/reactome.gmt": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/reactome.gmt",
+      "status": "FOUND",
+      "sha256": "a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb",
+      "bytes": 1006622,
+      "expected_sha256": "a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb",
+      "matches_expected": true
+    },
+    "requirements.txt": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/requirements.txt",
+      "status": "FOUND",
+      "sha256": "7ab802fb0caeb7b1b41aa0a01e5d351653688bc8afbf90cf8f109ed68362855e",
+      "bytes": 5452,
+      "expected_sha256": "7ab802fb0caeb7b1b41aa0a01e5d351653688bc8afbf90cf8f109ed68362855e",
+      "matches_expected": true
+    },
+    "src/02_parse_gencode.py": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/src/02_parse_gencode.py",
+      "status": "FOUND",
+      "sha256": "a7793799dd74a6179d14cf14572e9488f11ddb44a837f532378257632416fc14",
+      "bytes": 4243,
+      "expected_sha256": "a7793799dd74a6179d14cf14572e9488f11ddb44a837f532378257632416fc14",
+      "matches_expected": true
+    },
+    "data/processed/tss_tables/tss_v29.tsv": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v29.tsv",
+      "status": "FOUND",
+      "sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+      "bytes": 709342,
+      "expected_sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+      "matches_expected": true
+    },
+    "data/processed/tss_tables/tss_v45.tsv": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v45.tsv",
+      "status": "FOUND",
+      "sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+      "bytes": 715552,
+      "expected_sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+      "matches_expected": true
+    },
+    "prereg/frozen_params.yaml": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/frozen_params.yaml",
+      "status": "FOUND",
+      "sha256": "8407f51ff47b8ba4cdfd0f58b22a23a94f3d221dd295ae828cbee225ec01322f",
+      "bytes": 5034,
+      "expected_sha256": "8407f51ff47b8ba4cdfd0f58b22a23a94f3d221dd295ae828cbee225ec01322f",
+      "matches_expected": true
+    },
+    "prereg/pertrait_pilot_prereg_v1.1.md": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg_v1.1.md",
+      "status": "FOUND",
+      "sha256": "b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db",
+      "bytes": 25186,
+      "expected_sha256": "b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db",
+      "matches_expected": true
+    },
+    "prereg/pertrait_pilot_prereg.sha256": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg.sha256",
+      "status": "FOUND",
+      "sha256": "a92ab999e7269d1b25be8127f5ef63ad80780d2c95f47a52a7c57bc03a641b13",
+      "bytes": 96,
+      "expected_sha256": "a92ab999e7269d1b25be8127f5ef63ad80780d2c95f47a52a7c57bc03a641b13",
+      "matches_expected": true
+    },
+    "prereg/pertrait_pilot_prereg_v1.0.sha256": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg_v1.0.sha256",
+      "status": "FOUND",
+      "sha256": "390e2b5a9a185829dc0f04cba49217a6f34b22031497f06d0d70d8d7c6a3fac0",
+      "bytes": 103,
+      "expected_sha256": "390e2b5a9a185829dc0f04cba49217a6f34b22031497f06d0d70d8d7c6a3fac0",
+      "matches_expected": true
+    },
+    "DECISIONS.md": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/DECISIONS.md",
+      "status": "FOUND",
+      "sha256": "bd1ece9f693ffdc6b34e8a8cf607f8af959819e34c05000b507b6c5e0ec5a040",
+      "bytes": 41430,
+      "expected_sha256": "bd1ece9f693ffdc6b34e8a8cf607f8af959819e34c05000b507b6c5e0ec5a040",
+      "matches_expected": true
+    },
+    "prereg/pertrait_pilot_prereg_v1.0.md": {
+      "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg_v1.0.md",
+      "status": "FOUND",
+      "sha256": "d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad",
+      "bytes": 18931,
+      "expected_sha256": "d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad",
+      "matches_expected": true
+    }
+  },
+  "supplied_v11_candidate": {
+    "path": "/home/michaelblumhardt/Downloads/pertrait_pilot_prereg_v1.1_CANDIDATE.md",
+    "status": "FOUND",
+    "sha256": "e34b97abc18fc2420aa4042215135e69c6963a5b2d65f7bf9cf50b8e1037bfe6",
+    "bytes": 23889
+  },
+  "candidate_is_controlling": false,
+  "installed_v11": {
+    "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg_v1.1.md",
+    "status": "FOUND",
+    "sha256": "b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db",
+    "bytes": 25186,
+    "expected_sha256": "b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db",
+    "git_sha256": "b78907970faafa656c91ba55b2a948f405045dd8165fcceac9ee1bf70333d1db",
+    "matches_expected": true
+  },
+  "v10_preserved": {
+    "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/prereg/pertrait_pilot_prereg_v1.0.md",
+    "status": "FOUND",
+    "sha256": "d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad",
+    "bytes": 18931,
+    "expected_sha256": "d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad",
+    "git_sha256": "d7e26148c6f540156b11cd294268f3513b613e8f46b01e9bdc5247da41f20dad",
+    "matches_expected": true
+  },
+  "software": {
+    "python": {
+      "executable": "/home/michaelblumhardt/miniconda3/bin/python3",
+      "resolved_executable": "/home/michaelblumhardt/ENV/miniconda3/bin/python3.13",
+      "version": "3.13.11",
+      "packages": {
+        "numpy": "2.4.3",
+        "scipy": "1.17.0",
+        "pandas": "2.3.3",
+        "PyYAML": "6.0.3",
+        "matplotlib": "3.10.8",
+        "pytest": "9.1.1"
+      },
+      "revision1_expected_packages": {
+        "numpy": "2.4.3",
+        "scipy": "1.17.0",
+        "pandas": "2.3.3",
+        "PyYAML": "6.0.3",
+        "matplotlib": "3.10.8",
+        "pytest": "9.1.1"
+      },
+      "matches_revision1_packages": true,
+      "version_matches_prereg": true
+    },
+    "Rscript": {
+      "path": "/home/michaelblumhardt/miniconda3/envs/study3probe/bin/Rscript",
+      "status": "FOUND",
+      "sha256": "d7c729fa97ae7f9e900af9c8c8d223f3395f2df1cf19a6d96da27c43dd89f49c",
+      "bytes": 17008,
+      "resolved_path": "/home/michaelblumhardt/ENV/miniconda3/envs/study3probe/bin/Rscript",
+      "versions": {
+        "R": "4.5.3",
+        "fgsea": "1.36.2",
+        "data.table": "1.18.4",
+        "BiocParallel": "1.44.0"
+      },
+      "expected_versions": {
+        "R": "4.5.3",
+        "fgsea": "1.36.2",
+        "data.table": "1.18.4",
+        "BiocParallel": "1.44.0"
+      },
+      "remeasurement_exit": 0,
+      "matches_expected_versions": true
+    }
+  },
+  "tss_regeneration": {
+    "tables": {
+      "v29": {
+        "status": "EQUAL",
+        "regenerated": {
+          "path": "/home/michaelblumhardt/agent_work/annotation_drift_pilot_activation_preflight_rev2_20261107/TSS_REGENERATION/tss_v29.tsv",
+          "status": "FOUND",
+          "sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+          "bytes": 709342
+        },
+        "retained": {
+          "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v29.tsv",
+          "status": "FOUND",
+          "sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+          "bytes": 709342
+        },
+        "byte_equal": true,
+        "regenerated_rows": 19019,
+        "retained_rows": 19019,
+        "regenerated_unique_genes": 19019,
+        "retained_unique_genes": 19019,
+        "differing_gene_rows": 0,
+        "same_row_sequence": true
+      },
+      "v45": {
+        "status": "EQUAL",
+        "regenerated": {
+          "path": "/home/michaelblumhardt/agent_work/annotation_drift_pilot_activation_preflight_rev2_20261107/TSS_REGENERATION/tss_v45.tsv",
+          "status": "FOUND",
+          "sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+          "bytes": 715552
+        },
+        "retained": {
+          "path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v45.tsv",
+          "status": "FOUND",
+          "sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+          "bytes": 715552
+        },
+        "byte_equal": true,
+        "regenerated_rows": 19114,
+        "retained_rows": 19114,
+        "regenerated_unique_genes": 19114,
+        "retained_unique_genes": 19114,
+        "differing_gene_rows": 0,
+        "same_row_sequence": true
+      }
+    },
+    "regenerated_union_unique_genes": 19315,
+    "retained_union_unique_genes": 19315
+  },
+  "all_required_manifest_pins_match": true,
+  "deferred_secondaries": [
+    "GENCODE v37/v45",
+    "GO:BP"
+  ],
+  "roster_hashes": "NOT_COMPUTED — intentionally deferred until authorized roster generation; not an input-binding failure",
+  "post_adoption_local_input_staging": {
+    "data/raw/gwas_catalog.tsv": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gwas_catalog.tsv",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/raw/gwas_catalog.tsv",
+      "sha256": "bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b",
+      "bytes": 657844231,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/processed/gwas_eligible.tsv": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/gwas_eligible.tsv",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/gwas_eligible.tsv",
+      "sha256": "8f7b2994d7e62da7845b832eb959a611a9b7f81603cfc019b69d22faa5edd7e2",
+      "bytes": 56324635,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/processed/mappings/comparison.tsv": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/mappings/comparison.tsv",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/mappings/comparison.tsv",
+      "sha256": "8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1",
+      "bytes": 58878807,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/raw/gencode.v29.annotation.gtf.gz": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gencode.v29.annotation.gtf.gz",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/raw/gencode.v29.annotation.gtf.gz",
+      "sha256": "e77a9568d8783f432a03f5e49d8f52d89e8b0e795382cfcb1d93bbd279b0c2b9",
+      "bytes": 39387922,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/raw/gencode.v45.annotation.gtf.gz": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/gencode.v45.annotation.gtf.gz",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/raw/gencode.v45.annotation.gtf.gz",
+      "sha256": "56a166e4a43c934a1910c0d09dec786ac048862fc65130731d41f3c7f451ae68",
+      "bytes": 49770653,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/raw/reactome.gmt": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/raw/reactome.gmt",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/raw/reactome.gmt",
+      "sha256": "a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb",
+      "bytes": 1006622,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/processed/tss_tables/tss_v29.tsv": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v29.tsv",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/tss_tables/tss_v29.tsv",
+      "sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+      "bytes": 709342,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    },
+    "data/processed/tss_tables/tss_v45.tsv": {
+      "source": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-clean/data/processed/tss_tables/tss_v45.tsv",
+      "destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/tss_tables/tss_v45.tsv",
+      "sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+      "bytes": 715552,
+      "operation": "post-adoption byte-verified copy only; refuse an existing differing destination"
+    }
+  },
+  "runtime_manifest_destination": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/manifests/pertrait_pilot/INPUT_MANIFEST_rev2.json"
+}

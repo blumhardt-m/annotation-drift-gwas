@@ -1,0 +1,15 @@
+{
+  "model": "Codex, based on GPT-6; version unavailable",
+  "routine_implementation_choices": [
+    "Frozen stages 03, 04 and 12 imported and called; top-K diagnostic imported from stage 13.",
+    "Fisher contingency results memoized by exact integer arguments; cache misses call the original unedited imported function. No replacement numerical method.",
+    "Decimal parsing preserves tiny positive p-values and exact minimum-p ordering; scores are float(-Decimal.log10(p)), without clipping or pseudocounts.",
+    "R adapter evaluates retained read_stats/read_pathways/run_version definitions unchanged in an isolated environment, binds their fgsea dispatch to explicit fgseaMultilevel parameters, and binds the one seed call to set.seed(42L).",
+    "Pathway foreground-overlap change is reported for both methods. Top-K uses imported raw-p ordering with sorted pathway names, preserving deterministic ties.",
+    "Four local worker processes handle independent trait jobs; each C2 trait owns one default_rng(42+i) consumed only by its 1000 ordered replicates.",
+    "All synthetic checks precede the execution binding; checkpoint identity binds implementation, tests, source pins and manifest. No outcome-selected rerun or code change is allowed.",
+    "TSS regeneration is the prescribed step-4 preparation, preceding construction of the additional pilot gate; legacy gate passed first. All subsequent pipeline stages require both gates."
+  ],
+  "pre_outcome_implementation_correction": "Initial pilot-gate development check misclassified baseline tools/run.sh symlink as absent. Baseline symlink bytes were unchanged; gate corrected to compare Git mode 120000 link text, with regression test. Original refusal retained.",
+  "synthetic_verification": "31 passed in 2.27s, including mapping/enrichment analytic case, literal C2 sequence, threshold boundaries and fgsea integration"
+}

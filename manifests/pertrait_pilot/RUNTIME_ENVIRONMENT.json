@@ -1,0 +1,27 @@
+{
+  "model": "Codex, based on GPT-6; version unavailable",
+  "time": "2026-11-08T02:36:27.818568+00:00",
+  "python": {
+    "executable": "/home/michaelblumhardt/miniconda3/bin/python3",
+    "version": "3.13.11",
+    "packages": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.0",
+      "pandas": "2.3.3",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "pytest": "9.1.1"
+    }
+  },
+  "Rscript": {
+    "path": "/home/michaelblumhardt/miniconda3/envs/study3probe/bin/Rscript",
+    "sha256": "d7c729fa97ae7f9e900af9c8c8d223f3395f2df1cf19a6d96da27c43dd89f49c",
+    "versions": {
+      "R": "4.5.3",
+      "fgsea": "1.36.2",
+      "data.table": "1.18.4",
+      "BiocParallel": "1.44.0"
+    }
+  },
+  "versions_match": true
+}

@@ -1,0 +1,34 @@
+{
+  "data/raw/gwas_catalog.tsv": {
+    "sha256": "bfaffa3ac3f742a207f968f45e09d66a73b5d617783936c77cc0e09242c3480b",
+    "bytes": 657844231
+  },
+  "data/processed/gwas_eligible.tsv": {
+    "sha256": "8f7b2994d7e62da7845b832eb959a611a9b7f81603cfc019b69d22faa5edd7e2",
+    "bytes": 56324635
+  },
+  "data/processed/mappings/comparison.tsv": {
+    "sha256": "8f27c1dba92c2af3ec4c427b1bf89cdb03d67f68adef09c1c9131111f6ba2bb1",
+    "bytes": 58878807
+  },
+  "data/raw/gencode.v29.annotation.gtf.gz": {
+    "sha256": "e77a9568d8783f432a03f5e49d8f52d89e8b0e795382cfcb1d93bbd279b0c2b9",
+    "bytes": 39387922
+  },
+  "data/raw/gencode.v45.annotation.gtf.gz": {
+    "sha256": "56a166e4a43c934a1910c0d09dec786ac048862fc65130731d41f3c7f451ae68",
+    "bytes": 49770653
+  },
+  "data/raw/reactome.gmt": {
+    "sha256": "a34f43fd763a6800a9a94310c416ae511e84724d87a3c255f35d13764d12bebb",
+    "bytes": 1006622
+  },
+  "data/processed/tss_tables/tss_v29.tsv": {
+    "sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+    "bytes": 709342
+  },
+  "data/processed/tss_tables/tss_v45.tsv": {
+    "sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+    "bytes": 715552
+  }
+}
