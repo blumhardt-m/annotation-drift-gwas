@@ -1,0 +1,23 @@
+{
+  "model": "Codex, based on GPT-6; version unavailable",
+  "thinking_level": "high requested; actual runtime setting unavailable",
+  "measured_at": "2026-11-08T20:53:18.581504+00:00",
+  "input_manifest_sha256": "dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288",
+  "prereg_v12": "f76176bd9ba0b06c40366717f46bbe5639702e8a259cc44b46875198aeb475cd",
+  "tss": {
+    "v29": {
+      "regenerated_sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+      "retained_sha256": "5c831ca2b14155690fd8c4f59c3cb821ce516267765c25515877d27e7bcc1a5d",
+      "byte_equal": true,
+      "regenerated_path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/results/pertrait_pilot/tss/regenerated/tss_v29.tsv",
+      "input_path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/tss_tables/tss_v29.tsv"
+    },
+    "v45": {
+      "regenerated_sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+      "retained_sha256": "c109894e13f56d5971fd6191e99bc46af7dc1b96b01a5e53008f1bb5449e263e",
+      "byte_equal": true,
+      "regenerated_path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/results/pertrait_pilot/tss/regenerated/tss_v45.tsv",
+      "input_path": "/home/michaelblumhardt/Study/research/08_GENOMICS/annotation-drift-gwas-pertrait-pilot/data/processed/tss_tables/tss_v45.tsv"
+    }
+  }
+}

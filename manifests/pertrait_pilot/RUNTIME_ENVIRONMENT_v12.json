@@ -1,0 +1,23 @@
+{
+  "model": "Codex, based on GPT-6; version unavailable",
+  "thinking_level": "high requested; actual runtime setting unavailable",
+  "software": {
+    "python": "3.13.11",
+    "packages": {
+      "numpy": "2.4.3",
+      "scipy": "1.17.0",
+      "pandas": "2.3.3",
+      "PyYAML": "6.0.3",
+      "matplotlib": "3.10.8",
+      "pytest": "9.1.1"
+    },
+    "R": {
+      "R": "4.5.3",
+      "fgsea": "1.36.2",
+      "data.table": "1.18.4",
+      "BiocParallel": "1.44.0"
+    }
+  },
+  "matches_v11_environment": true,
+  "input_manifest_sha256": "dc838286666ee2d35c88282a05a991570230373b627d3189e84457ece61f1288"
+}
