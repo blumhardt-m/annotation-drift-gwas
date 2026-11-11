@@ -72,7 +72,8 @@ def code_identity():
 
 def verify_execution_binding(record, ident):
     gate.require(record.get("authority") == gate.execution_authority(), "v1.2 execution authority binding differs")
-    gate.require(record.get("code") == ident, "implementation changed after run binding")
+    gate.require(gate.amended_code(record.get("code", {})) == ident, "implementation changed after run binding")
+    gate.verify_bound_files()
 
 def stage_gate(stage):
     checkpoint=OUT/"EXECUTION_BINDING.json"
