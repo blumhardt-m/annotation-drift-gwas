@@ -1,0 +1,1281 @@
+trait_index	trait	sentinel_count
+0	A body shape index	313
+1	Abdominal aortic aneurysm	133
+2	Abdominal size (multivariate analysis)	242
+3	Adiposity (multivariate analysis)	491
+4	Adolescent idiopathic scoliosis	786
+5	Adult body size	533
+6	Adventurousness	142
+7	Age at first sexual intercourse	244
+8	Age at menopause	131
+9	Age of smoking initiation (MTAG)	165
+10	Age when finished full-time education (standard GWA)	221
+11	Alanine aminotransferase levels	566
+12	Alanine levels	150
+13	Albumin levels	481
+14	Alcohol consumption (drinks per week)	123
+15	Alcohol consumption (drinks per week) (MTAG)	166
+16	Alkaline phosphatase (UKB data field 30610)	300
+17	Allergic disease (asthma, hay fever or eczema)	120
+18	Alzheimer's disease	133
+19	Alzheimer's disease or family history of Alzheimer's disease	620
+20	Alzheimer’s disease polygenic risk score (upper quantile vs lower quantile)	313
+21	Anorexia nervosa, attention-deficit/hyperactivity disorder, autism spectrum disorder, bipolar disorder, major depression, obsessive-compulsive disorder, schizophrenia, or Tourette syndrome (pleiotropy)	128
+22	Aortic stenosis (MTAG)	134
+23	Apolipoprotein A levels (UKB data field 30630)	176
+24	Apolipoprotein A1 levels	442
+25	Apolipoprotein B levels	275
+26	Appendicular lean mass	892
+27	Arm fat percentage left (UKB data field 23123)	157
+28	Arm fat percentage right (UKB data field 23119)	161
+29	Ascending aorta diameter	102
+30	Aspartate aminotransferase (AST, mean, inv-norm transformed)	109
+31	Aspartate aminotransferase (AST, minimum, inv-norm transformed)	107
+32	Aspartate aminotransferase levels	581
+33	Aspartate aminotransferase levels (UKB data field 30650)	192
+34	Aspartate aminotransferase to alanine aminotransferase ratio	125
+35	Asthma	283
+36	Asthma (childhood onset)	120
+37	Atopic dermatitis	155
+38	Atrial fibrillation	633
+39	Atrial fibrillation (MTAG)	144
+40	Attention deficit hyperactivity disorder or autism spectrum disorder or intelligence (pleiotropy)	209
+41	Autism spectrum disorder or schizophrenia	107
+42	Average diameter for HDL particles	232
+43	Average diameter for VLDL particles	193
+44	BMI (standard GWA)	230
+45	BMI and adiposity (confirmatory factor analysis Factor 7)	297
+46	Balding type 1	279
+47	Basal cell carcinoma	146
+48	Basal metabolic rate (UKB data field 23105)	278
+49	Basophil (fraction, maximum, inv-norm transformed)	108
+50	Basophil (fraction, mean, inv-norm transformed)	129
+51	Basophil count	233
+52	Basophil percentage of white cells	139
+53	Bioavailable testosterone levels	343
+54	Biological sex	156
+55	Birth weight	198
+56	Blond vs. brown/black hair color	141
+57	Blood pressure (pleiotropy model 1 DBP adjusted for estimated causal effects x SBP)	296
+58	Blood pressure (pleiotropy model 2 SBP adjusted for estimated causal effects x DBP)	257
+59	Blood protein levels	617
+60	Blood urea nitrogen (BUN, mean, inv-norm transformed)	129
+61	Blood urea nitrogen levels	255
+62	Body fat percentage	275
+63	Body fat percentage (UKB data field 23099)	187
+64	Body fat percentage (adjusted for testosterone and SHBG)	276
+65	Body mass index	2070
+66	Body mass index (BMI, maximum, inv-normal transformed)	208
+67	Body mass index (BMI, mean, inv-normal transformed)	207
+68	Body mass index (BMI, minimum, inv-normal transformed)	168
+69	Body mass index (MTAG)	1075
+70	Body mass index (UKB data field 21001)	247
+71	Body size (confirmatory factor analysis Factor 21)	542
+72	Body size at age 10	283
+73	Body size or adipose distribution (multivariate analysis)	692
+74	Body surface area	408
+75	Bone density (confirmatory factor analysis Factor 19)	154
+76	Bone mineral density mean	1928
+77	Bone mineral density variability	446
+78	Brain morphology (MOSTest)	589
+79	Brain morphology (min-P)	108
+80	Brain region volumes	236
+81	Brain shape (segment 1)	126
+82	Breast cancer	296
+83	C-reactive protein	205
+84	C-reactive protein levels	436
+85	C-reactive protein levels (MTAG)	376
+86	C-reactive protein levels (UKB data field 30710)	139
+87	CAMSIS occupational score (MTAG)	566
+88	Calcium levels	288
+89	Calcium levels (UKB data field 30680)	144
+90	Cardiovascular disease	283
+91	Central corneal thickness (MTAG)	173
+92	Childhood body mass index	297
+93	Cholesterol esters in very large HDL	223
+94	Cholesterol in Large HDL	232
+95	Cholesterol in Large VLDL	101
+96	Cholesterol in Medium HDL	175
+97	Cholesterol in Small HDL	130
+98	Cholesterol levels (UKB data field 30690)	113
+99	Cholesterol levels in chylomicrons and extremely large VLDL	146
+100	Cholesterol levels in large HDL	104
+101	Cholesterol levels in very large HDL	229
+102	Cholesterol levels in very large VLDL	108
+103	Cholesterol to Total Lipids in IDL percentage	151
+104	Cholesterol to Total Lipids in Large HDL percentage	223
+105	Cholesterol to Total Lipids in Large LDL percentage	126
+106	Cholesterol to Total Lipids in Large VLDL percentage	101
+107	Cholesterol to Total Lipids in Medium HDL percentage	197
+108	Cholesterol to Total Lipids in Medium VLDL percentage	166
+109	Cholesterol to Total Lipids in Small HDL percentage	131
+110	Cholesterol to Total Lipids in Small VLDL percentage	132
+111	Cholesterol to Total Lipids in Very Large VLDL percentage	147
+112	Cholesterol to Total Lipids in Very Small VLDL percentage	168
+113	Cholesteryl Esters in HDL	208
+114	Cholesteryl Esters in Large HDL	241
+115	Cholesteryl Esters in Medium HDL	167
+116	Cholesteryl Esters in Small HDL	128
+117	Cholesteryl Esters to Total Lipids in IDL percentage	117
+118	Cholesteryl Esters to Total Lipids in Large HDL percentage	211
+119	Cholesteryl Esters to Total Lipids in Large VLDL percentage	126
+120	Cholesteryl Esters to Total Lipids in Medium HDL percentage	164
+121	Cholesteryl Esters to Total Lipids in Medium VLDL percentage	170
+122	Cholesteryl Esters to Total Lipids in Small HDL percentage	127
+123	Cholesteryl Esters to Total Lipids in Small VLDL percentage	114
+124	Cholesteryl Esters to Total Lipids in Very Large HDL percentage	104
+125	Cholesteryl Esters to Total Lipids in Very Large VLDL percentage	153
+126	Cholesteryl Esters to Total Lipids in Very Small VLDL percentage	179
+127	Cholesteryl ester levels in chylomicrons and extremely large VLDL	141
+128	Cholesteryl ester levels in large HDL	105
+129	Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)	163
+130	Chronic obstructive pulmonary disease	112
+131	Chronic obstructive pulmonary disease liability (machine learning-based score)	334
+132	Chronotype	373
+133	Cigarettes smoked per day	157
+134	Cigarettes smoked per day (MTAG)	107
+135	Citrate levels	102
+136	Cognitive ability, years of educational attainment or schizophrenia (pleiotropy)	232
+137	Cognitive aspects of educational attainment	239
+138	Cognitive function (baseline)	109
+139	Cognitive performance	199
+140	Cognitive performance (MTAG)	513
+141	Cognitive processing speed	104
+142	Color vision defects (Tritan)	111
+143	Colorectal cancer	200
+144	Common executive function	138
+145	Concentration of HDL particles	172
+146	Concentration of chylomicrons and extremely large VLDL particles	163
+147	Concentration of large HDL particles	245
+148	Concentration of large VLDL particles	152
+149	Concentration of medium HDL particles	185
+150	Concentration of small HDL particles	136
+151	Concentration of small VLDL particles	136
+152	Concentration of very large HDL particles	205
+153	Concentration of very large VLDL particles	164
+154	Corneal resistance factor	156
+155	Corneal resistance factor (MTAG)	252
+156	Coronary artery disease	383
+157	Coronary artery disease (MTAG)	154
+158	Coronary artery disease or fibrinogen levels (pleiotropy)	107
+159	Cortical surface area	746
+160	Cortical surface area (MOSTest)	135
+161	Cortical thickness	546
+162	Creatinine levels	809
+163	Creatinine levels (UKB data field 30700)	256
+164	Creatinine levels in bottom 99% of individuals by creatinine levels	328
+165	Crohn's disease	204
+166	Cystatin C levels	208
+167	Cystatin C levels in bottom 99% of individuals by creatinine levels	298
+168	DNA methylation variation (age effect)	367
+169	Daytime nap	100
+170	Degree of unsaturation	207
+171	Depression	294
+172	Depressive symptoms	221
+173	Diabetes mellitus (PheCode 250)	131
+174	Diastolic blood pressure	1121
+175	Diastolic blood pressure (MTAG)	675
+176	Direct low density lipoprotein levels (UKB data field 30780)	110
+177	Diverticular disease	128
+178	Docosahexaenoic acid levels	188
+179	Docosahexaenoic acid to total fatty acids percentage	155
+180	Drinks per week	565
+181	Eczema	176
+182	Edge-level brain connectivity (multivariate analysis)	173
+183	Educational attainment	2352
+184	Educational attainment (MTAG)	1126
+185	Educational attainment (years of education)	982
+186	Electrocardiogram morphology (amplitude at temporal datapoints)	328
+187	Eosinophil count	677
+188	Eosinophil percentage of granulocytes	146
+189	Eosinophil percentage of white cells	413
+190	Eosinophill count (UKB data field 30150)	243
+191	Eosinophill percentage (UKB data field 30210)	305
+192	Estimated glomerular filtration rate	443
+193	Estimated glomerular filtration rate (creatinine)	791
+194	Estimated glomerular filtration rate (creatinine, cystatin c)	549
+195	Estimated glomerular filtration rate (cystatin c)	404
+196	Estimated glomerular filtration rate based on creatinine and cystatin C in bottom 99% of individuals by creatinine levels	373
+197	Externalizing behaviour (multivariate analysis)	540
+198	FEV1	265
+199	FEV1 FVC ratio Z score (UKB data field 20258)	245
+200	FVC	180
+201	Facial appearance	196
+202	Fasting blood glucose	302
+203	Fasting glucose	109
+204	Fat-free mass	155
+205	Femur bone mineral density x serum urate levels interaction	446
+206	Fluid intelligence score (baseline)	290
+207	Forced expiratory volume (baseline)	576
+208	Forced expiratory volume in 1 second FEV1 Z score (UKB data field 20256)	163
+209	Forced vital capacity FVC Z score (UKB data field 20257)	124
+210	Frailty (Factor 3 - Multimorbidity)	186
+211	Free Cholesterol in HDL	167
+212	Free Cholesterol to Total Lipids in IDL percentage	105
+213	Free Cholesterol to Total Lipids in Large HDL percentage	122
+214	Free Cholesterol to Total Lipids in Large LDL percentage	211
+215	Free Cholesterol to Total Lipids in Medium HDL percentage	177
+216	Free Cholesterol to Total Lipids in Medium LDL percentage	204
+217	Free Cholesterol to Total Lipids in Medium VLDL percentage	131
+218	Free Cholesterol to Total Lipids in Small HDL percentage	117
+219	Free Cholesterol to Total Lipids in Small LDL percentage	166
+220	Free Cholesterol to Total Lipids in Small VLDL percentage	152
+221	Free Cholesterol to Total Lipids in Very Large HDL percentage	174
+222	Free Cholesterol to Total Lipids in Very Large VLDL percentage	100
+223	Free androgen index	228
+224	Free cholesterol in large HDL	216
+225	Free cholesterol in large VLDL	126
+226	Free cholesterol in medium HDL	176
+227	Free cholesterol in small HDL	132
+228	Free cholesterol in very large HDL	192
+229	Free cholesterol in very large VLDL	124
+230	Free cholesterol levels in chylomicrons and extremely large VLDL	158
+231	Free cholesterol to total lipids ratio in large LDL	101
+232	Free cholesterol to total lipids ratio in medium LDL	108
+233	Free cholesterol to total lipids ratio in small LDL	103
+234	Free cholesterol to total lipids ratio in very large HDL	109
+235	Free testosterone levels	250
+236	GLIPR1 protein levels	1478
+237	Gamma glutamyl transferase levels	715
+238	Gamma glutamyl transpeptidase	319
+239	Gamma glutamyltransferase levels (UKB data field 30730)	163
+240	General cognitive ability	179
+241	General risk tolerance (MTAG)	247
+242	Glaucoma	113
+243	Glaucoma (primary open-angle)	126
+244	Glucose (fasting status unknown, maximum, inv-norm transformed)	149
+245	Glucose (fasting status unknown, mean, inv-norm transformed)	171
+246	Glucose levels	148
+247	Glutamine levels	176
+248	Glycated haemoglobin HbA1c levels (UKB data field 30750)	297
+249	Glycated hemoglobin levels	258
+250	Glycine levels	152
+251	Glycoprotein acetyls levels	216
+252	Gout	324
+253	Granulocyte count	132
+254	Granulocyte percentage of myeloid white cells	160
+255	Gut microbial network clusters (Pink (at 1 year) x Any Breastfeeding (3 Months) interaction	256
+256	Gut microbial network clusters (Pink (at 1 year) x Household furry pet dog (1 Year) interaction	117
+257	Gut microbial network clusters (Pink (at 1 year) x Household furry pet dog (3 Months) interaction	308
+258	Gut microbial network clusters (Purple (at 1 year) x Household furry pet cat (3 Months) interaction	115
+259	Gut microbial network clusters (Salmon (at 1 year) x Any Breastfeeding (3 Months) interaction	350
+260	Gut microbial network clusters (Salmon (at 1 year) x Household furry pet dog (1 Year) interaction	152
+261	Gut microbial network clusters (Salmon (at 1 year) x Household furry pet dog (3 Months) interaction	188
+262	Gut microbiome abundance (class Clostridium sensu stricto sp. 17 (at 1 year) x Exclusive Breastfeeding (6 Months) interaction	130
+263	Gut microbiome abundance (class Tyzzerella sp. 3 (at 3 months) x Any Breastfeeding (3 Months) interaction	120
+264	HDL cholesterol	345
+265	HDL cholesterol levels	515
+266	HDL cholesterol levels (UKB data field 30760)	174
+267	Haematocrit percentage (UKB data field 30030)	213
+268	Haemoglobin concentration (UKB data field 30020)	216
+269	Hair color	347
+270	Hand grip strength	141
+271	Hand grip strength (baseline)	317
+272	Hay fever and/or eczema	126
+273	Heart failure	203
+274	Heart failure (MTAG)	123
+275	Heel bone mineral density	1040
+276	Heel bone mineral density x serum urate levels interaction	137
+277	Height	4436
+278	Height (baseline)	2087
+279	Height (maximum, inv-normal transformed)	476
+280	Height (standard GWA)	554
+281	Hematocrit	686
+282	Hemoglobin	516
+283	Hemoglobin A1c (HbA1c, maximum, inv-norm transformed)	176
+284	Hemoglobin A1c (HbA1c, mean, inv-norm transformed)	186
+285	Hemoglobin A1c (HbA1c, minimum, inv-norm transformed)	173
+286	Hemoglobin A1c levels	371
+287	Hemoglobin concentration	482
+288	Hemoglobin levels	695
+289	High density lipoprotein cholesterol levels	650
+290	High light scatter reticulocyte count	442
+291	High light scatter reticulocyte count (UKB data field 30300)	129
+292	High light scatter reticulocyte percentage (UKB data field 30290)	280
+293	High light scatter reticulocyte percentage of red cells	436
+294	High-density lipoprotein levels	587
+295	High-density lipoprotein levels (MTAG)	295
+296	Highest math class taken	301
+297	Highest math class taken (MTAG)	931
+298	Hip circumference (UKB data field 49)	226
+299	Hip circumference adjusted for BMI	565
+300	Hip index	230
+301	Household income (MTAG)	164
+302	Hypertension	250
+303	Hypertension (confirmatory factor analysis Factor 12)	243
+304	Hypothyroidism	226
+305	IGF 1 (UKB data field 30770)	329
+306	ISEI occupational score (MTAG)	504
+307	Immature fraction of reticulocytes	305
+308	Immature reticulocyte fraction (UKB data field 30280)	192
+309	Impedance of arm left (UKB data field 23110)	275
+310	Impedance of arm right (UKB data field 23109)	281
+311	Impedance of whole body (UKB data field 23106)	358
+312	Income (MTAG)	175
+313	Inflammatory bowel disease	258
+314	Insomnia	765
+315	Insulin-like growth factor 1 levels	246
+316	Intelligence	308
+317	Intelligence (MTAG)	231
+318	Intraocular pressure	277
+319	JT interval	168
+320	Knee osteoarthritis	145
+321	LDL (standard GWA)	107
+322	LDL cholesterol	209
+323	LDL cholesterol levels	236
+324	Leg fat percentage left (UKB data field 23115)	168
+325	Leg fat percentage right (UKB data field 23111)	176
+326	Leisure sedentary behaviour (television watching)	142
+327	Leukocyte telomere length	120
+328	Life satisfaction	130
+329	Lifetime smoking	110
+330	Lifetime smoking index	123
+331	Linoleic acid levels	247
+332	Linoleic acid to total fatty acids percentage	225
+333	Liver enzyme levels (alanine transaminase)	146
+334	Liver enzyme levels (alkaline phosphatase)	261
+335	Liver enzyme levels (gamma-glutamyl transferase)	208
+336	Low density lipoprotein cholesterol levels	580
+337	Low-density lipoprotein levels	328
+338	Low-density lipoprotein levels (MTAG)	195
+339	Lung function (FEV1)	236
+340	Lung function (FEV1/FVC)	655
+341	Lung function (FVC)	532
+342	Lung function (forced vital capacity)	232
+343	Lymphocyte count	672
+344	Lymphocyte count (UKB data field 30120)	313
+345	Lymphocyte percentage (UKB data field 30180)	248
+346	Lymphocyte percentage of white cells	385
+347	Lymphocyte-to-monocyte ratio	122
+348	Macular thickness	133
+349	Major depressive disorder	202
+350	Major depressive disorder (broad)	172
+351	Male-pattern baldness	430
+352	Mean arterial pressure	259
+353	Mean corpuscular haemoglobin (UKB data field 30050)	375
+354	Mean corpuscular hemoglobin	736
+355	Mean corpuscular hemoglobin concentration	267
+356	Mean corpuscular volume	718
+357	Mean corpuscular volume (UKB data field 30040)	349
+358	Mean platelet thrombocyte volume (UKB data field 30100)	558
+359	Mean platelet volume	541
+360	Mean platelet volume during second trimester of pregnancy	108
+361	Mean platelet volume during third trimester of pregnancy	101
+362	Mean reticulocyte volume	474
+363	Mean reticulocyte volume (UKB data field 30260)	324
+364	Mean sphered cell volume (UKB data field 30270)	315
+365	Mean spheric corpuscular volume	583
+366	Medication use (HMG CoA reductase inhibitors)	108
+367	Medication use (agents acting on the renin-angiotensin system)	202
+368	Medication use (calcium channel blockers)	133
+369	Medication use (diuretics)	109
+370	Medication use (drugs used in diabetes)	129
+371	Medication use (thyroid preparations)	134
+372	Medication use for hypertension (number of purchases)	172
+373	Menarche (age at onset)	319
+374	Metabolic biomarkers (multivariate analysis)	238
+375	Metabolic syndrome	1162
+376	Metabolite levels	120
+377	Metabolonic lactone sulfate levels	106
+378	Migraine	139
+379	Monocyte count	633
+380	Monocyte count (UKB data field 30130)	334
+381	Monocyte percentage (UKB data field 30190)	299
+382	Monocyte percentage of white cells	406
+383	Monounsaturated fatty acid levels	298
+384	Monounsaturated fatty acids to total fatty acids percentage	329
+385	Morning person	192
+386	Morningness	219
+387	Multi-trait sex score	403
+388	Multi-trait sum score	100
+389	Multiple sclerosis	183
+390	Myeloid white cell count	134
+391	Myocardial infarction	140
+392	Neurociticism	129
+393	Neuroticism	318
+394	Neutrophil count	659
+395	Neutrophil percentage of granulocytes	139
+396	Neutrophil percentage of white cells	362
+397	Neutrophill count (UKB data field 30140)	203
+398	Neutrophill percentage (UKB data field 30200)	226
+399	Neutrophils and lymphocytes in blood (confirmatory factor analysis Factor 35)	261
+400	Node-level brain connectivity (multivariate analysis)	111
+401	Non-HDL cholesterol levels	419
+402	Non-albumin protein levels	190
+403	Noncognitive aspects of educational attainment	139
+404	Number of sexual partners	101
+405	Omega-3 fatty acid levels	224
+406	Omega-3 fatty acids levels	118
+407	Omega-3 fatty acids to Omega-6 fatty acids ratio	150
+408	Omega-3 fatty acids to total fatty acids percentage	153
+409	Omega-6 fatty acid levels	254
+410	Omega-6 fatty acid percentage of total fatty acids	119
+411	Omega-6 fatty acids to total fatty acids percentage	294
+412	Optic disc size	102
+413	Osteoarthritis	196
+414	Osteoarthritis (hip)	150
+415	Osteoarthritis (with total hip replacement)	131
+416	Osteoarthritis of the hip or knee	134
+417	PR interval	212
+418	Pain (pleiotropy)	102
+419	Pain intensity (NRS pain scale 0-11)	132
+420	Pain intensity (without opioid use disorder)	104
+421	Parkinson's disease	111
+422	Peak expiratory flow	281
+423	Personality traits or cognitive traits (multivariate analysis)	378
+424	Phosphatidylcholine levels	126
+425	Phosphoglycerides levels	125
+426	Phospholipid levels in chylomicrons and extremely large VLDL	167
+427	Phospholipids in HDL	160
+428	Phospholipids in large HDL	196
+429	Phospholipids in large VLDL	134
+430	Phospholipids in medium HDL	153
+431	Phospholipids in small HDL	143
+432	Phospholipids in very large HDL	217
+433	Phospholipids in very large VLDL	129
+434	Phospholipids to Total Lipids in Large HDL percentage	159
+435	Phospholipids to Total Lipids in Large VLDL percentage	136
+436	Phospholipids to Total Lipids in Medium HDL percentage	201
+437	Phospholipids to Total Lipids in Medium VLDL percentage	107
+438	Phospholipids to Total Lipids in Small VLDL percentage	141
+439	Phospholipids to Total Lipids in Very Large HDL percentage	150
+440	Phospholipids to Total Lipids in Very Small VLDL percentage	143
+441	Physical function (baseline)	1256
+442	Platelet count	1079
+443	Platelet count (UKB data field 30080)	539
+444	Platelet crit (UKB data field 30090)	436
+445	Platelet distribution width	443
+446	Platelet distribution width (UKB data field 30110)	386
+447	Platelet-to-lymphocyte ratio	158
+448	Plateletcrit	564
+449	Polyunsaturated fatty acid levels	290
+450	Polyunsaturated fatty acids to monounsaturated fatty acids ratio	307
+451	Polyunsaturated fatty acids to saturated fatty acids ratio	160
+452	Polyunsaturated fatty acids to total fatty acids percentage	241
+453	Positive affect	164
+454	Post-traumatic stress disorder	108
+455	Predicted visceral adipose tissue	193
+456	Primary open angle glaucoma (MTAG)	237
+457	Primary open angle glaucoma (multi-trait analysis)	272
+458	Prostate cancer	386
+459	Prostate-specific antigen levels	368
+460	Protein quantitative trait loci (liver)	1484
+461	Psoriasis	181
+462	Pulse pressure	833
+463	Pulse rate (UKB data field 102)	152
+464	Putamen iron levels (R2* MRI)	103
+465	QRS duration	141
+466	QT interval	205
+467	RBC levels of Pyruvate (uM)	114
+468	Random glucose levels	123
+469	Ratio of apolipoprotein B to apolipoprotein A1 levels	114
+470	Red blood cell count	1022
+471	Red blood cell erythrocyte count (UKB data field 30010)	350
+472	Red blood cell erythrocyte distribution width (UKB data field 30070)	302
+473	Red cell distribution width	616
+474	Refractive error	433
+475	Resistance to COVID-19 infection (Exposed negative vs positive)	197
+476	Respiratory disease (confirmatory factor analysis Factor 11)	155
+477	Restless legs syndrome	203
+478	Reticulocyte count	439
+479	Reticulocyte count (UKB data field 30250)	242
+480	Reticulocyte fraction of red cells	414
+481	Reticulocyte percentage (UKB data field 30240)	246
+482	Rheumatoid arthritis	187
+483	Rheumatoid arthritis (rheumatoid factor and/or anti-cyclic citrullinated peptide seropositive)	104
+484	Risk-taking behavior (multivariate analysis)	216
+485	SIOPS occupational score (MTAG)	517
+486	Saturated fatty acids levels	240
+487	Saturated fatty acids to total fatty acids percentage	124
+488	Schizophrenia	465
+489	Schizophrenia (MTAG)	120
+490	Self-reported math ability	471
+491	Self-reported math ability (MTAG)	647
+492	Serum 25-Hydroxyvitamin D levels	149
+493	Serum albumin levels	274
+494	Serum alkaline phosphatase levels	426
+495	Serum creatinine levels	413
+496	Serum metabolite levels	228
+497	Serum phosphate levels	109
+498	Serum total protein levels	337
+499	Serum urate levels	505
+500	Serum uric acid levels	299
+501	Severe COVID-19 infection	206
+502	Sex hormone-binding globulin levels	569
+503	Sex hormone-binding globulin levels adjusted for BMI	607
+504	Sex hormone-binding globulin levels adjusted for BMI and heel estimated bone mineral density	222
+505	Sex hormone-binding globulin levels and heel estimated bone mineral density	200
+506	Sleep duration	106
+507	Smoking cessation	154
+508	Smoking initiation	1653
+509	Smoking initiation (MTAG)	159
+510	Smoking initiation (ever regular vs never regular)	356
+511	Smoking initiation (ever regular vs never regular) (MTAG)	597
+512	Smoking status	149
+513	Smoking status (ever vs never smokers)	197
+514	Spherical equivalent	185
+515	Spherical equivalent or myopia (age of diagnosis)	129
+516	Sphingomyelins levels	115
+517	Standing height (UKB data field 50)	956
+518	Subcortical volume (MOSTest)	172
+519	Substance use disorder	263
+520	Sum basophil neutrophil counts	129
+521	Sum eosinophil basophil counts	160
+522	Sum neutrophil eosinophil counts	131
+523	Systemic lupus erythematosus	188
+524	Systemic lupus erythematosus (MTAG)	130
+525	Systolic blood pressure	1213
+526	Systolic blood pressure (MTAG)	685
+527	Systolic blood pressure (UKB data field 4080)	108
+528	Systolic blood pressure (standard GWA)	116
+529	Telomere length (principal component 1)	236
+530	Testosterone levels	389
+531	Thyroid stimulating hormone levels	329
+532	Thyroid-stimulating hormone levels	102
+533	Total Lipids in HDL	169
+534	Total bilirubin levels	355
+535	Total bilirubin levels (UKB data field 30840)	111
+536	Total body bone mineral density	102
+537	Total cholesterol levels	743
+538	Total cholesterol levels (MTAG)	108
+539	Total cholines levels	124
+540	Total concentration of lipoprotein particles	156
+541	Total esterified cholesterol levels	103
+542	Total fatty acid levels	276
+543	Total lipid levels in chylomicrons and extremely large VLDL	152
+544	Total lipids in large HDL	216
+545	Total lipids in large VLDL	127
+546	Total lipids in medium HDL	164
+547	Total lipids in small HDL	148
+548	Total lipids in small VLDL	109
+549	Total lipids in very large HDL	215
+550	Total lipids in very large VLDL	140
+551	Total phospholipid levels in lipoprotein particles	103
+552	Total protein levels (UKB data field 30860)	179
+553	Total testosterone levels	465
+554	Total triglycerides levels	173
+555	Triglyceride levels	838
+556	Triglyceride levels (MTAG)	270
+557	Triglyceride levels (UKB data field 30870)	198
+558	Triglyceride levels in chylomicrons and extremely large VLDL	147
+559	Triglyceride levels in non-type 2 diabetes	287
+560	Triglyceride percentage of total lipids in intermediate-density lipoprotein	148
+561	Triglyceride to HDL cholesterol ratio	270
+562	Triglyceride to phosphoglyceride ratio	251
+563	Triglycerides	346
+564	Triglycerides in HDL	140
+565	Triglycerides in IDL	144
+566	Triglycerides in LDL	134
+567	Triglycerides in VLDL	141
+568	Triglycerides in large HDL	103
+569	Triglycerides in large LDL	143
+570	Triglycerides in large VLDL	130
+571	Triglycerides in medium HDL	140
+572	Triglycerides in medium LDL	153
+573	Triglycerides in medium VLDL	127
+574	Triglycerides in small HDL	203
+575	Triglycerides in small LDL	156
+576	Triglycerides in small VLDL	176
+577	Triglycerides in very large HDL	113
+578	Triglycerides in very large VLDL	163
+579	Triglycerides in very small VLDL	168
+580	Triglycerides to Total Lipids in IDL percentage	166
+581	Triglycerides to Total Lipids in Large HDL percentage	190
+582	Triglycerides to Total Lipids in Large LDL percentage	147
+583	Triglycerides to Total Lipids in Medium HDL percentage	183
+584	Triglycerides to Total Lipids in Medium LDL percentage	137
+585	Triglycerides to Total Lipids in Medium VLDL percentage	150
+586	Triglycerides to Total Lipids in Small HDL percentage	198
+587	Triglycerides to Total Lipids in Small LDL percentage	176
+588	Triglycerides to Total Lipids in Small VLDL percentage	138
+589	Triglycerides to Total Lipids in Very Large HDL percentage	206
+590	Triglycerides to Total Lipids in Very Large VLDL percentage	112
+591	Triglycerides to Total Lipids in Very Small VLDL percentage	154
+592	Trunk fat mass (UKB data field 23128)	205
+593	Type 1 diabetes	121
+594	Type 2 diabetes	1147
+595	Type 2 diabetes (PheCode 250.2)	172
+596	Tyrosine levels	103
+597	Ulcerative colitis	153
+598	Urate levels	374
+599	Urate levels (UKB data field 30880)	194
+600	Urea levels	110
+601	Urea levels (UKB data field 30670)	120
+602	Uric acid levels	123
+603	Uterine fibroids	185
+604	Vertex-wise cortical surface area	654
+605	Vertex-wise cortical thickness	583
+606	Vertex-wise sulcal depth	853
+607	Vertical cup-disc ratio	230
+608	Waist circumference	113
+609	Waist circumference (UKB data field 48)	151
+610	Waist circumference adjusted for body mass index	706
+611	Waist-hip index	429
+612	Waist-hip ratio	575
+613	Waist-to-hip ratio adjusted for BMI	611
+614	Weight	1084
+615	Weight (UKB data field 21002)	302
+616	Weight (maximum, inv-normal transformed)	275
+617	Weight (mean, inv-normal transformed)	278
+618	Weight (minimum, inv-normal transformed)	249
+619	Well-being spectrum (multivariate analysis)	195
+620	What is your height? (cm, inv-normal transformed)	356
+621	What is your weight? (pounds, inv-normal transformed)	140
+622	White blood cell count	1017
+623	Whole body fat free mass (UKB data field 23101)	560
+624	Whole body fat mass (UKB data field 23100)	375
+625	Whole body water mass (UKB data field 23102)	468
+626	Whole brain free water diffusion (multivariate analysis)	199
+627	Whole brain restricted directional diffusion (multivariate analysis)	257
+628	Whole brain restricted isotropic diffusion (multivariate analysis)	291
+629	creatinine (maximum, inv-norm transformed)	140
+630	creatinine (mean, inv-norm transformed)	174
+631	creatinine (minimum, inv-norm transformed)	156
+632	diastolic blood pressure (DBP, mean, inv-normal transformed)	160
+633	eosinophil (absolute count, maximum, inv-norm transformed)	177
+634	eosinophil (absolute count, mean, inv-norm transformed)	210
+635	eosinophil (absolute count, minimum, inv-norm transformed)	110
+636	eosinophil (fraction, maximum, inv-norm transformed)	200
+637	eosinophil (fraction, mean, inv-norm transformed)	237
+638	eosinophil (fraction, minimum, inv-norm transformed)	117
+639	estimated glomerular filtration rate (eGFR, maximum, inv-norm transformed)	139
+640	estimated glomerular filtration rate (eGFR, mean, inv-norm transformed)	158
+641	estimated glomerular filtration rate (eGFR, minimum, inv-norm transformed)	129
+642	heart rate (HR, mean, inv-normal transformed)	226
+643	heart rate (HR, minimum, inv-normal transformed)	162
+644	height (mean, inv-normal transformed)	486
+645	height (minimum, inv-normal transformed)	466
+646	hematocrit (maximum, inv-norm transformed)	154
+647	hematocrit (mean, inv-norm transformed)	124
+648	hemoglobin (maximum, inv-norm transformed)	137
+649	hemoglobin (mean, inv-norm transformed)	120
+650	high density lipoprotein cholesterol (HDLC, maximum, inv-norm transformed)	175
+651	high density lipoprotein cholesterol (HDLC, mean, inv-norm transformed)	194
+652	high density lipoprotein cholesterol (HDLC, minimm, inv-norm transformed)	176
+653	lymphocyte (absolute count, maximum, inv-norm transformed)	118
+654	lymphocyte (absolute count, mean, inv-norm transformed)	127
+655	lymphocyte (fraction, maximum, inv-norm transformed)	130
+656	lymphocyte (fraction, mean, inv-norm transformed)	121
+657	mean corpuscular hemoglobin (MCH, maximum, inv-norm transformed)	261
+658	mean corpuscular hemoglobin (MCH, mean, inv-norm transformed)	263
+659	mean corpuscular hemoglobin (MCH, minimum, inv-norm transformed)	248
+660	mean corpuscular hemoglobin concentration (MCHC, maximum, inv-norm transformed)	154
+661	mean corpuscular hemoglobin concentration (MCHC, mean, inv-norm transformed)	158
+662	mean corpuscular hemoglobin concentration (MCHC, minimum, inv-norm transformed)	110
+663	mean corpuscular volume (MCV, maximum, inv-norm transformed)	249
+664	mean corpuscular volume (MCV, mean, inv-norm transformed)	268
+665	mean corpuscular volume (MCV, minimum, inv-norm transformed)	253
+666	mean platelet volume (MPV, maximum, inv-norm transformed)	234
+667	mean platelet volume (MPV, mean, inv-norm transformed)	243
+668	mean platelet volume (MPV, minimum, inv-norm transformed)	212
+669	monocyte (absolute count, maximum, inv-norm transformed)	152
+670	monocyte (absolute count, mean, inv-norm transformed)	219
+671	monocyte (absolute count, minimum, inv-norm transformed)	172
+672	monocyte (fraction, maximum, inv-norm transformed)	168
+673	monocyte (fraction, mean, inv-norm transformed)	233
+674	monocyte (fraction, minimum, inv-norm transformed)	136
+675	neutrophil (absolute count, mean, inv-norm transformed)	155
+676	neutrophil (absolute count, minimum, inv-norm transformed)	149
+677	neutrophil (fraction, mean, inv-norm transformed)	139
+678	neutrophil (fraction, minimum, inv-norm transformed)	138
+679	platelet count (maximum, inv-norm transformed)	295
+680	platelet count (mean, inv-norm transformed)	363
+681	platelet count (minimum, inv-norm transformed)	306
+682	potassium (mean, inv-norm transformed)	107
+683	red blood cell count (RBC, maximum, inv-norm transformed)	219
+684	red blood cell count (RBC, mean, inv-norm transformed)	200
+685	red blood cell count (RBC, minimum, inv-norm transformed)	134
+686	red cell diameter width (RDW, maximum, inv-norm transformed)	141
+687	red cell diameter width (RDW, mean, inv-norm transformed)	194
+688	red cell diameter width (RDW, minimum, inv-norm transformed)	224
+689	systolic blood pressure (SBP, maximum, inv-normal transformed)	108
+690	systolic blood pressure (SBP, mean, inv-normal transformed)	162
+691	total cholesterol (maximum, inv-norm transformed)	104
+692	total cholesterol (mean, inv-norm transformed)	103
+693	triglyceride (maximum, inv-norm transformed)	128
+694	triglyceride (mean, inv-norm transformed)	136
+695	triglyceride (minimum, inv-norm transformed)	118
+696	white blood cell count (WBC, maximum, inv-norm transformed)	174
+697	white blood cell count (WBC, mean, inv-norm transformed)	261
+698	white blood cell count (WBC, minimum, inv-norm transformed)	250
+699	25-hydroxyvitamin D levels (skin colour stratified)	95
+700	AFP levels	62
+701	AFP protein levels	52
+702	Age at first birth	72
+703	Age at natural menopause	51
+704	Age of onset of childhood onset asthma	65
+705	Age-related eyesight deterioration (confirmatory factor analysis Factor 27)	63
+706	Age-related hearing impairment	54
+707	Alanine transaminase (ALT, maximum, inv-norm transformed)	80
+708	Alanine transaminase (ALT, mean, inv-norm transformed)	95
+709	Alanine transaminase (ALT, minimum, inv-norm transformed)	80
+710	Albumin (maximum, inv-norm transformed)	88
+711	Albumin (mean, inv-norm transformed)	75
+712	Alcohol consumption	82
+713	Alcohol use disorder (MTAG)	55
+714	Allergic rhinitis	60
+715	Alzheimer's disease or educational attainment (pleiotropy)	77
+716	Angina pectoris	55
+717	Anxiety	67
+718	Anxiety disorder	54
+719	Aortic stenosis	88
+720	Aortic valve area (MTAG)	91
+721	Aortic valve mean gradient (MTAG)	89
+722	Aortic valve peak velocity (MTAG)	94
+723	Apolipoprotein A-I levels	53
+724	Ascending aorta maximum area	66
+725	Ascending aorta minimum area	68
+726	Ascending thoracic aortic diameter	86
+727	Aspartate aminotransferase (AST, maximum, inv-norm transformed)	79
+728	Asthma in any disease	63
+729	Asthma or chronic rhinosinusitis	96
+730	Atopic asthma	87
+731	Atrial fibrillation (PheCode 427.21)	70
+732	Atrial fibrillation and flutter (PheCode 427.2)	73
+733	Atrial fibrillation/atrial flutter	72
+734	Attention deficit hyperactivity disorder	60
+735	Attention deficit hyperactivity disorder or risk-taking behavior (pleiotropy)	75
+736	Autoimmune thyroid disease	94
+737	Autoimmune traits	77
+738	Average diameter for LDL particles	71
+739	Basal cell carcinoma (MTAG)	71
+740	Basal ganglia structure	63
+741	Basophil (absolute count, maximum, inv-norm transformed)	56
+742	Basophil (absolute count, mean, inv-norm transformed)	69
+743	Basophil (fraction, minimum, inv-norm transformed)	86
+744	Bicarbonate (maximum, inv-norm transformed)	64
+745	Bicarbonate (mean, inv-norm transformed)	80
+746	Bipolar disorder	89
+747	Bipolar disorder (MTAG)	74
+748	Bipolar disorder or major depressive disorder	72
+749	Birth size (multivariate analysis)	76
+750	Blood cell traits latent factor 22 (white cell)	50
+751	Blood glucose levels	65
+752	Blood protein levels in cardiovascular risk	57
+753	Blood urea nitrogen (BUN, maximum, inv-norm transformed)	92
+754	Blood urea nitrogen (BUN, minimum, inv-norm transformed)	94
+755	Body composition (MOSTest)	77
+756	Body fat distribution (leg fat ratio)	68
+757	Body fat distribution (trunk fat ratio)	79
+758	Body mass index (joint analysis main effects and physical activity interaction)	56
+759	Bone density T-score	93
+760	Bone density Z-score	94
+761	Bone stiffness index	61
+762	CAMSIS occupational score	91
+763	COVID-19 (hospitalized covid vs population)	54
+764	Calcium (maximum, inv-norm transformed)	66
+765	Calcium (mean, inv-norm transformed)	73
+766	Cancer	54
+767	Cancer (pleiotropy)	77
+768	Cancer of prostate (PheCode 185)	90
+769	Cannabis use disorder (MTAG)	74
+770	Carotid intima-media thickness (MTAG)	51
+771	Carpal tunnel syndrome	53
+772	Cataracts	64
+773	Caudate iron levels (R2* MRI)	53
+774	Caudate iron levels (quantitative susceptibility mapping)	64
+775	Central corneal thickness	81
+776	Cerebrospinal fluid biomarker levels	57
+777	Cholelithiasis	51
+778	Cholesterol esters in IDL	57
+779	Cholesterol esters in large HDL	56
+780	Cholesterol esters in large LDL	52
+781	Cholesterol esters in medium LDL	51
+782	Cholesterol esters in small LDL	50
+783	Cholesterol esters in very small VLDL	77
+784	Cholesterol in IDL	76
+785	Cholesterol in Large LDL	71
+786	Cholesterol in Medium LDL	53
+787	Cholesterol in Medium VLDL	52
+788	Cholesterol in Small LDL	52
+789	Cholesterol in Small VLDL	66
+790	Cholesterol levels in IDL	60
+791	Cholesterol levels in large VLDL	68
+792	Cholesterol levels in medium HDL	77
+793	Cholesterol levels in small HDL	53
+794	Cholesterol levels in small VLDL	60
+795	Cholesterol levels in very small VLDL	83
+796	Cholesterol percentage of total lipids in small low-density lipoprotein	55
+797	Cholesterol to Total Lipids in Chylomicrons and Extremely Large VLDL percentage	61
+798	Cholesterol to Total Lipids in Medium LDL percentage	69
+799	Cholesterol to Total Lipids in Small LDL percentage	74
+800	Cholesterol to Total Lipids in Very Large HDL percentage	85
+801	Cholesterol to total lipids ratio in IDL	78
+802	Cholesterol to total lipids ratio in large HDL	98
+803	Cholesterol to total lipids ratio in large LDL	58
+804	Cholesterol to total lipids ratio in medium HDL	82
+805	Cholesterol to total lipids ratio in medium VLDL	79
+806	Cholesterol to total lipids ratio in small HDL	58
+807	Cholesterol to total lipids ratio in small VLDL	66
+808	Cholesterol to total lipids ratio in very large VLDL	73
+809	Cholesterol to total lipids ratio in very small VLDL	75
+810	Cholesterol, total	84
+811	Cholesteryl Esters in IDL	77
+812	Cholesteryl Esters in LDL	55
+813	Cholesteryl Esters in Large LDL	63
+814	Cholesteryl Esters in Large VLDL	84
+815	Cholesteryl Esters in Medium LDL	57
+816	Cholesteryl Esters in Medium VLDL	63
+817	Cholesteryl Esters in Small LDL	50
+818	Cholesteryl Esters in Small VLDL	70
+819	Cholesteryl Esters in VLDL	55
+820	Cholesteryl Esters to Total Lipids in Chylomicrons and Extremely Large VLDL percentage	57
+821	Cholesteryl Esters to Total Lipids in Large LDL percentage	69
+822	Cholesteryl Esters to Total Lipids in Medium LDL percentage	75
+823	Cholesteryl Esters to Total Lipids in Small LDL percentage	90
+824	Cholesteryl ester levels in HDL	86
+825	Cholesteryl ester levels in IDL	56
+826	Cholesteryl ester levels in VLDL	53
+827	Cholesteryl ester levels in large VLDL	67
+828	Cholesteryl ester levels in medium HDL	77
+829	Cholesteryl ester levels in small HDL	52
+830	Cholesteryl ester levels in small VLDL	64
+831	Cholesteryl ester levels in very large HDL	98
+832	Cholesteryl ester levels in very large VLDL	67
+833	Cholesteryl ester levels in very small VLDL	56
+834	Cholesteryl esters in very large VLDL	79
+835	Cholesteryl esters to total lipids ratio in IDL	70
+836	Cholesteryl esters to total lipids ratio in large HDL	92
+837	Cholesteryl esters to total lipids ratio in large LDL	67
+838	Cholesteryl esters to total lipids ratio in large VLDL	60
+839	Cholesteryl esters to total lipids ratio in medium HDL	92
+840	Cholesteryl esters to total lipids ratio in medium LDL	67
+841	Cholesteryl esters to total lipids ratio in medium VLDL	88
+842	Cholesteryl esters to total lipids ratio in small HDL	76
+843	Cholesteryl esters to total lipids ratio in small LDL	74
+844	Cholesteryl esters to total lipids ratio in small VLDL	78
+845	Cholesteryl esters to total lipids ratio in very large HDL	59
+846	Cholesteryl esters to total lipids ratio in very large VLDL	72
+847	Cholesteryl esters to total lipids ratio in very small VLDL	90
+848	Chronic elevation of alanine aminotransferase (cALT) levels	80
+849	Chronic kidney disease	58
+850	Chronic obstructive pulmonary disease x current smoker interaction (2df)	55
+851	Chronic rhinosinusitis with nasal polyposis	50
+852	Chronotype and breast cancer	51
+853	Clear cell renal cell carcinoma	51
+854	Clinical LDL cholesterol levels	67
+855	Cognitive ability (MTAG)	75
+856	Cognitive processing accuracy	51
+857	Colorectal cancer or advanced adenoma	69
+858	Concentration of IDL particles	85
+859	Concentration of LDL particles	69
+860	Concentration of VLDL particles	93
+861	Concentration of large LDL particles	88
+862	Concentration of medium LDL particles	76
+863	Concentration of medium VLDL particles	96
+864	Concentration of small LDL particles	83
+865	Concentration of very small VLDL particles	99
+866	Coronary artery disease (myocardial infarction, percutaneous transluminal coronary angioplasty, coronary artery bypass grafting, angina or chromic ischemic heart disease)	54
+867	Coronary artery disease or factor VII levels (pleiotropy)	80
+868	Coronary artery disease or factor VIII levels (pleiotropy)	82
+869	Coronary artery disease or factor XI levels (pleiotropy)	81
+870	Coronary artery disease or tissue plasminogen activator levels (pleiotropy)	52
+871	Coronary artery disease or von Willebrand factor levels (pleiotropy)	88
+872	Coronary atherosclerosis (PheCode 411.4)	66
+873	Coronary heart disease	65
+874	Corpus callosum posterior subregion volume	52
+875	Corpus callosum volume (MOSTest)	52
+876	Cortical thickness (MOSTest)	67
+877	Current medication use (UKB data field 20003)	51
+878	Cutaneous malignant melanoma	56
+879	DXA-Bone mineral density (head) (UKB data field 23226)	52
+880	DXA-Bone mineral density (total body) (UKB data field 23236)	50
+881	Dental caries	51
+882	Depressed affect	79
+883	Depressive symptoms (MTAG)	90
+884	"Diabetes / ""Sugar"""	83
+885	Diabetic retinopathy (PheCode 250.7)	55
+886	Diastolic blood pressure (BMI adjusted)	65
+887	Diastolic blood pressure (BMI unadjusted)	58
+888	Diastolic blood pressure (UKB data field 4079)	93
+889	Diastolic blood pressure x alcohol consumption interaction (2df test)	57
+890	Direct bilirubin levels	51
+891	Disorders of lipid metabolism (PheCode 272)	55
+892	Dupuytren's disease	74
+893	ECG cardiac MRI latent space	84
+894	ECG latent space	78
+895	Ease of getting up in the morning	65
+896	Ebbinghaus illusion (overestimation)	87
+897	Elevated prostate specific antigen [PSA] (PheCode 796)	74
+898	Endometriosis (MTAG)	61
+899	Essential hypertension (PheCode 401.1)	68
+900	Esterified cholesterol levels	55
+901	Estimated glomerular filtration rate in non-diabetics	95
+902	Experiencing mood swings	50
+903	FEV1 x serum 25-hydroxyvitamin D interaction in ever smokers (2df test)	51
+904	FEV1 x serum 25-hydroxyvitamin D interaction in never smokers (2df test)	84
+905	FVC x serum 25-hydroxyvitamin D interaction in never smokers (2df test)	68
+906	Familial combined hyperlipidemia defined by Consensus criteria	51
+907	Familial combined hyperlipidemia defined by Dutch criteria	52
+908	Fasting plasma glucose	70
+909	Femoral neck width	53
+910	Fish- and plant-related diet	67
+911	Frailty (Factor 4 - Metabolic Problems)	95
+912	Frailty (Factor 5 - Poorer Cognition)	60
+913	Free Cholesterol in LDL	70
+914	Free Cholesterol in VLDL	74
+915	Free Cholesterol to Total Lipids in Large VLDL percentage	87
+916	Free Cholesterol to Total Lipids in Very Small VLDL percentage	82
+917	Free cholesterol in IDL	97
+918	Free cholesterol in large LDL	98
+919	Free cholesterol in medium LDL	79
+920	Free cholesterol in medium VLDL	74
+921	Free cholesterol in small LDL	84
+922	Free cholesterol in small VLDL	78
+923	Free cholesterol in very small VLDL	82
+924	Free cholesterol levels	56
+925	Free cholesterol levels in HDL	73
+926	Free cholesterol levels in IDL	58
+927	Free cholesterol levels in VLDL	62
+928	Free cholesterol levels in large HDL	96
+929	Free cholesterol levels in large LDL	60
+930	Free cholesterol levels in large VLDL	68
+931	Free cholesterol levels in medium HDL	75
+932	Free cholesterol levels in medium VLDL	55
+933	Free cholesterol levels in small HDL	50
+934	Free cholesterol levels in small VLDL	54
+935	Free cholesterol levels in very large HDL	77
+936	Free cholesterol levels in very large VLDL	67
+937	Free cholesterol levels in very small VLDL	55
+938	Free cholesterol to total lipids ratio in IDL	67
+939	Free cholesterol to total lipids ratio in large HDL	81
+940	Free cholesterol to total lipids ratio in medium HDL	94
+941	Free cholesterol to total lipids ratio in medium VLDL	81
+942	Free cholesterol to total lipids ratio in small HDL	75
+943	Free cholesterol to total lipids ratio in small VLDL	83
+944	Free cholesterol to total lipids ratio in very large VLDL	67
+945	Free cholesterol to total lipids ratio in very small VLDL	63
+946	Gallstone disease	61
+947	Gastroesophageal reflux disease	59
+948	General factor of neuroticism	71
+949	Glomerular filtration rate	73
+950	Glomerular filtration rate (creatinine)	62
+951	Glucose levels (UKB data field 30740)	69
+952	Gluteofemoral adipose tissue volumes (adjusted for BMI and height)	51
+953	Glycated hemoglobin HbA1c levels	54
+954	Gout (PheCode 274.1)	61
+955	Gut microbial network clusters (BlueViolet (at 3 months) x Homesmokers interaction	54
+956	Gut microbial network clusters (BlueViolet (at 3 months) x Household furry pet dog (3 Months) interaction	94
+957	Gut microbial network clusters (BlueViolet (at 3 months) x Vaginal Birth interaction	50
+958	Gut microbial network clusters (Cyan (at 3 months) x Any Breastfeeding (3 Months) interaction	81
+959	Gut microbial network clusters (Pink (at 1 year) x Homesmokers interaction	89
+960	Gut microbial network clusters (Salmon (at 1 year) x Any Breastfeeding (Duration) interaction	93
+961	Gut microbial network clusters (Turquoise (at 3 months) x Any Breastfeeding (3 Months) interaction	66
+962	Gut microbiome abundance (class Clostridium sensu stricto sp. 17 (at 1 year) x Any Breastfeeding (3 Months) interaction	71
+963	Gut microbiota (bacterial taxa)	59
+964	HDL cholesterol levels in current drinkers	65
+965	HDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)	89
+966	HDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)	84
+967	Haemorrhoidal disease	99
+968	Hand grip strength right (UKB data field 47)	57
+969	Head width to leg length ratio	61
+970	Hearing loss	56
+971	Height (weighted GWA)	53
+972	High blood pressure / hypertension	70
+973	High cholesterol	61
+974	High fluorescence immature platelet fraction	85
+975	Hip circumference	96
+976	Histidine levels	62
+977	Hodgkin's lymphoma	52
+978	Household income	55
+979	Hyperlipidemia (PheCode 272.1)	54
+980	Hypertension (PheCode 401)	68
+981	Hypertrophic cardiomyopathy (MTAG)	68
+982	Hypothyroidism (PheCode 244)	63
+983	Hypothyroidism NOS (PheCode 244.4)	63
+984	ICD10 D25: Leiomyoma of uterus	62
+985	IgA nephropathy	65
+986	Immature platelet count	74
+987	Immature platelet fraction	82
+988	Inflammatory bowel disease (MTAG)	67
+989	Inflammatory markers and poor diet (confirmatory factor analysis Factor 30)	98
+990	Inguinal hernia	79
+991	Intraocular pressure (confirmatory factor analysis Factor 26)	72
+992	Ischemic heart disease (PheCode 411)	72
+993	Isoleucine levels	52
+994	Keratinocyte cancer (MTAG)	68
+995	Kidney cancer	67
+996	Kidney sinus volume	74
+997	Kidney stone disease	73
+998	LDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)	64
+999	LDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)	62
+1000	Leisure screen time	86
+1001	Leucine levels	65
+1002	Lifetime major depressive disorder (MTAG)	58
+1003	Linoleic acid (18:2) levels	51
+1004	Linoleic acid percentage of total fatty acids	93
+1005	Lipoprotein (a) levels	52
+1006	Lobe attachment (rater-scored or self-reported)	53
+1007	Lung cancer	63
+1008	Major depressive disorder (MTAG)	76
+1009	Male puberty timing (age at voice breaking MTAG)	75
+1010	Mean arterial pressure (BMI adjusted)	73
+1011	Mean arterial pressure (BMI unadjusted)	62
+1012	Mean corpuscular haemoglobin concentration (UKB data field 30060)	59
+1013	Mean diameter of HDL particles	62
+1014	Mean platelet volume during first trimester of pregnancy	99
+1015	Mean platelet volume during the postpartum period	80
+1016	Medication use (adrenergics, inhalants)	55
+1017	Medication use (beta blocking agents)	80
+1018	Medication use for T2D (number of purchases)	70
+1019	Medication use for hyperlipidemia (number of purchases)	68
+1020	Menopause (age at onset)	61
+1021	Mitochondrial DNA copy number	72
+1022	Mitochondrial DNA copy number (raw)	81
+1023	Motor premotor area	50
+1024	Multiple sclerosis (MTAG)	63
+1025	Multisite chronic pain	56
+1026	Myopia	78
+1027	Myopia (age of diagnosis)	92
+1028	Neuroticism conditioned on Townsend deprivation index (multi-trait conditioning and joint analysis)	84
+1029	Neuroticism conditioned on average household income before tax (multi-trait conditioning and joint analysis)	58
+1030	Neuroticism conditioned on cognitive performance (multi-trait conditioning and joint analysis)	88
+1031	Neuroticism conditioned on educational attainment (multi-trait conditioning and joint analysis)	79
+1032	Neuroticism conditioned on highest math class (multi-trait conditioning and joint analysis)	76
+1033	Neuroticism conditioned on self-rated math ability (multi-trait conditioning and joint analysis)	68
+1034	Neutrophil side scatter	50
+1035	Neutrophil-to-lymphocyte ratio	92
+1036	Nevus count or cutaneous melanoma	67
+1037	Non-alcoholic fatty liver disease or type 2 diabetes	64
+1038	Non-melanoma skin cancer	65
+1039	Nonalcoholic fatty liver disease (imputed)	53
+1040	Number of puzzles correctly solved (baseline)	54
+1041	Obesity (PheCode 278.1)	62
+1042	Occipital area	73
+1043	Occupational income	65
+1044	Offspring birth weight	95
+1045	Oily fish consumption	59
+1046	Omega-6 fatty acids levels	89
+1047	Omega-6 fatty acids to omega-3 fatty acids ratio	86
+1048	Open-angle glaucoma (PheCode 365.1)	82
+1049	Osteoarthritis (with total knee replacement)	86
+1050	Osteoarthritis of the hip or knee (with total joint replacement)	95
+1051	Other chronic ischemic heart disease, unspecified (PheCode 411.8)	50
+1052	Overweight, obesity and other hyperalimentation (PheCode 278)	50
+1053	Pallidum iron levels (R2* MRI)	84
+1054	Pallidum iron levels (quantitative susceptibility mapping)	59
+1055	Parkinson's disease or first degree relation to individual with Parkinson's disease	86
+1056	Peak expiratory flow (UKB data field 3064)	60
+1057	Phospholipid levels in HDL	73
+1058	Phospholipid levels in IDL	57
+1059	Phospholipid levels in VLDL	66
+1060	Phospholipid levels in large HDL	88
+1061	Phospholipid levels in large VLDL	72
+1062	Phospholipid levels in medium HDL	63
+1063	Phospholipid levels in medium VLDL	58
+1064	Phospholipid levels in small HDL	55
+1065	Phospholipid levels in small LDL	52
+1066	Phospholipid levels in small VLDL	63
+1067	Phospholipid levels in very large HDL	86
+1068	Phospholipid levels in very large VLDL	68
+1069	Phospholipid levels in very small VLDL	65
+1070	Phospholipids in IDL	86
+1071	Phospholipids in LDL	57
+1072	Phospholipids in VLDL	84
+1073	Phospholipids in large LDL	77
+1074	Phospholipids in medium LDL	80
+1075	Phospholipids in medium VLDL	80
+1076	Phospholipids in small LDL	82
+1077	Phospholipids in small VLDL	86
+1078	Phospholipids in very small VLDL	93
+1079	Phospholipids to Total Lipids in Chylomicrons and Extremely Large VLDL percentage	58
+1080	Phospholipids to Total Lipids in IDL percentage	72
+1081	Phospholipids to Total Lipids in Large LDL percentage	88
+1082	Phospholipids to Total Lipids in Medium LDL percentage	60
+1083	Phospholipids to Total Lipids in Small HDL percentage	99
+1084	Phospholipids to Total Lipids in Small LDL percentage	94
+1085	Phospholipids to Total Lipids in Very Large VLDL percentage	63
+1086	Phospholipids to total lipids ratio in IDL	58
+1087	Phospholipids to total lipids ratio in large HDL	90
+1088	Phospholipids to total lipids ratio in large LDL	82
+1089	Phospholipids to total lipids ratio in large VLDL	89
+1090	Phospholipids to total lipids ratio in medium HDL	92
+1091	Phospholipids to total lipids ratio in medium LDL	69
+1092	Phospholipids to total lipids ratio in medium VLDL	65
+1093	Phospholipids to total lipids ratio in small HDL	78
+1094	Phospholipids to total lipids ratio in small LDL	85
+1095	Phospholipids to total lipids ratio in small VLDL	83
+1096	Phospholipids to total lipids ratio in very large HDL	77
+1097	Phospholipids to total lipids ratio in very large VLDL	54
+1098	Phospholipids to total lipids ratio in very small VLDL	71
+1099	Photoreceptor cell layer thickness phenotypes (MTAG)	97
+1100	Platelet count during  first trimester of pregnancy	98
+1101	Platelet count during  second trimester of pregnancy	97
+1102	Platelet count during  third trimester of pregnancy	83
+1103	Platelet forward scatter	53
+1104	Platelet large cell ratio	78
+1105	Platelet side fluorescence	61
+1106	Polyunsaturated fatty acids	56
+1107	Pork consumption	50
+1108	Posterolateral temporal area	58
+1109	Pre-treatment viral load in HIV-1 infection	89
+1110	Primary biliary cholangitis	63
+1111	Principal component-derived dietary pattern 1	57
+1112	Problematic alcohol use (MTAG)	81
+1113	Protein quantitative trait loci	66
+1114	Putamen iron levels (quantitative susceptibility mapping)	92
+1115	Pyruvate levels	63
+1116	Ratio of monounsaturated fatty acids to total fatty acids	81
+1117	Ratio of omega-6 fatty acids to total fatty acids	58
+1118	Ratio of polyunsaturated fatty acids to monounsaturated fatty acids	63
+1119	Ratio of polyunsaturated fatty acids to total fatty acids	53
+1120	Ratio of triglycerides to phosphoglycerides	97
+1121	Reaction time (baseline)	50
+1122	Red blood cell distribution width	64
+1123	Remnant cholesterol (non-HDL, non-LDL -cholesterol)	86
+1124	Respiratory diseases	91
+1125	Resting heart rate	91
+1126	Retinal arteriolar tortuosity	87
+1127	Risk-taking tendency (4-domain principal component model)	91
+1128	Saturated fatty acid levels	50
+1129	Serum 25-Hydroxyvitamin D levels (conditioned on BMI)	83
+1130	Serum metabolite levels (CMS)	55
+1131	Serum total cholesterol levels	58
+1132	Serum total triglyceride levels	51
+1133	Sex hormone-binding globulin levels in postmenopausal women	91
+1134	Skin cancer	65
+1135	Skull bone mineral density	64
+1136	Smoking cessation (MTAG)	73
+1137	Snoring	53
+1138	Sodium (mean, inv-norm transformed)	78
+1139	Spatial QRS-T angle	67
+1140	Sphingomyelin levels	61
+1141	Stable angina pectoris	50
+1142	Subcortical volume (min-P)	84
+1143	Substantia nigra iron levels (quantitative susceptibility mapping)	65
+1144	Sunburns	63
+1145	Symbol digit substitution test performance (baseline)	57
+1146	Systolic blood pressure (BMI adjusted)	68
+1147	Systolic blood pressure (BMI unadjusted)	60
+1148	Systolic blood pressure x alcohol consumption interaction (2df test)	60
+1149	Takes medication for Diabetes/sugar?	66
+1150	Takes medication for high blood pressure?	61
+1151	Thyroxine levels	63
+1152	Tinnitus	54
+1153	Tobacco use disorder	84
+1154	Total Cholesterol in IDL	58
+1155	Total Cholesterol in small LDL	51
+1156	Total Lipids in LDL	58
+1157	Total Lipids in Medium LDL	54
+1158	Total Lipids in VLDL	94
+1159	Total cholesterol in HDL2	64
+1160	Total cholesterol in large HDL	57
+1161	Total cholesterol in large LDL	51
+1162	Total cholesterol in medium LDL	52
+1163	Total cholesterol in small VLDL	56
+1164	Total cholesterol levels in HDL	60
+1165	Total cholesterol levels in LDL	55
+1166	Total cholesterol levels in VLDL	52
+1167	Total cholesterol levels in very large HDL	55
+1168	Total cholesterol minus HDL-C levels	71
+1169	Total cholesterol to total lipids ratio in small LDL	50
+1170	Total concentration of branched-chain amino acids (leucine + isoleucine + valine)	71
+1171	Total free cholesterol levels	91
+1172	Total lipid levels in HDL	77
+1173	Total lipid levels in IDL	54
+1174	Total lipid levels in VLDL	69
+1175	Total lipid levels in large HDL	94
+1176	Total lipid levels in large VLDL	70
+1177	Total lipid levels in lipoprotein particles	90
+1178	Total lipid levels in medium HDL	63
+1179	Total lipid levels in medium LDL	71
+1180	Total lipid levels in medium VLDL	64
+1181	Total lipid levels in small HDL	50
+1182	Total lipid levels in small LDL	52
+1183	Total lipid levels in small VLDL	74
+1184	Total lipid levels in very large HDL	87
+1185	Total lipid levels in very large VLDL	69
+1186	Total lipid levels in very small VLDL	60
+1187	Total lipids in IDL	89
+1188	Total lipids in large LDL	84
+1189	Total lipids in medium VLDL	84
+1190	Total lipids in small LDL	78
+1191	Total lipids in very small VLDL	86
+1192	Total omega-6 fatty acid levels	52
+1193	Total protein levels x insomnia interaction	85
+1194	Triglyceride levels in HDL	69
+1195	Triglyceride levels in IDL	72
+1196	Triglyceride levels in LDL	90
+1197	Triglyceride levels in VLDL	85
+1198	Triglyceride levels in large HDL	54
+1199	Triglyceride levels in large LDL	70
+1200	Triglyceride levels in large VLDL	73
+1201	Triglyceride levels in medium HDL	63
+1202	Triglyceride levels in medium LDL	75
+1203	Triglyceride levels in medium VLDL	69
+1204	Triglyceride levels in small HDL	72
+1205	Triglyceride levels in small LDL	71
+1206	Triglyceride levels in small VLDL	78
+1207	Triglyceride levels in very large HDL	52
+1208	Triglyceride levels in very large VLDL	78
+1209	Triglyceride levels in very small VLDL	79
+1210	Triglyceride levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df)	55
+1211	Triglyceride levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df)	55
+1212	Triglycerides to Total Lipids in Large VLDL percentage	74
+1213	Triglycerides to total lipids ratio in IDL	87
+1214	Triglycerides to total lipids ratio in large HDL	90
+1215	Triglycerides to total lipids ratio in large LDL	73
+1216	Triglycerides to total lipids ratio in large VLDL	57
+1217	Triglycerides to total lipids ratio in medium HDL	88
+1218	Triglycerides to total lipids ratio in medium LDL	70
+1219	Triglycerides to total lipids ratio in medium VLDL	84
+1220	Triglycerides to total lipids ratio in small HDL	94
+1221	Triglycerides to total lipids ratio in small LDL	75
+1222	Triglycerides to total lipids ratio in small VLDL	79
+1223	Triglycerides to total lipids ratio in very large HDL	89
+1224	Triglycerides to total lipids ratio in very large VLDL	65
+1225	Triglycerides to total lipids ratio in very small VLDL	88
+1226	Type 2 diabetes (adjusted for BMI)	54
+1227	Type 2 diabetes with neurological manifestations (PheCode 250.24)	51
+1228	Type 2 diabetes with ophthalmic manifestations (PheCode 250.23)	50
+1229	Urinary albumin excretion	55
+1230	Urinary albumin-to-creatinine ratio	83
+1231	Urinary metabolite levels in chronic kidney disease	84
+1232	Urinary sodium excretion	51
+1233	Uterine leiomyomata	65
+1234	VLDL cholesterol levels	76
+1235	Valine levels	97
+1236	Varicose veins	96
+1237	Venous thromboembolism	70
+1238	Venous thromboembolism or fibrinogen levels (pleiotropy)	53
+1239	Verbal-numerical reasoning	87
+1240	Vertical cup-disc ratio (adjusted for vertical disc diameter)	62
+1241	Vertical cup-disc ratio (multi-trait analysis)	94
+1242	Vitamin D levels	56
+1243	Vitiligo	62
+1244	Waist circumference adjusted for BMI (adjusted for smoking behaviour)	53
+1245	Waist circumference adjusted for BMI (joint analysis main effects and physical activity interaction)	56
+1246	Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction)	50
+1247	Waist-to-hip ratio adjusted for body mass index	64
+1248	Waist-to-hip ratio adjusted for body mass index or breast cancer (pleiotropy)	64
+1249	Waist-to-hip ratio adjusted for body mass index or colorectal cancer (pleiotropy)	53
+1250	Waist-to-hip ratio or breast cancer (pleiotropy)	57
+1251	Walking pace	71
+1252	White blood cell count (basophil)	76
+1253	White blood cell count (neutrophil)	50
+1254	White matter microstructure (axial diusivities)	58
+1255	White matter microstructure (fractional anisotropy)	67
+1256	White matter microstructure (mean diusivities)	52
+1257	White matter microstructure (radial diusivities)	63
+1258	Worry	79
+1259	Youthful appearance (self-reported)	76
+1260	acne vulgaris	50
+1261	chloride  (maximum, inv-norm transformed)	54
+1262	chloride  (mean, inv-norm transformed)	71
+1263	diastolic blood pressure (DBP, maximum, inv-normal transformed)	91
+1264	heart rate (HR, maximum, inv-normal transformed)	85
+1265	hematocrit (minimum, inv-norm transformed)	71
+1266	hemoglobin (minimum, inv-norm transformed)	72
+1267	low density lipoprotein cholesterol (LDLC, maximum, inv-norm transformed)	74
+1268	low density lipoprotein cholesterol (LDLC, mean, inv-norm transformed)	81
+1269	low density lipoprotein cholesterol (LDLC, minimum, inv-norm transformed)	61
+1270	lymphocyte (absolute count, minimum, inv-norm transformed)	82
+1271	neutrophil (absolute count, maximum, inv-norm transformed)	92
+1272	neutrophil (fraction, maximum, inv-norm transformed)	57
+1273	potassium (maximum, inv-norm transformed)	56
+1274	potassium (minimum, inv-norm transformed)	55
+1275	prostate-specific antigen (PSA, maximum, inv-norm transformed)	84
+1276	prostate-specific antigen (PSA, mean, inv-norm transformed)	87
+1277	prostate-specific antigen (PSA, minimum, inv-norm transformed)	75
+1278	sodium (maximum, inv-norm transformed)	53
+1279	total cholesterol (minimum, inv-norm transformed)	89
